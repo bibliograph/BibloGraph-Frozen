@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<!-- Mirrored from bibliograph.net/JobPosting by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 21 May 2019 10:25:49 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <title>JobPosting - BiblioGraph.net</title>
+    <meta name="description" content="BiblioGraph.net is a set of extensible schemas, with a bibliographic focus, that build on the capabilities of Schema.org 
+    that enable webmasters to embed structured data on their web pages for use by search engines and other applications." />
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" type="text/css" href="assets/bootstrap3/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="docs/bibliograph.css" />
+    <link rel="stylesheet" type="text/css" href="docs/prettify.css" />
+    <script type="text/javascript" src="docs/prettify.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+
+<script type="text/javascript">
+      $(document).ready(function(){
+        prettyPrint();
+        setTimeout(function(){
+
+  $(".atn:contains(itemscope), .atn:contains(itemtype), .atn:contains(itemprop), .atn:contains(itemid), .atn:contains(time), .atn:contains(datetime), .atn:contains(datetime), .tag:contains(time) ").addClass('new');
+  $('.new + .pun + .atv').addClass('curl');
+
+        }, 500);
+        setTimeout(function(){
+
+  $(".atn:contains(property), .atn:contains(typeof) ").addClass('new');
+  $('.new + .pun + .atv').addClass('curl');
+
+        }, 500);
+        setTimeout(function() {
+          $('.ds-selector-tabs .selectors a').click(function() {
+            var $this = $(this);
+            var $p = $this.parents('.ds-selector-tabs');
+            $('.selected', $p).removeClass('selected');
+            $this.addClass('selected');
+            $('pre.' + $this.data('selects'), $p).addClass('selected');
+          });
+        }, 0);
+      });
+</script>
+
+<style>
+
+  .pln    { color: #444;    } /* plain text                 */
+  .tag    { color: #515484; } /* div, span, a, etc          */
+  .atn,
+  .atv    { color: #314B17; } /* href, datetime             */
+  .new    { color: #660003; } /* itemscope, itemtype, etc,. */
+  .curl   { color: #080;    } /* new url                    */
+
+  table.definition-table {
+    border-spacing: 3px;
+    border-collapse: separate;
+  }
+
+</style>
+
+</head>
+<body>
+    <div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <h1><a href="index.html" class="noborder"><span class="logo_dark">Biblio</span><span class="logo_light">Graph</span><span class="logo_dark">.net</span></a></h1>
+        </div>
+		
+        <div class="col-md-6">
+            <div class="pull-right">
+                 <div id="cse-search-form" style="width: 400px;"></div>
+            </div>
+        </div>
+
+		<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+		<script type="text/javascript">
+		  google.load('search', '1', {language : 'en', style : google.loader.themes.MINIMALIST});
+		  google.setOnLoadCallback(function() {
+		    var customSearchControl = new google.search.CustomSearchControl('014918374978744102058:-yfdgutyfb8');
+		    customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+		    var options = new google.search.DrawOptions();
+		    options.enableSearchboxOnly("docs/search_results.html", null, false, '#');
+		    customSearchControl.draw('cse-search-form', options);
+		    // over-ride gsc css with bootstrap css
+		    $( "#gsc-i-id1" ).addClass( "form-control" );
+		    $( "input[type='button']" ).removeClass( "gsc-search-button" ).addClass( "btn btn-success" );
+		  }, true);
+		</script>
+    </div>
+
+    <ul class="nav nav-tabs">
+        <li><a href="index.html" >Home</a></li>
+        <li><a href="schemas.html" >Schemas</a></li>
+        <li><a href="docs/bgn_releases.html" >Releases</a></li>
+        <li><a href="docs/feedback.html" >Feedback</a></li>
+    </ul>
+
+
+  <div id="mainContent" vocab="http://schema.org/" typeof="rdfs:Class" resource="http://schema.org/JobPosting"  prefix="schema:http://schema.org/ bgn:http://bibliograph.net/ ">
+  <!-- no external mappings noted for this term. -->
+
+<h1 class="page-title">
+JobPosting</h1><h4><span class='breadcrums'><a href="Thing.html" class="prefix-schema">schema:Thing</a> &gt; <a href="Intangible.html" class="prefix-schema">schema:Intangible</a> &gt; <a href="JobPosting.html" class="prefix-schema">schema:JobPosting</a></span></h4>
+ <div property="rdfs:comment">A listing that describes a job opening in a certain organization.</div>
+
+
+<table class="definition-table">
+        <thead>
+  <tr><th>Property</th><th>Expected Type</th><th>Description</th>               
+  </tr>
+  </thead>
+
+<thead class="supertype">
+  <tr>
+    <th class="supertype-name" colspan="3">Properties from <a href="JobPosting.html" property="rdfs:subClassOf" class="prefix-schema">schema:JobPosting</a></th>
+  </tr>
+</thead>
+
+<tbody class="supertype">
+  
+<tr typeof="rdfs:Property" resource="http://schema.org/baseSalary">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="baseSalary.html" class="prefix-schema">schema:baseSalary</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Number.html" property="rangeIncludes" class="prefix-schema">schema:Number</a>&nbsp; or <br/> <a href="PriceSpecification.html" property="rangeIncludes" class="prefix-schema">schema:PriceSpecification</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The base salary of the job or of an employee in an EmployeeRole.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/benefits">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="benefits.html" class="prefix-schema">schema:benefits</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">Description of benefits associated with the job.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/datePosted">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="datePosted.html" class="prefix-schema">schema:datePosted</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Date.html" property="rangeIncludes" class="prefix-schema">schema:Date</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">Publication date for the job posting.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/educationRequirements">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="educationRequirements.html" class="prefix-schema">schema:educationRequirements</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">Educational background needed for the position.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/employmentType">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="employmentType.html" class="prefix-schema">schema:employmentType</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">Type of employment (e.g. full-time, part-time, contract, temporary, seasonal, internship).</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/experienceRequirements">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="experienceRequirements.html" class="prefix-schema">schema:experienceRequirements</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">Description of skills and experience needed for the position.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/hiringOrganization">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="hiringOrganization.html" class="prefix-schema">schema:hiringOrganization</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Organization.html" property="rangeIncludes" class="prefix-schema">schema:Organization</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">Organization offering the job position.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/incentives">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="incentives.html" class="prefix-schema">schema:incentives</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">Description of bonus and commission compensation aspects of the job.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/industry">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="industry.html" class="prefix-schema">schema:industry</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The industry associated with the job position.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/jobLocation">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="jobLocation.html" class="prefix-schema">schema:jobLocation</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Place.html" property="rangeIncludes" class="prefix-schema">schema:Place</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">A (typically single) geographic location associated with the job position.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/occupationalCategory">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="occupationalCategory.html" class="prefix-schema">schema:occupationalCategory</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">Category or categories describing the job. Use BLS O*NET-SOC taxonomy: http://www.onetcenter.org/taxonomy.html. Ideally includes textual label and formal code, with the property repeated for each applicable value.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/qualifications">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="qualifications.html" class="prefix-schema">schema:qualifications</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">Specific qualifications required for this role.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/responsibilities">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="responsibilities.html" class="prefix-schema">schema:responsibilities</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">Responsibilities associated with this role.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/salaryCurrency">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="salaryCurrency.html" class="prefix-schema">schema:salaryCurrency</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The currency (coded using ISO 4217, http://en.wikipedia.org/wiki/ISO_4217 ) used for the main salary information in this job posting or for this employee.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/skills">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="skills.html" class="prefix-schema">schema:skills</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">Skills required to fulfill this role.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/specialCommitments">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="specialCommitments.html" class="prefix-schema">schema:specialCommitments</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">Any special commitments associated with this job posting. Valid entries include VeteranCommit, MilitarySpouseCommit, etc.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/title">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="title.html" class="prefix-schema">schema:title</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The title of the job.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/workHours">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="workHours.html" class="prefix-schema">schema:workHours</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The typical working hours for this job (e.g. 1st shift, night shift, 8am-5pm).</td></tr><thead class="supertype">
+  <tr>
+    <th class="supertype-name" colspan="3">Properties from <a href="Thing.html" class="prefix-schema">schema:Thing</a></th>
+  </tr>
+</thead>
+
+<tbody class="supertype">
+  
+<tr typeof="rdfs:Property" resource="http://schema.org/additionalType">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="additionalType.html" class="prefix-schema">schema:additionalType</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="URL.html" property="rangeIncludes" class="prefix-schema">schema:URL</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">An additional type for the item, typically used for adding more specific types from external vocabularies in microdata syntax. This is a relationship between something and a class that the thing is in. In RDFa syntax, it is better to use the native RDFa syntax - the 'typeof' attribute - for multiple types. Schema.org tools may have only weaker understanding of extra types, in particular those defined externally.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/alternateName">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="alternateName.html" class="prefix-schema">schema:alternateName</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">An alias for the item.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/description">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="description.html" class="prefix-schema">schema:description</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">A short description of the item.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/image">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="image-2.html" class="prefix-schema">schema:image</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="ImageObject.html" property="rangeIncludes" class="prefix-schema">schema:ImageObject</a>&nbsp; or <br/> <a href="URL.html" property="rangeIncludes" class="prefix-schema">schema:URL</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">An image of the item. This can be a <a href="http://schema.org/URL">URL</a> or a fully described <a href="http://schema.org/ImageObject">ImageObject</a>.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/name">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="name.html" class="prefix-schema">schema:name</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The name of the item.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/potentialAction">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="potentialAction.html" class="prefix-schema">schema:potentialAction</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Action.html" property="rangeIncludes" class="prefix-schema">schema:Action</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">Indicates a potential Action, which describes an idealized action in which this thing would play an 'object' role.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/sameAs">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="sameAs.html" class="prefix-schema">schema:sameAs</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="URL.html" property="rangeIncludes" class="prefix-schema">schema:URL</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">URL of a reference Web page that unambiguously indicates the item's identity. E.g. the URL of the item's Wikipedia page, Freebase page, or official website.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/url">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="url-2.html" class="prefix-schema">schema:url</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="URL.html" property="rangeIncludes" class="prefix-schema">schema:URL</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">URL of the item.</td></tr></table>
+
+
+</table>
+
+<h4 id='prefixes'>Prefixes used:</h4>
+<li>schema: http://schema.org/</li>
+<h4 class="example">Examples</h4><ul class="nav nav-tabs"><li class="active"><a href="#original_html_0" data-toggle="tab">Without Markup</a></li><li><a href="#microdata_0" data-toggle="tab">Microdata</a></li><li><a href="#rdfa_0" data-toggle="tab">RDFa</a></li><li><a href="#jsonld_0" data-toggle="tab">JSON-LD</a></li></ul><div class="tab-content">
+<div class="tab-pane active" id="original_html_0"><pre class="prettyprint lang-html linenums original_html selected">&lt;div&gt;
+  &lt;h2&gt;Software Engineer&lt;/h2&gt;
+    &lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt;
+    Kirkland WA&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;Industry:&lt;/strong&gt; Computer Software
+  &lt;br&gt;&lt;strong&gt;Occupational Category:&lt;/strong&gt; 15-1132.00 Software Developers, Application
+  &lt;br&gt;&lt;strong&gt;Hours:&lt;/strong&gt; Full-time, 40 hours per week
+  &lt;br&gt;&lt;strong&gt;Salary:&lt;/strong&gt; USD 100000
+  &lt;/p&gt;
+  &lt;p&gt;
+    &lt;strong&gt;Description:&lt;/strong&gt; ABC Company Inc.
+    seeks a full-time mid-level software engineer to develop in-house tools.
+  &lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;Responsibilities:&lt;/strong&gt;&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Design and write specifications for tools for in-house customers&lt;/li&gt;
+    &lt;li&gt;Build tools according to specifications&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;&lt;strong&gt;Educational requirements:&lt;/strong&gt;&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Bachelor's Degree in Computer Science, Information Systems or related fields of study.&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;&lt;strong&gt;Experience requirements:&lt;/strong&gt;&lt;/p&gt;
+  &lt;ul&gt;
+   &lt;li&gt;Minumum 3 years experience as a software engineer&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;&lt;strong&gt;Desired Skills:&lt;/strong&gt;&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Web application development using Java/J2EE&lt;/li&gt;
+    &lt;li&gt;Web application development using Python or familiarity with dynamic programming languages&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;&lt;strong&gt;Qualifications:&lt;/strong&gt;&lt;/p&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Ability to work in a team environment with members of varying skill levels.&lt;/li&gt;
+    &lt;li&gt;Highly motivated.&lt;/li&gt;
+    &lt;li&gt;Learns quickly.&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;&lt;strong&gt;Benefits:&lt;/strong&gt;&lt;/p&gt;
+    &lt;ul&gt;&lt;li&gt;ABC Corp provides top-tier employee compensation benefits and a relaxed, team-oriented work environment, including: Medical, Life, Dental&lt;/li&gt;
+    &lt;/ul&gt;
+      &lt;p&gt;&lt;strong&gt;Incentives:&lt;/strong&gt;&lt;/p&gt;
+        &lt;ul&gt;&lt;li&gt;Performance-based annual bonus plan, project-completion bonuses&lt;/li&gt;
+      &lt;/ul&gt;
+  &lt;p&gt;If interested in this position, please email us your resume, along with salary requirements and a cover letter to Jobs@abc.123.&lt;/p&gt;
+  &lt;p&gt;Date Posted: 2011-10-31&lt;/p&gt;
+&lt;/div&gt;
+</pre>
+</div><div class="tab-pane" id="microdata_0"><pre class="prettyprint lang-html linenums microdata ">&lt;div itemscope itemtype="http://schema.org/JobPosting"&gt;
+  &lt;meta itemprop="specialCommitments" content="VeteranCommit" /&gt;
+  &lt;h2 itemprop="title"&gt;Software Engineer&lt;/h2&gt;
+  &lt;span&gt;
+    &lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; &lt;span itemprop="jobLocation" itemscope itemtype="http://schema.org/Place"&gt;&lt;span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"&gt;
+    &lt;span itemprop="addressLocality"&gt;Kirkland&lt;/span&gt; &lt;span itemprop="addressRegion"&gt;WA&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+  &lt;/span&gt;
+  &lt;p&gt;&lt;strong&gt;Industry:&lt;/strong&gt; &lt;span itemprop="industry"&gt;Computer Software&lt;/span&gt;
+  &lt;br&gt;&lt;strong&gt;Occupational Category:&lt;/strong&gt; &lt;span itemprop="occupationalCategory"&gt;15-1132.00 Software Developers, Application&lt;/span&gt;
+  &lt;br&gt;&lt;strong&gt;Hours:&lt;/strong&gt; &lt;span itemprop="employmentType"&gt;Full-time&lt;/span&gt;, &lt;span itemprop="workHours"&gt;40 hours per week&lt;/span&gt;
+  &lt;br&gt;&lt;strong&gt;Salary:&lt;/strong&gt; &lt;span itemprop="salaryCurrency"&gt;USD&lt;/span&gt; &lt;span itemprop="baseSalary"&gt;100000&lt;/span&gt;
+  &lt;/p&gt;
+  &lt;p itemprop="description"&gt;
+    &lt;strong&gt;Description:&lt;/strong&gt; &lt;span itemprop="hiringOrganization" itemscope itemtype="http://schema.org/Organization"&gt;&lt;span itemprop="name"&gt;ABC Company Inc.&lt;/span&gt;
+    seeks a full-time mid-level software engineer to develop in-house tools.&lt;/span&gt;
+  &lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;Responsibilities:&lt;/strong&gt;&lt;/p&gt;
+  &lt;ul itemprop="responsibilities"&gt;
+    &lt;li&gt;Design and write specifications for tools for in-house customers&lt;/li&gt;
+    &lt;li&gt;Build tools according to specifications&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;&lt;strong&gt;Educational requirements:&lt;/strong&gt;&lt;/p&gt;
+  &lt;ul itemprop="educationRequirements"&gt;
+    &lt;li&gt;Bachelor's Degree in Computer Science, Information Systems or related fields of study.&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;&lt;strong&gt;Experience requirements:&lt;/strong&gt;&lt;/p&gt;
+  &lt;ul itemprop="experienceRequirements"&gt;
+   &lt;li&gt;Minumum 3 years experience as a software engineer&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;&lt;strong&gt;Desired Skills:&lt;/strong&gt;&lt;/p&gt;
+  &lt;ul itemprop="skills"&gt;
+    &lt;li&gt;Web application development using Java/J2EE&lt;/li&gt;
+    &lt;li&gt;Web application development using Python or familiarity with dynamic programming languages&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;&lt;strong&gt;Qualifications:&lt;/strong&gt;&lt;/p&gt;
+  &lt;ul itemprop="qualifications"&gt;
+    &lt;li&gt;Ability to work in a team environment with members of varying skill levels.&lt;/li&gt;
+    &lt;li&gt;Highly motivated.&lt;/li&gt;
+    &lt;li&gt;Learns quickly.&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;&lt;strong&gt;Benefits:&lt;/strong&gt;&lt;/p&gt;
+    &lt;ul&gt;&lt;li&gt;ABC Corp provides top-tier employee compensation benefits and a relaxed, team-oriented work environment, including:&lt;span itemprop="benefits"&gt; Medical, Life, Dental&lt;/span&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+      &lt;p&gt;&lt;strong&gt;Incentives:&lt;/strong&gt;&lt;/p&gt;
+        &lt;ul&gt;&lt;li&gt;&lt;span itemprop="incentives"&gt;Performance-based annual bonus plan, project-completion bonuses&lt;/span&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+  &lt;p&gt;If interested in this position, please email us your resume, along with salary requirements and a cover letter to Jobs@abc.123.&lt;/p&gt;
+  &lt;p&gt;Date Posted: &lt;span itemprop="datePosted"&gt;2011-10-31&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+</pre>
+</div><div class="tab-pane" id="rdfa_0"><pre class="prettyprint lang-html linenums rdfa ">&lt;div vocab="http://schema.org/" typeof="JobPosting"&gt;
+  &lt;meta property="specialCommitments" content="VeteranCommit" /&gt;
+  &lt;h2 property="title"&gt;Software Engineer&lt;/h2&gt;
+  &lt;span&gt;
+    &lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; &lt;span property="jobLocation"  typeof="Place"&gt;&lt;span property="address"  typeof="PostalAddress"&gt;
+    &lt;span property="addressLocality"&gt;Kirkland&lt;/span&gt; &lt;span property="addressRegion"&gt;WA&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+  &lt;/span&gt;
+  &lt;p&gt;&lt;strong&gt;Industry:&lt;/strong&gt; &lt;span property="industry"&gt;Computer Software&lt;/span&gt;
+  &lt;br&gt;&lt;strong&gt;Occupational Category:&lt;/strong&gt; &lt;span property="occupationalCategory"&gt;15-1132.00 Software Developers, Application&lt;/span&gt;
+  &lt;br&gt;&lt;strong&gt;Hours:&lt;/strong&gt; &lt;span property="employmentType"&gt;Full-time&lt;/span&gt;, &lt;span property="workHours"&gt;40 hours per week&lt;/span&gt;
+  &lt;br&gt;&lt;strong&gt;Salary:&lt;/strong&gt; &lt;span property="salaryCurrency"&gt;USD&lt;/span&gt; &lt;span property="baseSalary"&gt;100000&lt;/span&gt;
+  &lt;/p&gt;
+  &lt;p property="description"&gt;
+    &lt;strong&gt;Description:&lt;/strong&gt; &lt;span property="hiringOrganization"  typeof="Organization"&gt;&lt;span property="name"&gt;ABC Company Inc.&lt;/span&gt;
+    seeks a full-time mid-level software engineer to develop in-house tools.&lt;/span&gt;
+  &lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;Responsibilities:&lt;/strong&gt;&lt;/p&gt;
+  &lt;ul property="responsibilities"&gt;
+    &lt;li&gt;Design and write specifications for tools for in-house customers&lt;/li&gt;
+    &lt;li&gt;Build tools according to specifications&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;&lt;strong&gt;Educational requirements:&lt;/strong&gt;&lt;/p&gt;
+  &lt;ul property="educationRequirements"&gt;
+    &lt;li&gt;Bachelor's Degree in Computer Science, Information Systems or related fields of study.&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;&lt;strong&gt;Experience requirements:&lt;/strong&gt;&lt;/p&gt;
+  &lt;ul property="experienceRequirements"&gt;
+   &lt;li&gt;Minumum 3 years experience as a software engineer&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;&lt;strong&gt;Desired Skills:&lt;/strong&gt;&lt;/p&gt;
+  &lt;ul property="skills"&gt;
+    &lt;li&gt;Web application development using Java/J2EE&lt;/li&gt;
+    &lt;li&gt;Web application development using Python or familiarity with dynamic programming languages&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;&lt;strong&gt;Qualifications:&lt;/strong&gt;&lt;/p&gt;
+  &lt;ul property="qualifications"&gt;
+    &lt;li&gt;Ability to work in a team environment with members of varying skill levels.&lt;/li&gt;
+    &lt;li&gt;Highly motivated.&lt;/li&gt;
+    &lt;li&gt;Learns quickly.&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;p&gt;&lt;strong&gt;Benefits:&lt;/strong&gt;&lt;/p&gt;
+    &lt;ul&gt;&lt;li&gt;ABC Corp provides top-tier employee compensation benefits and a relaxed, team-oriented work environment, including:&lt;span property="benefits"&gt; Medical, Life, Dental&lt;/span&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+      &lt;p&gt;&lt;strong&gt;Incentives:&lt;/strong&gt;&lt;/p&gt;
+        &lt;ul&gt;&lt;li&gt;&lt;span property="incentives"&gt;Performance-based annual bonus plan, project-completion bonuses&lt;/span&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+  &lt;p&gt;If interested in this position, please email us your resume, along with salary requirements and a cover letter to Jobs@abc.123.&lt;/p&gt;
+  &lt;p&gt;Date Posted: &lt;span property="datePosted"&gt;2011-10-31&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+</pre>
+</div><div class="tab-pane" id="jsonld_0"><pre class="prettyprint lang-html linenums jsonld ">&lt;script type="application/ld+json"&gt;
+{
+  "@context": "http://schema.org",
+  "@type": "JobPosting",
+  "baseSalary": "100000",
+  "benefits": "Medical, Life, Dental",
+  "datePosted": "2011-10-31",
+  "description": "Description: ABC Company Inc. seeks a full-time mid-level software engineer to develop in-house tools.",
+  "educationRequirements": "Bachelor's Degree in Computer Science, Information Systems or related fields of study.",
+  "employmentType": "Full-time",
+  "experienceRequirements": "Minumum 3 years experience as a software engineer",
+  "incentives": "Performance-based annual bonus plan, project-completion bonuses",
+  "industry": "Computer Software",
+  "jobLocation": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Kirkland",
+      "addressRegion": "WA"
+    }
+  },
+  "occupationalCategory": "15-1132.00 Software Developers, Application",
+  "qualifications": "Ability to work in a team environment with members of varying skill levels. Highly motivated. Learns quickly.",
+  "responsibilities": "Design and write specifications for tools for in-house customers Build tools according to specifications",
+  "salaryCurrency": "USD",
+  "skills": "Web application development using Java/J2EE Web application development using Python or familiarity with dynamic programming languages",
+  "specialCommitments": "VeteranCommit",
+  "title": "Software Engineer",
+  "workHours": "40 hours per week"
+}
+&lt;/script&gt;
+</pre>
+</div></div>
+<p class="version">BiblioGraph.net Version 1.1<br/>
+Schema.org Version 1.93<br/>
+Code Version 1.1</p>
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','../www.google-analytics.com/analytics.js','ga');
+          ga('create', 'UA-52860601-1', 'auto');ga('send', 'pageview');</script></div>
+<div id="footer"><a href="docs/terms.html" class="noborder pull-right">BiblioGraph.net Terms and Conditions</a></div>
+<script src="assets/bootstrap3/js/bootstrap.min.js"></script>
+</div>
+</body>
+
+<!-- Mirrored from bibliograph.net/JobPosting by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 21 May 2019 10:25:49 GMT -->
+</html>

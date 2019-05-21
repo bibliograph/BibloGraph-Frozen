@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<!-- Mirrored from bibliograph.net/DateTime by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 21 May 2019 10:24:16 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <title>DateTime - BiblioGraph.net</title>
+    <meta name="description" content="BiblioGraph.net is a set of extensible schemas, with a bibliographic focus, that build on the capabilities of Schema.org 
+    that enable webmasters to embed structured data on their web pages for use by search engines and other applications." />
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" type="text/css" href="assets/bootstrap3/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="docs/bibliograph.css" />
+    <link rel="stylesheet" type="text/css" href="docs/prettify.css" />
+    <script type="text/javascript" src="docs/prettify.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+
+<script type="text/javascript">
+      $(document).ready(function(){
+        prettyPrint();
+        setTimeout(function(){
+
+  $(".atn:contains(itemscope), .atn:contains(itemtype), .atn:contains(itemprop), .atn:contains(itemid), .atn:contains(time), .atn:contains(datetime), .atn:contains(datetime), .tag:contains(time) ").addClass('new');
+  $('.new + .pun + .atv').addClass('curl');
+
+        }, 500);
+        setTimeout(function(){
+
+  $(".atn:contains(property), .atn:contains(typeof) ").addClass('new');
+  $('.new + .pun + .atv').addClass('curl');
+
+        }, 500);
+        setTimeout(function() {
+          $('.ds-selector-tabs .selectors a').click(function() {
+            var $this = $(this);
+            var $p = $this.parents('.ds-selector-tabs');
+            $('.selected', $p).removeClass('selected');
+            $this.addClass('selected');
+            $('pre.' + $this.data('selects'), $p).addClass('selected');
+          });
+        }, 0);
+      });
+</script>
+
+<style>
+
+  .pln    { color: #444;    } /* plain text                 */
+  .tag    { color: #515484; } /* div, span, a, etc          */
+  .atn,
+  .atv    { color: #314B17; } /* href, datetime             */
+  .new    { color: #660003; } /* itemscope, itemtype, etc,. */
+  .curl   { color: #080;    } /* new url                    */
+
+  table.definition-table {
+    border-spacing: 3px;
+    border-collapse: separate;
+  }
+
+</style>
+
+</head>
+<body>
+    <div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <h1><a href="index.html" class="noborder"><span class="logo_dark">Biblio</span><span class="logo_light">Graph</span><span class="logo_dark">.net</span></a></h1>
+        </div>
+		
+        <div class="col-md-6">
+            <div class="pull-right">
+                 <div id="cse-search-form" style="width: 400px;"></div>
+            </div>
+        </div>
+
+		<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+		<script type="text/javascript">
+		  google.load('search', '1', {language : 'en', style : google.loader.themes.MINIMALIST});
+		  google.setOnLoadCallback(function() {
+		    var customSearchControl = new google.search.CustomSearchControl('014918374978744102058:-yfdgutyfb8');
+		    customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+		    var options = new google.search.DrawOptions();
+		    options.enableSearchboxOnly("docs/search_results.html", null, false, '#');
+		    customSearchControl.draw('cse-search-form', options);
+		    // over-ride gsc css with bootstrap css
+		    $( "#gsc-i-id1" ).addClass( "form-control" );
+		    $( "input[type='button']" ).removeClass( "gsc-search-button" ).addClass( "btn btn-success" );
+		  }, true);
+		</script>
+    </div>
+
+    <ul class="nav nav-tabs">
+        <li><a href="index.html" >Home</a></li>
+        <li><a href="schemas.html" >Schemas</a></li>
+        <li><a href="docs/bgn_releases.html" >Releases</a></li>
+        <li><a href="docs/feedback.html" >Feedback</a></li>
+    </ul>
+
+
+  <div id="mainContent" vocab="http://schema.org/" typeof="rdfs:Class" resource="http://schema.org/DateTime"  prefix="schema:http://schema.org/ bgn:http://bibliograph.net/ ">
+  <!-- no external mappings noted for this term. -->
+
+<h1 class="page-title">
+DateTime</h1><h4><span class='breadcrums'><a href="DataType.html" class="prefix-schema">schema:DataType</a> &gt; <a href="DateTime.html" class="prefix-schema">schema:DateTime</a></span></h4>
+ <div property="rdfs:comment">A combination of date and time of day in the form [-]CCYY-MM-DDThh:mm:ss[Z|(+|-)hh:mm] (see Chapter 5.4 of ISO 8601).</div>
+
+
+<meta property="rdfs:subClassOf" content="DateTime"></table>
+<br/><br/>Instances of <a href="DateTime.html" class="prefix-schema">schema:DateTime</a> may appear as values for the following properties<br/><table class="definition-table">
+        
+  
+<thead>
+  <tr><th>Property</th><th>On Types</th><th>Description</th>               
+  </tr>
+</thead>
+
+<tr>
+<th class="prop-nam" scope="row">
+ <code><a href="arrivalTime.html" class="prefix-schema">schema:arrivalTime</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Flight.html" class="prefix-schema">schema:Flight</a>&nbsp; or<br/> <a href="BusTrip.html" class="prefix-schema">schema:BusTrip</a>&nbsp; or<br/> <a href="TrainTrip.html" class="prefix-schema">schema:TrainTrip</a>&nbsp;</td><td class="prop-desc">The expected arrival time. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="availabilityEnds.html" class="prefix-schema">schema:availabilityEnds</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Demand.html" class="prefix-schema">schema:Demand</a>&nbsp; or<br/> <a href="Offer.html" class="prefix-schema">schema:Offer</a>&nbsp;</td><td class="prop-desc">The end of the availability of the product or service included in the offer. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="availabilityStarts.html" class="prefix-schema">schema:availabilityStarts</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Demand.html" class="prefix-schema">schema:Demand</a>&nbsp; or<br/> <a href="Offer.html" class="prefix-schema">schema:Offer</a>&nbsp;</td><td class="prop-desc">The beginning of the availability of the product or service included in the offer. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="availableFrom.html" class="prefix-schema">schema:availableFrom</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="DeliveryEvent.html" class="prefix-schema">schema:DeliveryEvent</a>&nbsp;</td><td class="prop-desc">When the item is available for pickup from the store, locker, etc. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="availableThrough.html" class="prefix-schema">schema:availableThrough</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="DeliveryEvent.html" class="prefix-schema">schema:DeliveryEvent</a>&nbsp;</td><td class="prop-desc">After this date, the item will no longer be available for pickup. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="bookingTime.html" class="prefix-schema">schema:bookingTime</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Reservation.html" class="prefix-schema">schema:Reservation</a>&nbsp;</td><td class="prop-desc">The date and time the reservation was booked. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="checkinTime.html" class="prefix-schema">schema:checkinTime</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="LodgingReservation.html" class="prefix-schema">schema:LodgingReservation</a>&nbsp;</td><td class="prop-desc">The earliest someone may check into a lodging establishment. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="checkoutTime.html" class="prefix-schema">schema:checkoutTime</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="LodgingReservation.html" class="prefix-schema">schema:LodgingReservation</a>&nbsp;</td><td class="prop-desc">The latest someone may check out of a lodging establishment. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="dateIssued.html" class="prefix-schema">schema:dateIssued</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Ticket.html" class="prefix-schema">schema:Ticket</a>&nbsp;</td><td class="prop-desc">The date the ticket was issued. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="departureTime.html" class="prefix-schema">schema:departureTime</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Flight.html" class="prefix-schema">schema:Flight</a>&nbsp; or<br/> <a href="BusTrip.html" class="prefix-schema">schema:BusTrip</a>&nbsp; or<br/> <a href="TrainTrip.html" class="prefix-schema">schema:TrainTrip</a>&nbsp;</td><td class="prop-desc">The expected departure time. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="doorTime.html" class="prefix-schema">schema:doorTime</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Event.html" class="prefix-schema">schema:Event</a>&nbsp;</td><td class="prop-desc">The time admission will commence. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="dropoffTime.html" class="prefix-schema">schema:dropoffTime</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="RentalCarReservation.html" class="prefix-schema">schema:RentalCarReservation</a>&nbsp;</td><td class="prop-desc">When a rental car can be dropped off. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="endTime.html" class="prefix-schema">schema:endTime</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Action.html" class="prefix-schema">schema:Action</a>&nbsp; or<br/> <a href="FoodEstablishmentReservation.html" class="prefix-schema">schema:FoodEstablishmentReservation</a>&nbsp;</td><td class="prop-desc">The endTime of something. For a reserved event or service (e.g. FoodEstablishmentReservation), the time that it is expected to end. For actions that span a period of time, when the action was performed. e.g. John wrote a book from January to *December*.
+
+Note that Event uses startDate/endDate instead of startTime/endTime, even when describing dates with times. This situation may be clarified in future revisions. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="expectedArrivalFrom.html" class="prefix-schema">schema:expectedArrivalFrom</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="ParcelDelivery.html" class="prefix-schema">schema:ParcelDelivery</a>&nbsp;</td><td class="prop-desc">The earliest date the package may arrive. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="expectedArrivalUntil.html" class="prefix-schema">schema:expectedArrivalUntil</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="ParcelDelivery.html" class="prefix-schema">schema:ParcelDelivery</a>&nbsp;</td><td class="prop-desc">The latest date the package may arrive. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="modifiedTime.html" class="prefix-schema">schema:modifiedTime</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Reservation.html" class="prefix-schema">schema:Reservation</a>&nbsp;</td><td class="prop-desc">The date and time the reservation was modified. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="orderDate.html" class="prefix-schema">schema:orderDate</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Order.html" class="prefix-schema">schema:Order</a>&nbsp;</td><td class="prop-desc">Date order was placed. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="ownedFrom.html" class="prefix-schema">schema:ownedFrom</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="OwnershipInfo.html" class="prefix-schema">schema:OwnershipInfo</a>&nbsp;</td><td class="prop-desc">The date and time of obtaining the product. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="ownedThrough.html" class="prefix-schema">schema:ownedThrough</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="OwnershipInfo.html" class="prefix-schema">schema:OwnershipInfo</a>&nbsp;</td><td class="prop-desc">The date and time of giving up ownership on the product. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="paymentDue.html" class="prefix-schema">schema:paymentDue</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Invoice.html" class="prefix-schema">schema:Invoice</a>&nbsp; or<br/> <a href="Order.html" class="prefix-schema">schema:Order</a>&nbsp;</td><td class="prop-desc">The date that payment is due. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="pickupTime.html" class="prefix-schema">schema:pickupTime</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="TaxiReservation.html" class="prefix-schema">schema:TaxiReservation</a>&nbsp; or<br/> <a href="RentalCarReservation.html" class="prefix-schema">schema:RentalCarReservation</a>&nbsp;</td><td class="prop-desc">When a taxi will pickup a passenger or a rental car can be picked up. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="scheduledTime.html" class="prefix-schema">schema:scheduledTime</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="PlanAction.html" class="prefix-schema">schema:PlanAction</a>&nbsp;</td><td class="prop-desc">The time the object is scheduled to. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="startTime.html" class="prefix-schema">schema:startTime</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Action.html" class="prefix-schema">schema:Action</a>&nbsp; or<br/> <a href="FoodEstablishmentReservation.html" class="prefix-schema">schema:FoodEstablishmentReservation</a>&nbsp;</td><td class="prop-desc">The startTime of something. For a reserved event or service (e.g. FoodEstablishmentReservation), the time that it is expected to start. For actions that span a period of time, when the action was performed. e.g. John wrote a book from *January* to December.
+
+Note that Event uses startDate/endDate instead of startTime/endTime, even when describing dates with times. This situation may be clarified in future revisions. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="temporal.html" class="prefix-schema">schema:temporal</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Dataset.html" class="prefix-schema">schema:Dataset</a>&nbsp;</td><td class="prop-desc">The range of temporal applicability of a dataset, e.g. for a 2011 census dataset, the year 2011 (in ISO 8601 time interval format). </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="validFrom.html" class="prefix-schema">schema:validFrom</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Demand.html" class="prefix-schema">schema:Demand</a>&nbsp; or<br/> <a href="OpeningHoursSpecification.html" class="prefix-schema">schema:OpeningHoursSpecification</a>&nbsp; or<br/> <a href="PriceSpecification.html" class="prefix-schema">schema:PriceSpecification</a>&nbsp; or<br/> <a href="Permit.html" class="prefix-schema">schema:Permit</a>&nbsp; or<br/> <a href="Offer.html" class="prefix-schema">schema:Offer</a>&nbsp;</td><td class="prop-desc">The date when the item becomes valid. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="validThrough.html" class="prefix-schema">schema:validThrough</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Demand.html" class="prefix-schema">schema:Demand</a>&nbsp; or<br/> <a href="OpeningHoursSpecification.html" class="prefix-schema">schema:OpeningHoursSpecification</a>&nbsp; or<br/> <a href="PriceSpecification.html" class="prefix-schema">schema:PriceSpecification</a>&nbsp; or<br/> <a href="Offer.html" class="prefix-schema">schema:Offer</a>&nbsp;</td><td class="prop-desc">The end of the validity of offer, price specification, or opening hours data. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="webCheckinTime.html" class="prefix-schema">schema:webCheckinTime</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Flight.html" class="prefix-schema">schema:Flight</a>&nbsp;</td><td class="prop-desc">The time when a passenger can check into the flight online. </td></tr></table>
+
+
+</table>
+
+<h4 id='prefixes'>Prefixes used:</h4>
+<li>schema: http://schema.org/</li>
+<p class="version">BiblioGraph.net Version 1.1<br/>
+Schema.org Version 1.93<br/>
+Code Version 1.1</p>
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','../www.google-analytics.com/analytics.js','ga');
+          ga('create', 'UA-52860601-1', 'auto');ga('send', 'pageview');</script></div>
+<div id="footer"><a href="docs/terms.html" class="noborder pull-right">BiblioGraph.net Terms and Conditions</a></div>
+<script src="assets/bootstrap3/js/bootstrap.min.js"></script>
+</div>
+</body>
+
+<!-- Mirrored from bibliograph.net/DateTime by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 21 May 2019 10:24:20 GMT -->
+</html>

@@ -1,0 +1,1970 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<!-- Mirrored from bibliograph.net/Text by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 21 May 2019 10:22:22 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <title>Text - BiblioGraph.net</title>
+    <meta name="description" content="BiblioGraph.net is a set of extensible schemas, with a bibliographic focus, that build on the capabilities of Schema.org 
+    that enable webmasters to embed structured data on their web pages for use by search engines and other applications." />
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" type="text/css" href="assets/bootstrap3/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="docs/bibliograph.css" />
+    <link rel="stylesheet" type="text/css" href="docs/prettify.css" />
+    <script type="text/javascript" src="docs/prettify.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+
+<script type="text/javascript">
+      $(document).ready(function(){
+        prettyPrint();
+        setTimeout(function(){
+
+  $(".atn:contains(itemscope), .atn:contains(itemtype), .atn:contains(itemprop), .atn:contains(itemid), .atn:contains(time), .atn:contains(datetime), .atn:contains(datetime), .tag:contains(time) ").addClass('new');
+  $('.new + .pun + .atv').addClass('curl');
+
+        }, 500);
+        setTimeout(function(){
+
+  $(".atn:contains(property), .atn:contains(typeof) ").addClass('new');
+  $('.new + .pun + .atv').addClass('curl');
+
+        }, 500);
+        setTimeout(function() {
+          $('.ds-selector-tabs .selectors a').click(function() {
+            var $this = $(this);
+            var $p = $this.parents('.ds-selector-tabs');
+            $('.selected', $p).removeClass('selected');
+            $this.addClass('selected');
+            $('pre.' + $this.data('selects'), $p).addClass('selected');
+          });
+        }, 0);
+      });
+</script>
+
+<style>
+
+  .pln    { color: #444;    } /* plain text                 */
+  .tag    { color: #515484; } /* div, span, a, etc          */
+  .atn,
+  .atv    { color: #314B17; } /* href, datetime             */
+  .new    { color: #660003; } /* itemscope, itemtype, etc,. */
+  .curl   { color: #080;    } /* new url                    */
+
+  table.definition-table {
+    border-spacing: 3px;
+    border-collapse: separate;
+  }
+
+</style>
+
+</head>
+<body>
+    <div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <h1><a href="index.html" class="noborder"><span class="logo_dark">Biblio</span><span class="logo_light">Graph</span><span class="logo_dark">.net</span></a></h1>
+        </div>
+		
+        <div class="col-md-6">
+            <div class="pull-right">
+                 <div id="cse-search-form" style="width: 400px;"></div>
+            </div>
+        </div>
+
+		<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+		<script type="text/javascript">
+		  google.load('search', '1', {language : 'en', style : google.loader.themes.MINIMALIST});
+		  google.setOnLoadCallback(function() {
+		    var customSearchControl = new google.search.CustomSearchControl('014918374978744102058:-yfdgutyfb8');
+		    customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+		    var options = new google.search.DrawOptions();
+		    options.enableSearchboxOnly("docs/search_results.html", null, false, '#');
+		    customSearchControl.draw('cse-search-form', options);
+		    // over-ride gsc css with bootstrap css
+		    $( "#gsc-i-id1" ).addClass( "form-control" );
+		    $( "input[type='button']" ).removeClass( "gsc-search-button" ).addClass( "btn btn-success" );
+		  }, true);
+		</script>
+    </div>
+
+    <ul class="nav nav-tabs">
+        <li><a href="index.html" >Home</a></li>
+        <li><a href="schemas.html" >Schemas</a></li>
+        <li><a href="docs/bgn_releases.html" >Releases</a></li>
+        <li><a href="docs/feedback.html" >Feedback</a></li>
+    </ul>
+
+
+  <div id="mainContent" vocab="http://schema.org/" typeof="rdfs:Class" resource="http://schema.org/Text"  prefix="schema:http://schema.org/ bgn:http://bibliograph.net/ ">
+  <!-- no external mappings noted for this term. -->
+
+<h1 class="page-title">
+Text</h1><h4><span class='breadcrums'><a href="DataType.html" class="prefix-schema">schema:DataType</a> &gt; <a href="Text.html" class="prefix-schema">schema:Text</a></span></h4>
+ <div property="rdfs:comment">Data type: Text.</div>
+
+
+<meta property="rdfs:subClassOf" content="Text"></table>
+<br/><br/>Instances of <a href="Text.html" class="prefix-schema">schema:Text</a> may appear as values for the following properties<br/><table class="definition-table">
+        
+  
+<thead>
+  <tr><th>Property</th><th>On Types</th><th>Description</th>               
+  </tr>
+</thead>
+
+<tr>
+<th class="prop-nam" scope="row">
+ <code><a href="acceptsReservations.html" class="prefix-schema">schema:acceptsReservations</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="FoodEstablishment.html" class="prefix-schema">schema:FoodEstablishment</a>&nbsp;</td><td class="prop-desc">Indicates whether a FoodEstablishment accepts reservations. Values can be Boolean, an URL at which reservations can be made or (for backwards compatibility) the strings <code>Yes</code> or <code>No</code>. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="accessCode.html" class="prefix-schema">schema:accessCode</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="DeliveryEvent.html" class="prefix-schema">schema:DeliveryEvent</a>&nbsp;</td><td class="prop-desc">Password, PIN, or access code needed for delivery (e.g. from a locker). </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="accessibilityAPI.html" class="prefix-schema">schema:accessibilityAPI</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="CreativeWork.html" class="prefix-schema">schema:CreativeWork</a>&nbsp;</td><td class="prop-desc">Indicates that the resource is compatible with the referenced accessibility API (<a href="http://www.w3.org/wiki/WebSchemas/Accessibility">WebSchemas wiki lists possible values</a>). </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="accessibilityControl.html" class="prefix-schema">schema:accessibilityControl</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="CreativeWork.html" class="prefix-schema">schema:CreativeWork</a>&nbsp;</td><td class="prop-desc">Identifies input methods that are sufficient to fully control the described resource (<a href="http://www.w3.org/wiki/WebSchemas/Accessibility">WebSchemas wiki lists possible values</a>). </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="accessibilityFeature.html" class="prefix-schema">schema:accessibilityFeature</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="CreativeWork.html" class="prefix-schema">schema:CreativeWork</a>&nbsp;</td><td class="prop-desc">Content features of the resource, such as accessible media, alternatives and supported enhancements for accessibility (<a href="http://www.w3.org/wiki/WebSchemas/Accessibility">WebSchemas wiki lists possible values</a>). </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="accessibilityHazard.html" class="prefix-schema">schema:accessibilityHazard</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="CreativeWork.html" class="prefix-schema">schema:CreativeWork</a>&nbsp;</td><td class="prop-desc">A characteristic of the described resource that is physiologically dangerous to some users. Related to WCAG 2.0 guideline 2.3 (<a href="http://www.w3.org/wiki/WebSchemas/Accessibility">WebSchemas wiki lists possible values</a>). </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="accountId.html" class="prefix-schema">schema:accountId</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Invoice.html" class="prefix-schema">schema:Invoice</a>&nbsp;</td><td class="prop-desc">The identifier for the account the payment will be applied to. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="activeIngredient.html" class="prefix-schema">schema:activeIngredient</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Drug.html" class="prefix-schema">schema:Drug</a>&nbsp; or<br/> <a href="DrugStrength.html" class="prefix-schema">schema:DrugStrength</a>&nbsp; or<br/> <a href="DietarySupplement.html" class="prefix-schema">schema:DietarySupplement</a>&nbsp;</td><td class="prop-desc">An active ingredient, typically chemical compounds and/or biologic substances. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="activityFrequency.html" class="prefix-schema">schema:activityFrequency</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="ExercisePlan.html" class="prefix-schema">schema:ExercisePlan</a>&nbsp;</td><td class="prop-desc">How often one should engage in the activity. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="additionalName.html" class="prefix-schema">schema:additionalName</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Person.html" class="prefix-schema">schema:Person</a>&nbsp;</td><td class="prop-desc">An additional name for a Person, can be used for a middle name. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="additionalVariable.html" class="prefix-schema">schema:additionalVariable</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="ExercisePlan.html" class="prefix-schema">schema:ExercisePlan</a>&nbsp;</td><td class="prop-desc">Any additional component of the exercise prescription that may need to be articulated to the patient. This may include the order of exercises, the number of repetitions of movement, quantitative distance, progressions over time, etc. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="addressLocality.html" class="prefix-schema">schema:addressLocality</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="PostalAddress.html" class="prefix-schema">schema:PostalAddress</a>&nbsp;</td><td class="prop-desc">The locality. For example, Mountain View. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="addressRegion.html" class="prefix-schema">schema:addressRegion</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="PostalAddress.html" class="prefix-schema">schema:PostalAddress</a>&nbsp;</td><td class="prop-desc">The region. For example, CA. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="administrationRoute.html" class="prefix-schema">schema:administrationRoute</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Drug.html" class="prefix-schema">schema:Drug</a>&nbsp;</td><td class="prop-desc">A route by which this drug may be administered, e.g. 'oral'. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="aircraft.html" class="prefix-schema">schema:aircraft</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Flight.html" class="prefix-schema">schema:Flight</a>&nbsp;</td><td class="prop-desc">The kind of aircraft (e.g., "Boeing 747"). </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="alcoholWarning.html" class="prefix-schema">schema:alcoholWarning</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Drug.html" class="prefix-schema">schema:Drug</a>&nbsp;</td><td class="prop-desc">Any precaution, guidance, contraindication, etc. related to consumption of alcohol while taking this drug. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="algorithm.html" class="prefix-schema">schema:algorithm</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="MedicalRiskScore.html" class="prefix-schema">schema:MedicalRiskScore</a>&nbsp;</td><td class="prop-desc">The algorithm or rules to follow to compute the score. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="alignmentType.html" class="prefix-schema">schema:alignmentType</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="AlignmentObject.html" class="prefix-schema">schema:AlignmentObject</a>&nbsp;</td><td class="prop-desc">A category of alignment between the learning resource and the framework node. Recommended values include: 'assesses', 'teaches', 'requires', 'textComplexity', 'readingLevel', 'educationalSubject', and 'educationLevel'. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="alternateName.html" class="prefix-schema">schema:alternateName</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Thing.html" class="prefix-schema">schema:Thing</a>&nbsp;</td><td class="prop-desc">An alias for the item. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="alternativeHeadline.html" class="prefix-schema">schema:alternativeHeadline</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="CreativeWork.html" class="prefix-schema">schema:CreativeWork</a>&nbsp;</td><td class="prop-desc">A secondary title of the CreativeWork. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="applicationCategory.html" class="prefix-schema">schema:applicationCategory</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="SoftwareApplication.html" class="prefix-schema">schema:SoftwareApplication</a>&nbsp;</td><td class="prop-desc">Type of software application, e.g. "Game, Multimedia". </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="applicationSubCategory.html" class="prefix-schema">schema:applicationSubCategory</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="SoftwareApplication.html" class="prefix-schema">schema:SoftwareApplication</a>&nbsp;</td><td class="prop-desc">Subcategory of the application, e.g. "Arcade Game". </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="applicationSuite.html" class="prefix-schema">schema:applicationSuite</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="SoftwareApplication.html" class="prefix-schema">schema:SoftwareApplication</a>&nbsp;</td><td class="prop-desc">The name of the application suite to which the application belongs (e.g. Excel belongs to Office). </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="arrivalGate.html" class="prefix-schema">schema:arrivalGate</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Flight.html" class="prefix-schema">schema:Flight</a>&nbsp;</td><td class="prop-desc">Identifier of the flight's arrival gate. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="arrivalPlatform.html" class="prefix-schema">schema:arrivalPlatform</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="TrainTrip.html" class="prefix-schema">schema:TrainTrip</a>&nbsp;</td><td class="prop-desc">The platform where the train arrives. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="arrivalTerminal.html" class="prefix-schema">schema:arrivalTerminal</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Flight.html" class="prefix-schema">schema:Flight</a>&nbsp;</td><td class="prop-desc">Identifier of the flight's arrival terminal. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="artEdition.html" class="prefix-schema">schema:artEdition</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="VisualArtwork.html" class="prefix-schema">schema:VisualArtwork</a>&nbsp;</td><td class="prop-desc">The number of copies when multiple copies of a piece of artwork are produced - e.g. for a limited edition of 20 prints, 'artEdition' refers to the total number of copies (in this example "20"). </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="artform.html" class="prefix-schema">schema:artform</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="VisualArtwork.html" class="prefix-schema">schema:VisualArtwork</a>&nbsp;</td><td class="prop-desc">e.g. Painting, Drawing, Sculpture, Print, Photograph, Assemblage, Collage, etc. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="articleBody.html" class="prefix-schema">schema:articleBody</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Article.html" class="prefix-schema">schema:Article</a>&nbsp;</td><td class="prop-desc">The actual body of the article. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="articleSection.html" class="prefix-schema">schema:articleSection</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Article.html" class="prefix-schema">schema:Article</a>&nbsp;</td><td class="prop-desc">Articles may belong to one or more 'sections' in a magazine or newspaper, such as Sports, Lifestyle, etc. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="aspect.html" class="prefix-schema">schema:aspect</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="MedicalWebPage.html" class="prefix-schema">schema:MedicalWebPage</a>&nbsp;</td><td class="prop-desc">An aspect of medical practice that is considered on the page, such as 'diagnosis', 'treatment', 'causes', 'prognosis', 'etiology', 'epidemiology', etc. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="assembly.html" class="prefix-schema">schema:assembly</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="APIReference.html" class="prefix-schema">schema:APIReference</a>&nbsp;</td><td class="prop-desc">Library file name e.g., mscorlib.dll, system.web.dll. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="assemblyVersion.html" class="prefix-schema">schema:assemblyVersion</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="APIReference.html" class="prefix-schema">schema:APIReference</a>&nbsp;</td><td class="prop-desc">Associated product/technology version. e.g., .NET Framework 4.5. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="associatedPathophysiology.html" class="prefix-schema">schema:associatedPathophysiology</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="AnatomicalStructure.html" class="prefix-schema">schema:AnatomicalStructure</a>&nbsp; or<br/> <a href="AnatomicalSystem.html" class="prefix-schema">schema:AnatomicalSystem</a>&nbsp; or<br/> <a href="SuperficialAnatomy.html" class="prefix-schema">schema:SuperficialAnatomy</a>&nbsp;</td><td class="prop-desc">If applicable, a description of the pathophysiology associated with the anatomical system, including potential abnormal changes in the mechanical, physical, and biochemical functions of the system. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="audienceType.html" class="prefix-schema">schema:audienceType</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Audience.html" class="prefix-schema">schema:Audience</a>&nbsp;</td><td class="prop-desc">The target group associated with a given audience (e.g. veterans, car owners, musicians, etc.). </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="award.html" class="prefix-schema">schema:award</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Person.html" class="prefix-schema">schema:Person</a>&nbsp; or<br/> <a href="CreativeWork.html" class="prefix-schema">schema:CreativeWork</a>&nbsp;</td><td class="prop-desc">An award won by this person or for this creative work.  Supersedes <a href="awards.html" class="prefix-schema">schema:awards</a>.</td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="background.html" class="prefix-schema">schema:background</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="DietarySupplement.html" class="prefix-schema">schema:DietarySupplement</a>&nbsp;</td><td class="prop-desc">Descriptive information establishing a historical perspective on the supplement. May include the rationale for the name, the population where the supplement first came to prominence, etc. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="benefits.html" class="prefix-schema">schema:benefits</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="JobPosting.html" class="prefix-schema">schema:JobPosting</a>&nbsp;</td><td class="prop-desc">Description of benefits associated with the job. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="bestRating.html" class="prefix-schema">schema:bestRating</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Rating.html" class="prefix-schema">schema:Rating</a>&nbsp;</td><td class="prop-desc">The highest value allowed in this rating system. If bestRating is omitted, 5 is assumed. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="biomechnicalClass.html" class="prefix-schema">schema:biomechnicalClass</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Joint.html" class="prefix-schema">schema:Joint</a>&nbsp;</td><td class="prop-desc">The biomechanical properties of the bone. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="bitrate.html" class="prefix-schema">schema:bitrate</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="MediaObject.html" class="prefix-schema">schema:MediaObject</a>&nbsp;</td><td class="prop-desc">The bitrate of the media object. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="boardingGroup.html" class="prefix-schema">schema:boardingGroup</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="FlightReservation.html" class="prefix-schema">schema:FlightReservation</a>&nbsp;</td><td class="prop-desc">The airline-specific indicator of boarding order / preference. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="bodyLocation.html" class="prefix-schema">schema:bodyLocation</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="AnatomicalStructure.html" class="prefix-schema">schema:AnatomicalStructure</a>&nbsp;</td><td class="prop-desc">Location in the body of the anatomical structure. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="bookEdition.html" class="prefix-schema">schema:bookEdition</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Book.html" class="prefix-schema">schema:Book</a>&nbsp;</td><td class="prop-desc">The edition of the book. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="box.html" class="prefix-schema">schema:box</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="GeoShape.html" class="prefix-schema">schema:GeoShape</a>&nbsp;</td><td class="prop-desc">A polygon is the area enclosed by a point-to-point path for which the starting and ending points are the same. A polygon is expressed as a series of four or more space delimited points where the first and final points are identical. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="breadcrumb.html" class="prefix-schema">schema:breadcrumb</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="WebPage.html" class="prefix-schema">schema:WebPage</a>&nbsp;</td><td class="prop-desc">A set of links that can help a user understand and navigate a website hierarchy. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="breastfeedingWarning.html" class="prefix-schema">schema:breastfeedingWarning</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Drug.html" class="prefix-schema">schema:Drug</a>&nbsp;</td><td class="prop-desc">Any precaution, guidance, contraindication, etc. related to this drug's use by breastfeeding mothers. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="browserRequirements.html" class="prefix-schema">schema:browserRequirements</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="WebApplication.html" class="prefix-schema">schema:WebApplication</a>&nbsp;</td><td class="prop-desc">Specifies browser requirements in human-readable text. For example,"requires HTML5 support". </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="busName.html" class="prefix-schema">schema:busName</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="BusTrip.html" class="prefix-schema">schema:BusTrip</a>&nbsp;</td><td class="prop-desc">The name of the bus (e.g. Bolt Express). </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="busNumber.html" class="prefix-schema">schema:busNumber</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="BusTrip.html" class="prefix-schema">schema:BusTrip</a>&nbsp;</td><td class="prop-desc">The unique identifier for the bus. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="caption.html" class="prefix-schema">schema:caption</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="ImageObject.html" class="prefix-schema">schema:ImageObject</a>&nbsp; or<br/> <a href="VideoObject.html" class="prefix-schema">schema:VideoObject</a>&nbsp;</td><td class="prop-desc">The caption for this object. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="carrierRequirements.html" class="prefix-schema">schema:carrierRequirements</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="MobileApplication.html" class="prefix-schema">schema:MobileApplication</a>&nbsp;</td><td class="prop-desc">Specifies specific carrier(s) requirements for the application (e.g. an application may only work on a specific carrier network). </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="catalogNumber.html" class="prefix-schema">schema:catalogNumber</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="MusicRelease.html" class="prefix-schema">schema:MusicRelease</a>&nbsp;</td><td class="prop-desc">The catalog number for the release. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="category.html" class="prefix-schema">schema:category</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Invoice.html" class="prefix-schema">schema:Invoice</a>&nbsp; or<br/> <a href="PhysicalActivity.html" class="prefix-schema">schema:PhysicalActivity</a>&nbsp; or<br/> <a href="Offer.html" class="prefix-schema">schema:Offer</a>&nbsp;</td><td class="prop-desc">A category for the item. Greater signs or slashes can be used to informally indicate a category hierarchy. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="characterName.html" class="prefix-schema">schema:characterName</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="PerformanceRole.html" class="prefix-schema">schema:PerformanceRole</a>&nbsp;</td><td class="prop-desc">The name of a character played in some acting or performing role, i.e. in a PerformanceRole. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="circle.html" class="prefix-schema">schema:circle</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="GeoShape.html" class="prefix-schema">schema:GeoShape</a>&nbsp;</td><td class="prop-desc">A circle is the circular region of a specified radius centered at a specified latitude and longitude. A circle is expressed as a pair followed by a radius in meters. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="citation.html" class="prefix-schema">schema:citation</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="CreativeWork.html" class="prefix-schema">schema:CreativeWork</a>&nbsp;</td><td class="prop-desc">A citation or reference to another creative work, such as another publication, web page, scholarly article, etc. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="clinicalPharmacology.html" class="prefix-schema">schema:clinicalPharmacology</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Drug.html" class="prefix-schema">schema:Drug</a>&nbsp;</td><td class="prop-desc">Description of the absorption and elimination of drugs, including their concentration (pharmacokinetics, pK) and biological effects (pharmacodynamics, pD).  Supersedes <a href="clincalPharmacology.html" class="prefix-schema">schema:clincalPharmacology</a>.</td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="clipNumber.html" class="prefix-schema">schema:clipNumber</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Clip.html" class="prefix-schema">schema:Clip</a>&nbsp;</td><td class="prop-desc">Position of the clip within an ordered group of clips. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="codeValue.html" class="prefix-schema">schema:codeValue</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="MedicalCode.html" class="prefix-schema">schema:MedicalCode</a>&nbsp;</td><td class="prop-desc">The actual code. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="codingSystem.html" class="prefix-schema">schema:codingSystem</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="MedicalCode.html" class="prefix-schema">schema:MedicalCode</a>&nbsp;</td><td class="prop-desc">The coding system, e.g. 'ICD-10'. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="color.html" class="prefix-schema">schema:color</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Product.html" class="prefix-schema">schema:Product</a>&nbsp;</td><td class="prop-desc">The color of the product. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="commentText.html" class="prefix-schema">schema:commentText</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="UserComments.html" class="prefix-schema">schema:UserComments</a>&nbsp;</td><td class="prop-desc">The text of the UserComment. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="confirmationNumber.html" class="prefix-schema">schema:confirmationNumber</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Invoice.html" class="prefix-schema">schema:Invoice</a>&nbsp; or<br/> <a href="Order.html" class="prefix-schema">schema:Order</a>&nbsp;</td><td class="prop-desc">A number that confirms the given order or payment has been received. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="contactType.html" class="prefix-schema">schema:contactType</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="ContactPoint.html" class="prefix-schema">schema:ContactPoint</a>&nbsp;</td><td class="prop-desc">A person or organization can have different contact points, for different purposes. For example, a sales contact point, a PR contact point and so on. This property is used to specify the kind of contact point. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="contentRating.html" class="prefix-schema">schema:contentRating</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="CreativeWork.html" class="prefix-schema">schema:CreativeWork</a>&nbsp;</td><td class="prop-desc">Official rating of a piece of content&#x2014;for example,'MPAA PG-13'. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="contentSize.html" class="prefix-schema">schema:contentSize</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="MediaObject.html" class="prefix-schema">schema:MediaObject</a>&nbsp;</td><td class="prop-desc">File size in (mega/kilo) bytes. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="contentType.html" class="prefix-schema">schema:contentType</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="EntryPoint.html" class="prefix-schema">schema:EntryPoint</a>&nbsp;</td><td class="prop-desc">The supported content type(s) for an EntryPoint response. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="cookingMethod.html" class="prefix-schema">schema:cookingMethod</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Recipe.html" class="prefix-schema">schema:Recipe</a>&nbsp;</td><td class="prop-desc">The method of cooking, such as Frying, Steaming, ... </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="costCurrency.html" class="prefix-schema">schema:costCurrency</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="DrugCost.html" class="prefix-schema">schema:DrugCost</a>&nbsp;</td><td class="prop-desc">The currency (in 3-letter <a href=http://en.wikipedia.org/wiki/ISO_4217>ISO 4217 format</a>) of the drug cost. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="costOrigin.html" class="prefix-schema">schema:costOrigin</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="DrugCost.html" class="prefix-schema">schema:DrugCost</a>&nbsp;</td><td class="prop-desc">Additional details to capture the origin of the cost data. For example, 'Medicare Part B'. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="costPerUnit.html" class="prefix-schema">schema:costPerUnit</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="DrugCost.html" class="prefix-schema">schema:DrugCost</a>&nbsp;</td><td class="prop-desc">The cost per unit of the drug. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="countriesNotSupported.html" class="prefix-schema">schema:countriesNotSupported</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="SoftwareApplication.html" class="prefix-schema">schema:SoftwareApplication</a>&nbsp;</td><td class="prop-desc">Countries for which the application is not supported. You can also provide the two-letter ISO 3166-1 alpha-2 country code. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="countriesSupported.html" class="prefix-schema">schema:countriesSupported</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="SoftwareApplication.html" class="prefix-schema">schema:SoftwareApplication</a>&nbsp;</td><td class="prop-desc">Countries for which the application is supported. You can also provide the two-letter ISO 3166-1 alpha-2 country code. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="currenciesAccepted.html" class="prefix-schema">schema:currenciesAccepted</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="LocalBusiness.html" class="prefix-schema">schema:LocalBusiness</a>&nbsp;</td><td class="prop-desc">The currency accepted (in <a href='http://en.wikipedia.org/wiki/ISO_4217'>ISO 4217 currency format</a>). </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="currency.html" class="prefix-schema">schema:currency</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="DatedMoneySpecification.html" class="prefix-schema">schema:DatedMoneySpecification</a>&nbsp;</td><td class="prop-desc">The currency in which the monetary amount is expressed (in 3-letter <a href='http://en.wikipedia.org/wiki/ISO_4217'">ISO 4217</a> format). </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="dateline.html" class="prefix-schema">schema:dateline</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="NewsArticle.html" class="prefix-schema">schema:NewsArticle</a>&nbsp;</td><td class="prop-desc">The location where the NewsArticle was produced. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="defaultValue.html" class="prefix-schema">schema:defaultValue</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="PropertyValueSpecification.html" class="prefix-schema">schema:PropertyValueSpecification</a>&nbsp;</td><td class="prop-desc">The default value of the input.  For properties that expect a literal, the default is a literal value, for properties that expect an object, it's an ID reference to one of the current values. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="departureGate.html" class="prefix-schema">schema:departureGate</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Flight.html" class="prefix-schema">schema:Flight</a>&nbsp;</td><td class="prop-desc">Identifier of the flight's departure gate. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="departurePlatform.html" class="prefix-schema">schema:departurePlatform</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="TrainTrip.html" class="prefix-schema">schema:TrainTrip</a>&nbsp;</td><td class="prop-desc">The platform from which the train departs. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="departureTerminal.html" class="prefix-schema">schema:departureTerminal</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Flight.html" class="prefix-schema">schema:Flight</a>&nbsp;</td><td class="prop-desc">Identifier of the flight's departure terminal. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="dependencies.html" class="prefix-schema">schema:dependencies</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="TechArticle.html" class="prefix-schema">schema:TechArticle</a>&nbsp;</td><td class="prop-desc">Prerequisites needed to fulfill steps in article. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="description.html" class="prefix-schema">schema:description</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Thing.html" class="prefix-schema">schema:Thing</a>&nbsp;</td><td class="prop-desc">A short description of the item. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="device.html" class="prefix-schema">schema:device</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="SoftwareApplication.html" class="prefix-schema">schema:SoftwareApplication</a>&nbsp;</td><td class="prop-desc">Device required to run the application. Used in cases where a specific make/model is required to run the application. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="dietFeatures.html" class="prefix-schema">schema:dietFeatures</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Diet.html" class="prefix-schema">schema:Diet</a>&nbsp;</td><td class="prop-desc">Nutritional information specific to the dietary plan. May include dietary recommendations on what foods to avoid, what foods to consume, and specific alterations/deviations from the USDA or other regulatory body's approved dietary guidelines. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="discount.html" class="prefix-schema">schema:discount</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Order.html" class="prefix-schema">schema:Order</a>&nbsp;</td><td class="prop-desc">Any discount applied (to an Order). </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="discountCode.html" class="prefix-schema">schema:discountCode</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Order.html" class="prefix-schema">schema:Order</a>&nbsp;</td><td class="prop-desc">Code used to redeem a discount. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="discountCurrency.html" class="prefix-schema">schema:discountCurrency</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Order.html" class="prefix-schema">schema:Order</a>&nbsp;</td><td class="prop-desc">The currency (in 3-letter ISO 4217 format) of the discount. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="dosageForm.html" class="prefix-schema">schema:dosageForm</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Drug.html" class="prefix-schema">schema:Drug</a>&nbsp; or<br/> <a href="DietarySupplement.html" class="prefix-schema">schema:DietarySupplement</a>&nbsp;</td><td class="prop-desc">A dosage form in which this drug/supplement is available, e.g. 'tablet', 'suspension', 'injection'. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="doseUnit.html" class="prefix-schema">schema:doseUnit</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="DoseSchedule.html" class="prefix-schema">schema:DoseSchedule</a>&nbsp;</td><td class="prop-desc">The unit of the dose, e.g. 'mg'. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="drugUnit.html" class="prefix-schema">schema:drugUnit</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="DrugCost.html" class="prefix-schema">schema:DrugCost</a>&nbsp;</td><td class="prop-desc">The unit in which the drug is measured, e.g. '5 mg tablet'. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="duns.html" class="prefix-schema">schema:duns</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Organization.html" class="prefix-schema">schema:Organization</a>&nbsp; or<br/> <a href="Person.html" class="prefix-schema">schema:Person</a>&nbsp;</td><td class="prop-desc">The Dun & Bradstreet DUNS number for identifying an organization or business person. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="educationRequirements.html" class="prefix-schema">schema:educationRequirements</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="JobPosting.html" class="prefix-schema">schema:JobPosting</a>&nbsp;</td><td class="prop-desc">Educational background needed for the position. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="educationalFramework.html" class="prefix-schema">schema:educationalFramework</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="AlignmentObject.html" class="prefix-schema">schema:AlignmentObject</a>&nbsp;</td><td class="prop-desc">The framework to which the resource being described is aligned. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="educationalRole.html" class="prefix-schema">schema:educationalRole</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="EducationalAudience.html" class="prefix-schema">schema:EducationalAudience</a>&nbsp;</td><td class="prop-desc">An educationalRole of an EducationalAudience. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="educationalUse.html" class="prefix-schema">schema:educationalUse</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="CreativeWork.html" class="prefix-schema">schema:CreativeWork</a>&nbsp;</td><td class="prop-desc">The purpose of a work in the context of education; for example, 'assignment', 'group work'. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="elevation.html" class="prefix-schema">schema:elevation</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="GeoShape.html" class="prefix-schema">schema:GeoShape</a>&nbsp; or<br/> <a href="GeoCoordinates.html" class="prefix-schema">schema:GeoCoordinates</a>&nbsp;</td><td class="prop-desc">The elevation of a location. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="eligibleRegion.html" class="prefix-schema">schema:eligibleRegion</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Demand.html" class="prefix-schema">schema:Demand</a>&nbsp; or<br/> <a href="DeliveryChargeSpecification.html" class="prefix-schema">schema:DeliveryChargeSpecification</a>&nbsp; or<br/> <a href="Offer.html" class="prefix-schema">schema:Offer</a>&nbsp;</td><td class="prop-desc">The ISO 3166-1 (ISO 3166-1 alpha-2) or ISO 3166-2 code, or the GeoShape for the geo-political region(s) for which the offer or delivery charge specification is valid. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="email.html" class="prefix-schema">schema:email</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Organization.html" class="prefix-schema">schema:Organization</a>&nbsp; or<br/> <a href="Person.html" class="prefix-schema">schema:Person</a>&nbsp; or<br/> <a href="ContactPoint.html" class="prefix-schema">schema:ContactPoint</a>&nbsp;</td><td class="prop-desc">Email address. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="employmentType.html" class="prefix-schema">schema:employmentType</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="JobPosting.html" class="prefix-schema">schema:JobPosting</a>&nbsp;</td><td class="prop-desc">Type of employment (e.g. full-time, part-time, contract, temporary, seasonal, internship). </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="encodingFormat.html" class="prefix-schema">schema:encodingFormat</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="MediaObject.html" class="prefix-schema">schema:MediaObject</a>&nbsp;</td><td class="prop-desc">mp3, mpeg4, etc. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="encodingType.html" class="prefix-schema">schema:encodingType</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="EntryPoint.html" class="prefix-schema">schema:EntryPoint</a>&nbsp;</td><td class="prop-desc">The supported encoding type(s) for an EntryPoint request. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="epidemiology.html" class="prefix-schema">schema:epidemiology</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="PhysicalActivity.html" class="prefix-schema">schema:PhysicalActivity</a>&nbsp; or<br/> <a href="MedicalCondition.html" class="prefix-schema">schema:MedicalCondition</a>&nbsp;</td><td class="prop-desc">The characteristics of associated patients, such as age, gender, race etc. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="episodeNumber.html" class="prefix-schema">schema:episodeNumber</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Episode.html" class="prefix-schema">schema:Episode</a>&nbsp;</td><td class="prop-desc">Position of the episode within an ordered group of episodes. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="estimatedFlightDuration.html" class="prefix-schema">schema:estimatedFlightDuration</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Flight.html" class="prefix-schema">schema:Flight</a>&nbsp;</td><td class="prop-desc">The estimated time the flight will take. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="evidenceOrigin.html" class="prefix-schema">schema:evidenceOrigin</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="MedicalGuideline.html" class="prefix-schema">schema:MedicalGuideline</a>&nbsp;</td><td class="prop-desc">Source of the data used to formulate the guidance, e.g. RCT, consensus opinion, etc. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="exerciseType.html" class="prefix-schema">schema:exerciseType</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="ExercisePlan.html" class="prefix-schema">schema:ExercisePlan</a>&nbsp; or<br/> <a href="ExerciseAction.html" class="prefix-schema">schema:ExerciseAction</a>&nbsp;</td><td class="prop-desc">Type(s) of exercise or activity, such as strength training, flexibility training, aerobics, cardiac rehabilitation, etc. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="exifData.html" class="prefix-schema">schema:exifData</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="ImageObject.html" class="prefix-schema">schema:ImageObject</a>&nbsp;</td><td class="prop-desc">exif data for this object. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="expectedPrognosis.html" class="prefix-schema">schema:expectedPrognosis</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="MedicalCondition.html" class="prefix-schema">schema:MedicalCondition</a>&nbsp;</td><td class="prop-desc">The likely outcome in either the short term or long term of the medical condition. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="experienceRequirements.html" class="prefix-schema">schema:experienceRequirements</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="JobPosting.html" class="prefix-schema">schema:JobPosting</a>&nbsp;</td><td class="prop-desc">Description of skills and experience needed for the position. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="expertConsiderations.html" class="prefix-schema">schema:expertConsiderations</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Diet.html" class="prefix-schema">schema:Diet</a>&nbsp;</td><td class="prop-desc">Medical expert advice related to the plan. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="familyName.html" class="prefix-schema">schema:familyName</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Person.html" class="prefix-schema">schema:Person</a>&nbsp;</td><td class="prop-desc">Family name. In the U.S., the last name of an Person. This can be used along with givenName instead of the name property. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="faxNumber.html" class="prefix-schema">schema:faxNumber</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Organization.html" class="prefix-schema">schema:Organization</a>&nbsp; or<br/> <a href="Place.html" class="prefix-schema">schema:Place</a>&nbsp; or<br/> <a href="Person.html" class="prefix-schema">schema:Person</a>&nbsp; or<br/> <a href="ContactPoint.html" class="prefix-schema">schema:ContactPoint</a>&nbsp;</td><td class="prop-desc">The fax number. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="featureList.html" class="prefix-schema">schema:featureList</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="SoftwareApplication.html" class="prefix-schema">schema:SoftwareApplication</a>&nbsp;</td><td class="prop-desc">Features or modules provided by this application (and possibly required by other applications). </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="fileFormat.html" class="prefix-schema">schema:fileFormat</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="SoftwareApplication.html" class="prefix-schema">schema:SoftwareApplication</a>&nbsp;</td><td class="prop-desc">MIME format of the binary (e.g. application/zip). </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="flightDistance.html" class="prefix-schema">schema:flightDistance</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Flight.html" class="prefix-schema">schema:Flight</a>&nbsp;</td><td class="prop-desc">The distance of the flight. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="flightNumber.html" class="prefix-schema">schema:flightNumber</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Flight.html" class="prefix-schema">schema:Flight</a>&nbsp;</td><td class="prop-desc">The unique identifier for a flight including the airline IATA code. For example, if describing United flight 110, where the IATA code for United is 'UA', the flightNumber is 'UA110'. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="followup.html" class="prefix-schema">schema:followup</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="MedicalProcedure.html" class="prefix-schema">schema:MedicalProcedure</a>&nbsp;</td><td class="prop-desc">Typical or recommended followup care after the procedure is performed. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="foodWarning.html" class="prefix-schema">schema:foodWarning</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Drug.html" class="prefix-schema">schema:Drug</a>&nbsp;</td><td class="prop-desc">Any precaution, guidance, contraindication, etc. related to consumption of specific foods while taking this drug. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="frequency.html" class="prefix-schema">schema:frequency</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="DoseSchedule.html" class="prefix-schema">schema:DoseSchedule</a>&nbsp;</td><td class="prop-desc">How often the dose is taken, e.g. 'daily'. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="function.html" class="prefix-schema">schema:function</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="AnatomicalStructure.html" class="prefix-schema">schema:AnatomicalStructure</a>&nbsp;</td><td class="prop-desc">Function of the anatomical structure. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="functionalClass.html" class="prefix-schema">schema:functionalClass</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Joint.html" class="prefix-schema">schema:Joint</a>&nbsp;</td><td class="prop-desc">The degree of mobility the joint allows. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="gamePlatform.html" class="prefix-schema">schema:gamePlatform</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="VideoGame.html" class="prefix-schema">schema:VideoGame</a>&nbsp; or<br/> <a href="VideoGameSeries.html" class="prefix-schema">schema:VideoGameSeries</a>&nbsp;</td><td class="prop-desc">The electronic systems used to play <a href="http://en.wikipedia.org/wiki/Category:Video_game_platforms">video games</a>. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="gender.html" class="prefix-schema">schema:gender</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Person.html" class="prefix-schema">schema:Person</a>&nbsp;</td><td class="prop-desc">Gender of the person. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="genre.html" class="prefix-schema">schema:genre</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="MusicGroup.html" class="prefix-schema">schema:MusicGroup</a>&nbsp; or<br/> <a href="CreativeWork.html" class="prefix-schema">schema:CreativeWork</a>&nbsp;</td><td class="prop-desc">Genre of the creative work or group. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="givenName.html" class="prefix-schema">schema:givenName</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Person.html" class="prefix-schema">schema:Person</a>&nbsp;</td><td class="prop-desc">Given name. In the U.S., the first name of a Person. This can be used along with familyName instead of the name property. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="globalLocationNumber.html" class="prefix-schema">schema:globalLocationNumber</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Organization.html" class="prefix-schema">schema:Organization</a>&nbsp; or<br/> <a href="Place.html" class="prefix-schema">schema:Place</a>&nbsp; or<br/> <a href="Person.html" class="prefix-schema">schema:Person</a>&nbsp;</td><td class="prop-desc">The Global Location Number (GLN, sometimes also referred to as International Location Number or ILN) of the respective organization, person, or place. The GLN is a 13-digit number used to identify parties and physical locations. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="gtin13.html" class="prefix-schema">schema:gtin13</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Product.html" class="prefix-schema">schema:Product</a>&nbsp; or<br/> <a href="Offer.html" class="prefix-schema">schema:Offer</a>&nbsp; or<br/> <a href="Demand.html" class="prefix-schema">schema:Demand</a>&nbsp;</td><td class="prop-desc">The <a href="http://apps.gs1.org/GDD/glossary/Pages/GTIN-13.aspx">GTIN-13</a> code of the product, or the product to which the offer refers. This is equivalent to 13-digit ISBN codes and EAN UCC-13. Former 12-digit UPC codes can be converted into a GTIN-13 code by simply adding a preceeding zero. See <a href="http://www.gs1.org/barcodes/technical/idkeys/gtin">GS1 GTIN Summary</a> for more details. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="gtin14.html" class="prefix-schema">schema:gtin14</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Product.html" class="prefix-schema">schema:Product</a>&nbsp; or<br/> <a href="Offer.html" class="prefix-schema">schema:Offer</a>&nbsp; or<br/> <a href="Demand.html" class="prefix-schema">schema:Demand</a>&nbsp;</td><td class="prop-desc">The <a href="http://apps.gs1.org/GDD/glossary/Pages/GTIN-14.aspx">GTIN-14</a> code of the product, or the product to which the offer refers. See <a href="http://www.gs1.org/barcodes/technical/idkeys/gtin">GS1 GTIN Summary</a> for more details. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="gtin8.html" class="prefix-schema">schema:gtin8</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Product.html" class="prefix-schema">schema:Product</a>&nbsp; or<br/> <a href="Offer.html" class="prefix-schema">schema:Offer</a>&nbsp; or<br/> <a href="Demand.html" class="prefix-schema">schema:Demand</a>&nbsp;</td><td class="prop-desc">The <a href="http://apps.gs1.org/GDD/glossary/Pages/GTIN-8.aspx">GTIN-8</a> code of the product, or the product to which the offer refers. This code is also known as EAN/UCC-8 or 8-digit EAN. See <a href="http://www.gs1.org/barcodes/technical/idkeys/gtin">GS1 GTIN Summary</a> for more details. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="headline.html" class="prefix-schema">schema:headline</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="CreativeWork.html" class="prefix-schema">schema:CreativeWork</a>&nbsp;</td><td class="prop-desc">Headline of the article. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="highPrice.html" class="prefix-schema">schema:highPrice</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="AggregateOffer.html" class="prefix-schema">schema:AggregateOffer</a>&nbsp;</td><td class="prop-desc">The highest price of all offers available. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="honorificPrefix.html" class="prefix-schema">schema:honorificPrefix</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Person.html" class="prefix-schema">schema:Person</a>&nbsp;</td><td class="prop-desc">An honorific prefix preceding a Person's name such as Dr/Mrs/Mr. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="honorificSuffix.html" class="prefix-schema">schema:honorificSuffix</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Person.html" class="prefix-schema">schema:Person</a>&nbsp;</td><td class="prop-desc">An honorific suffix preceding a Person's name such as M.D. /PhD/MSCSW. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="howPerformed.html" class="prefix-schema">schema:howPerformed</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="MedicalProcedure.html" class="prefix-schema">schema:MedicalProcedure</a>&nbsp;</td><td class="prop-desc">How the procedure is performed. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="httpMethod.html" class="prefix-schema">schema:httpMethod</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="EntryPoint.html" class="prefix-schema">schema:EntryPoint</a>&nbsp;</td><td class="prop-desc">An HTTP method that specifies the appropriate HTTP method for a request to an HTTP EntryPoint. Values are capitalized strings as used in HTTP. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="iataCode.html" class="prefix-schema">schema:iataCode</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Airport.html" class="prefix-schema">schema:Airport</a>&nbsp; or<br/> <a href="Airline.html" class="prefix-schema">schema:Airline</a>&nbsp;</td><td class="prop-desc">IATA identifier for an airline or airport. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="icaoCode.html" class="prefix-schema">schema:icaoCode</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Airport.html" class="prefix-schema">schema:Airport</a>&nbsp;</td><td class="prop-desc">IACO identifier for an airport. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="inLanguage.html" class="prefix-schema">schema:inLanguage</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="CreativeWork.html" class="prefix-schema">schema:CreativeWork</a>&nbsp;</td><td class="prop-desc">The language of the content. please use one of the language codes from the <a href='http://tools.ietf.org/html/bcp47'>IETF BCP 47 standard</a>. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="inSupportOf.html" class="prefix-bgn">bgn:inSupportOf</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Thesis.html" class="prefix-bgn">bgn:Thesis</a>&nbsp;</td><td class="prop-desc">Qualification, candidature, degree, application that Thesis supports. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="incentives.html" class="prefix-schema">schema:incentives</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="JobPosting.html" class="prefix-schema">schema:JobPosting</a>&nbsp;</td><td class="prop-desc">Description of bonus and commission compensation aspects of the job. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="industry.html" class="prefix-schema">schema:industry</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="JobPosting.html" class="prefix-schema">schema:JobPosting</a>&nbsp;</td><td class="prop-desc">The industry associated with the job position. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="infectiousAgent.html" class="prefix-schema">schema:infectiousAgent</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="InfectiousDisease.html" class="prefix-schema">schema:InfectiousDisease</a>&nbsp;</td><td class="prop-desc">The actual infectious agent, such as a specific bacterium. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="ingredients.html" class="prefix-schema">schema:ingredients</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Recipe.html" class="prefix-schema">schema:Recipe</a>&nbsp;</td><td class="prop-desc">An ingredient used in the recipe. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="intensity.html" class="prefix-schema">schema:intensity</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="ExercisePlan.html" class="prefix-schema">schema:ExercisePlan</a>&nbsp;</td><td class="prop-desc">Quantitative measure gauging the degree of force involved in the exercise, for example, heartbeats per minute. May include the velocity of the movement. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="interactionCount.html" class="prefix-schema">schema:interactionCount</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Organization.html" class="prefix-schema">schema:Organization</a>&nbsp; or<br/> <a href="Place.html" class="prefix-schema">schema:Place</a>&nbsp; or<br/> <a href="CreativeWork.html" class="prefix-schema">schema:CreativeWork</a>&nbsp; or<br/> <a href="Person.html" class="prefix-schema">schema:Person</a>&nbsp;</td><td class="prop-desc">A count of a specific user interactions with this item&#x2014;for example, <code>20 UserLikes</code>, <code>5 UserComments</code>, or <code>300 UserDownloads</code>. The user interaction type should be one of the sub types of <a href='UserInteraction.html'>UserInteraction</a>. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="interactivityType.html" class="prefix-schema">schema:interactivityType</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="CreativeWork.html" class="prefix-schema">schema:CreativeWork</a>&nbsp;</td><td class="prop-desc">The predominant mode of learning supported by the learning resource. Acceptable values are 'active', 'expositive', or 'mixed'. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="isbn.html" class="prefix-schema">schema:isbn</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Book.html" class="prefix-schema">schema:Book</a>&nbsp;</td><td class="prop-desc">The ISBN of the book. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="isicV4.html" class="prefix-schema">schema:isicV4</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Organization.html" class="prefix-schema">schema:Organization</a>&nbsp; or<br/> <a href="Place.html" class="prefix-schema">schema:Place</a>&nbsp; or<br/> <a href="Person.html" class="prefix-schema">schema:Person</a>&nbsp;</td><td class="prop-desc">The International Standard of Industrial Classification of All Economic Activities (ISIC), Revision 4 code for a particular organization, business person, or place. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="isrcCode.html" class="prefix-schema">schema:isrcCode</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="MusicRecording.html" class="prefix-schema">schema:MusicRecording</a>&nbsp;</td><td class="prop-desc">The International Standard Recording Code for the recording. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="issn.html" class="prefix-schema">schema:issn</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Periodical.html" class="prefix-schema">schema:Periodical</a>&nbsp;</td><td class="prop-desc">The International Standard Serial Number (ISSN) that identifies this periodical. You can repeat this property to (for example) identify different formats of this periodical. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="issueNumber.html" class="prefix-schema">schema:issueNumber</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="PublicationIssue.html" class="prefix-schema">schema:PublicationIssue</a>&nbsp;</td><td class="prop-desc">Identifies the issue of publication; for example, "iii" or "2". </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="iswcCode.html" class="prefix-schema">schema:iswcCode</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="MusicComposition.html" class="prefix-schema">schema:MusicComposition</a>&nbsp;</td><td class="prop-desc">The International Standard Musical Work Code for the composition. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="itemListElement.html" class="prefix-schema">schema:itemListElement</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="ItemList.html" class="prefix-schema">schema:ItemList</a>&nbsp;</td><td class="prop-desc">For itemListElement values, you can use simple strings (e.g. "Peter", "Paul", "Mary"), existing entities, or use ListItem.
+    <br/><br/>
+    Text values are best if the elements in the list are plain strings. Existing entities are best for a simple, unordered list of existing things in your data. ListItem is used with ordered lists when you want to provide additional context about the element in that list or when the same item might be in different places in different lists.
+    <br/><br/>
+    Note: The order of elements in your mark-up is not sufficient for indicating the order or elements.  Use ListItem with a 'position' property in such cases. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="itemListOrder.html" class="prefix-schema">schema:itemListOrder</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="ItemList.html" class="prefix-schema">schema:ItemList</a>&nbsp;</td><td class="prop-desc">Type of ordering (e.g. Ascending, Descending, Unordered). </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="jobTitle.html" class="prefix-schema">schema:jobTitle</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Person.html" class="prefix-schema">schema:Person</a>&nbsp;</td><td class="prop-desc">The job title of the person (for example, Financial Manager). </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="keywords.html" class="prefix-schema">schema:keywords</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="CreativeWork.html" class="prefix-schema">schema:CreativeWork</a>&nbsp;</td><td class="prop-desc">Keywords or tags used to describe this content. Multiple entries in a keywords list are typically delimited by commas. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="latitude.html" class="prefix-schema">schema:latitude</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="GeoCoordinates.html" class="prefix-schema">schema:GeoCoordinates</a>&nbsp;</td><td class="prop-desc">The latitude of a location. For example <code>37.42242</code>. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="learningResourceType.html" class="prefix-schema">schema:learningResourceType</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="CreativeWork.html" class="prefix-schema">schema:CreativeWork</a>&nbsp;</td><td class="prop-desc">The predominant type or kind characterizing the learning resource. For example, 'presentation', 'handout'. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="legalName.html" class="prefix-schema">schema:legalName</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Organization.html" class="prefix-schema">schema:Organization</a>&nbsp;</td><td class="prop-desc">The official name of the organization, e.g. the registered company name. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="line.html" class="prefix-schema">schema:line</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="GeoShape.html" class="prefix-schema">schema:GeoShape</a>&nbsp;</td><td class="prop-desc">A line is a point-to-point path consisting of two or more points. A line is expressed as a series of two or more point objects separated by space. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="lodgingUnitDescription.html" class="prefix-schema">schema:lodgingUnitDescription</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="LodgingReservation.html" class="prefix-schema">schema:LodgingReservation</a>&nbsp;</td><td class="prop-desc">A full description of the lodging unit. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="lodgingUnitType.html" class="prefix-schema">schema:lodgingUnitType</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="LodgingReservation.html" class="prefix-schema">schema:LodgingReservation</a>&nbsp;</td><td class="prop-desc">Textual description of the unit type (including suite vs. room, size of bed, etc.). </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="longitude.html" class="prefix-schema">schema:longitude</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="GeoCoordinates.html" class="prefix-schema">schema:GeoCoordinates</a>&nbsp;</td><td class="prop-desc">The longitude of a location. For example <code>-122.08585</code>. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="lowPrice.html" class="prefix-schema">schema:lowPrice</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="AggregateOffer.html" class="prefix-schema">schema:AggregateOffer</a>&nbsp;</td><td class="prop-desc">The lowest price of all offers available. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="material.html" class="prefix-schema">schema:material</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="VisualArtwork.html" class="prefix-schema">schema:VisualArtwork</a>&nbsp;</td><td class="prop-desc">e.g. Oil, Watercolour, Acrylic, Linoprint, Marble, Cyanotype, Digital, Lithograph, DryPoint, Intaglio, Pastel, Woodcut, Pencil, Mixed Media, etc. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="mealService.html" class="prefix-schema">schema:mealService</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Flight.html" class="prefix-schema">schema:Flight</a>&nbsp;</td><td class="prop-desc">Description of the meals that will be provided or available for purchase. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="mechanismOfAction.html" class="prefix-schema">schema:mechanismOfAction</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Drug.html" class="prefix-schema">schema:Drug</a>&nbsp; or<br/> <a href="DietarySupplement.html" class="prefix-schema">schema:DietarySupplement</a>&nbsp;</td><td class="prop-desc">The specific biochemical interaction through which this drug or supplement produces its pharmacological effect. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="membershipNumber.html" class="prefix-schema">schema:membershipNumber</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="ProgramMembership.html" class="prefix-schema">schema:ProgramMembership</a>&nbsp;</td><td class="prop-desc">A unique identifier for the membership. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="memoryRequirements.html" class="prefix-schema">schema:memoryRequirements</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="SoftwareApplication.html" class="prefix-schema">schema:SoftwareApplication</a>&nbsp;</td><td class="prop-desc">Minimum memory requirements. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="menu.html" class="prefix-schema">schema:menu</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="FoodEstablishment.html" class="prefix-schema">schema:FoodEstablishment</a>&nbsp;</td><td class="prop-desc">Either the actual menu or a URL of the menu. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="model.html" class="prefix-schema">schema:model</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Product.html" class="prefix-schema">schema:Product</a>&nbsp;</td><td class="prop-desc">The model of the product. Use with the URL of a ProductModel or a textual representation of the model identifier. The URL of the ProductModel can be from an external source. It is recommended to additionally provide strong product identifiers via the gtin8/gtin13/gtin14 and mpn properties. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="mpn.html" class="prefix-schema">schema:mpn</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Product.html" class="prefix-schema">schema:Product</a>&nbsp; or<br/> <a href="Offer.html" class="prefix-schema">schema:Offer</a>&nbsp; or<br/> <a href="Demand.html" class="prefix-schema">schema:Demand</a>&nbsp;</td><td class="prop-desc">The Manufacturer Part Number (MPN) of the product, or the product to which the offer refers. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="muscleAction.html" class="prefix-schema">schema:muscleAction</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Muscle.html" class="prefix-schema">schema:Muscle</a>&nbsp;</td><td class="prop-desc">The movement the muscle generates.  Supersedes <a href="action-2.html" class="prefix-schema">schema:action</a>.</td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="musicCompositionForm.html" class="prefix-schema">schema:musicCompositionForm</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="MusicComposition.html" class="prefix-schema">schema:MusicComposition</a>&nbsp;</td><td class="prop-desc">The type of composition (e.g. overture, sonata, symphony, etc.). </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="musicalKey.html" class="prefix-schema">schema:musicalKey</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="MusicComposition.html" class="prefix-schema">schema:MusicComposition</a>&nbsp;</td><td class="prop-desc">The key, mode, or scale this composition uses. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="naics.html" class="prefix-schema">schema:naics</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Organization.html" class="prefix-schema">schema:Organization</a>&nbsp; or<br/> <a href="Person.html" class="prefix-schema">schema:Person</a>&nbsp;</td><td class="prop-desc">The North American Industry Classification System (NAICS) code for a particular organization or business person. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="name.html" class="prefix-schema">schema:name</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Thing.html" class="prefix-schema">schema:Thing</a>&nbsp;</td><td class="prop-desc">The name of the item. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="naturalProgression.html" class="prefix-schema">schema:naturalProgression</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="MedicalCondition.html" class="prefix-schema">schema:MedicalCondition</a>&nbsp;</td><td class="prop-desc">The expected progression of the condition if it is not treated and allowed to progress naturally. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="nonProprietaryName.html" class="prefix-schema">schema:nonProprietaryName</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Drug.html" class="prefix-schema">schema:Drug</a>&nbsp; or<br/> <a href="DietarySupplement.html" class="prefix-schema">schema:DietarySupplement</a>&nbsp;</td><td class="prop-desc">The generic name of this drug or supplement. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="normalRange.html" class="prefix-schema">schema:normalRange</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="MedicalTest.html" class="prefix-schema">schema:MedicalTest</a>&nbsp;</td><td class="prop-desc">Range of acceptable values for a typical patient, when applicable. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="occupationalCategory.html" class="prefix-schema">schema:occupationalCategory</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="JobPosting.html" class="prefix-schema">schema:JobPosting</a>&nbsp;</td><td class="prop-desc">Category or categories describing the job. Use BLS O*NET-SOC taxonomy: http://www.onetcenter.org/taxonomy.html. Ideally includes textual label and formal code, with the property repeated for each applicable value. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="operatingSystem.html" class="prefix-schema">schema:operatingSystem</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="SoftwareApplication.html" class="prefix-schema">schema:SoftwareApplication</a>&nbsp;</td><td class="prop-desc">Operating systems supported (Windows 7, OSX 10.6, Android 1.6). </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="option.html" class="prefix-schema">schema:option</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="ChooseAction.html" class="prefix-schema">schema:ChooseAction</a>&nbsp;</td><td class="prop-desc">A sub property of object. The options subject to this action. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="orderNumber.html" class="prefix-schema">schema:orderNumber</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Order.html" class="prefix-schema">schema:Order</a>&nbsp;</td><td class="prop-desc">The identifier of the transaction. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="outcome.html" class="prefix-schema">schema:outcome</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="MedicalStudy.html" class="prefix-schema">schema:MedicalStudy</a>&nbsp;</td><td class="prop-desc">Expected or actual outcomes of the study. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="overdosage.html" class="prefix-schema">schema:overdosage</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Drug.html" class="prefix-schema">schema:Drug</a>&nbsp;</td><td class="prop-desc">Any information related to overdose on a drug, including signs or symptoms, treatments, contact information for emergency response. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="overview.html" class="prefix-schema">schema:overview</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Diet.html" class="prefix-schema">schema:Diet</a>&nbsp;</td><td class="prop-desc">Descriptive information establishing the overarching theory/philosophy of the plan. May include the rationale for the name, the population where the plan first came to prominence, etc. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="pageEnd.html" class="prefix-schema">schema:pageEnd</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="PublicationIssue.html" class="prefix-schema">schema:PublicationIssue</a>&nbsp; or<br/> <a href="PublicationVolume.html" class="prefix-schema">schema:PublicationVolume</a>&nbsp; or<br/> <a href="Article.html" class="prefix-schema">schema:Article</a>&nbsp;</td><td class="prop-desc">The page on which the work ends; for example "138" or "xvi". </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="pageStart.html" class="prefix-schema">schema:pageStart</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="PublicationIssue.html" class="prefix-schema">schema:PublicationIssue</a>&nbsp; or<br/> <a href="PublicationVolume.html" class="prefix-schema">schema:PublicationVolume</a>&nbsp; or<br/> <a href="Article.html" class="prefix-schema">schema:Article</a>&nbsp;</td><td class="prop-desc">The page on which the work starts; for example "135" or "xiii". </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="pagination.html" class="prefix-schema">schema:pagination</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="PublicationIssue.html" class="prefix-schema">schema:PublicationIssue</a>&nbsp; or<br/> <a href="PublicationVolume.html" class="prefix-schema">schema:PublicationVolume</a>&nbsp; or<br/> <a href="Article.html" class="prefix-schema">schema:Article</a>&nbsp;</td><td class="prop-desc">Any description of pages that is not separated into pageStart and pageEnd; for example, "1-6, 9, 55" or "10-12, 46-49". </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="pathophysiology.html" class="prefix-schema">schema:pathophysiology</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="PhysicalActivity.html" class="prefix-schema">schema:PhysicalActivity</a>&nbsp; or<br/> <a href="MedicalCondition.html" class="prefix-schema">schema:MedicalCondition</a>&nbsp;</td><td class="prop-desc">Changes in the normal mechanical, physical, and biochemical functions that are associated with this activity or condition. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="paymentAccepted.html" class="prefix-schema">schema:paymentAccepted</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="LocalBusiness.html" class="prefix-schema">schema:LocalBusiness</a>&nbsp;</td><td class="prop-desc">Cash, credit card, etc. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="paymentMethodId.html" class="prefix-schema">schema:paymentMethodId</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Invoice.html" class="prefix-schema">schema:Invoice</a>&nbsp; or<br/> <a href="Order.html" class="prefix-schema">schema:Order</a>&nbsp;</td><td class="prop-desc">An identifier for the method of payment used (e.g. the last 4 digits of the credit card). </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="paymentStatus.html" class="prefix-schema">schema:paymentStatus</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Invoice.html" class="prefix-schema">schema:Invoice</a>&nbsp;</td><td class="prop-desc">The status of payment; whether the invoice has been paid or not. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="permissions.html" class="prefix-schema">schema:permissions</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="SoftwareApplication.html" class="prefix-schema">schema:SoftwareApplication</a>&nbsp;</td><td class="prop-desc">Permission(s) required to run the app (for example, a mobile app may require full internet access or may run only on wifi). </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="phase.html" class="prefix-schema">schema:phase</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="MedicalTrial.html" class="prefix-schema">schema:MedicalTrial</a>&nbsp;</td><td class="prop-desc">The phase of the trial. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="physiologicalBenefits.html" class="prefix-schema">schema:physiologicalBenefits</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Diet.html" class="prefix-schema">schema:Diet</a>&nbsp;</td><td class="prop-desc">Specific physiologic benefits associated to the plan. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="playerType.html" class="prefix-schema">schema:playerType</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="MediaObject.html" class="prefix-schema">schema:MediaObject</a>&nbsp;</td><td class="prop-desc">Player type required&#x2014;for example, Flash or Silverlight. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="polygon.html" class="prefix-schema">schema:polygon</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="GeoShape.html" class="prefix-schema">schema:GeoShape</a>&nbsp;</td><td class="prop-desc">A polygon is the area enclosed by a point-to-point path for which the starting and ending points are the same. A polygon is expressed as a series of four or more space delimited points where the first and final points are identical. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="population.html" class="prefix-schema">schema:population</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="MedicalStudy.html" class="prefix-schema">schema:MedicalStudy</a>&nbsp;</td><td class="prop-desc">Any characteristics of the population used in the study, e.g. 'males under 65'. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="position.html" class="prefix-schema">schema:position</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="CreativeWork.html" class="prefix-schema">schema:CreativeWork</a>&nbsp; or<br/> <a href="ListItem.html" class="prefix-schema">schema:ListItem</a>&nbsp;</td><td class="prop-desc">The position of an item in a series or sequence of items. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="possibleComplication.html" class="prefix-schema">schema:possibleComplication</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="MedicalCondition.html" class="prefix-schema">schema:MedicalCondition</a>&nbsp;</td><td class="prop-desc">A possible unexpected and unfavorable evolution of a medical condition. Complications may include worsening of the signs or symptoms of the disease, extension of the condition to other organ systems, etc. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="postOfficeBoxNumber.html" class="prefix-schema">schema:postOfficeBoxNumber</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="PostalAddress.html" class="prefix-schema">schema:PostalAddress</a>&nbsp;</td><td class="prop-desc">The post office box number for PO box addresses. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="postOp.html" class="prefix-schema">schema:postOp</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="MedicalDevice.html" class="prefix-schema">schema:MedicalDevice</a>&nbsp;</td><td class="prop-desc">A description of the postoperative procedures, care, and/or followups for this device. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="postalCode.html" class="prefix-schema">schema:postalCode</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="PostalAddress.html" class="prefix-schema">schema:PostalAddress</a>&nbsp;</td><td class="prop-desc">The postal code. For example, 94043. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="preOp.html" class="prefix-schema">schema:preOp</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="MedicalDevice.html" class="prefix-schema">schema:MedicalDevice</a>&nbsp;</td><td class="prop-desc">A description of the workup, testing, and other preparations required before implanting this device. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="pregnancyWarning.html" class="prefix-schema">schema:pregnancyWarning</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Drug.html" class="prefix-schema">schema:Drug</a>&nbsp;</td><td class="prop-desc">Any precaution, guidance, contraindication, etc. related to this drug's use during pregnancy. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="preparation.html" class="prefix-schema">schema:preparation</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="MedicalProcedure.html" class="prefix-schema">schema:MedicalProcedure</a>&nbsp;</td><td class="prop-desc">Typical preparation that a patient must undergo before having the procedure performed. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="price.html" class="prefix-schema">schema:price</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="TradeAction.html" class="prefix-schema">schema:TradeAction</a>&nbsp; or<br/> <a href="PriceSpecification.html" class="prefix-schema">schema:PriceSpecification</a>&nbsp; or<br/> <a href="Offer.html" class="prefix-schema">schema:Offer</a>&nbsp;</td><td class="prop-desc">The offer price of a product, or of a price component when attached to PriceSpecification and its subtypes.
+<br />
+<br />
+      Usage guidelines:
+<br />
+<ul>
+<li>Use the <a href="priceCurrency.html">priceCurrency</a> property (with <a href="http://en.wikipedia.org/wiki/ISO_4217#Active_codes">ISO 4217 codes</a> e.g. "USD") instead of
+      including <a href="http://en.wikipedia.org/wiki/Dollar_sign#Currencies_that_use_the_dollar_or_peso_sign">ambiguous symbols</a> such as '$' in the value.
+</li>
+<li>
+      Use '.' (Unicode 'FULL STOP' (U+002E)) rather than ',' to indicate a decimal point. Avoid using these symbols as a readability separator.
+</li>
+<li>
+      Note that both <a href="http://www.w3.org/TR/xhtml-rdfa-primer/#using-the-content-attribute">RDFa</a> and Microdata syntax allow the use of a "content=" attribute for publishing simple machine-readable values
+      alongside more human-friendly formatting.
+</li>
+<li>
+      Use values from 0123456789 (Unicode 'DIGIT ZERO' (U+0030) to 'DIGIT NINE' (U+0039)) rather than superficially similiar Unicode symbols.
+</li>
+</ul>
+       </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="priceCurrency.html" class="prefix-schema">schema:priceCurrency</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Reservation.html" class="prefix-schema">schema:Reservation</a>&nbsp; or<br/> <a href="PriceSpecification.html" class="prefix-schema">schema:PriceSpecification</a>&nbsp; or<br/> <a href="Offer.html" class="prefix-schema">schema:Offer</a>&nbsp; or<br/> <a href="Ticket.html" class="prefix-schema">schema:Ticket</a>&nbsp;</td><td class="prop-desc">The currency (in 3-letter ISO 4217 format) of the price or a price component, when attached to PriceSpecification and its subtypes. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="priceRange.html" class="prefix-schema">schema:priceRange</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="LocalBusiness.html" class="prefix-schema">schema:LocalBusiness</a>&nbsp;</td><td class="prop-desc">The price range of the business, for example <code>$$$</code>. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="priceType.html" class="prefix-schema">schema:priceType</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="UnitPriceSpecification.html" class="prefix-schema">schema:UnitPriceSpecification</a>&nbsp;</td><td class="prop-desc">A short text or acronym indicating multiple price specifications for the same offer, e.g. SRP for the suggested retail price or INVOICE for the invoice price, mostly used in the car industry. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="printColumn.html" class="prefix-schema">schema:printColumn</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="NewsArticle.html" class="prefix-schema">schema:NewsArticle</a>&nbsp;</td><td class="prop-desc">The number of the column in which the NewsArticle appears in the print edition. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="printEdition.html" class="prefix-schema">schema:printEdition</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="NewsArticle.html" class="prefix-schema">schema:NewsArticle</a>&nbsp;</td><td class="prop-desc">The edition of the print product in which the NewsArticle appears. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="printPage.html" class="prefix-schema">schema:printPage</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="NewsArticle.html" class="prefix-schema">schema:NewsArticle</a>&nbsp;</td><td class="prop-desc">If this NewsArticle appears in print, this field indicates the name of the page on which the article is found. Please note that this field is intended for the exact page name (e.g. A5, B18). </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="printSection.html" class="prefix-schema">schema:printSection</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="NewsArticle.html" class="prefix-schema">schema:NewsArticle</a>&nbsp;</td><td class="prop-desc">If this NewsArticle appears in print, this field indicates the print section in which the article appeared. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="procedure.html" class="prefix-schema">schema:procedure</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="MedicalDevice.html" class="prefix-schema">schema:MedicalDevice</a>&nbsp;</td><td class="prop-desc">A description of the procedure involved in setting up, using, and/or installing the device. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="processorRequirements.html" class="prefix-schema">schema:processorRequirements</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="SoftwareApplication.html" class="prefix-schema">schema:SoftwareApplication</a>&nbsp;</td><td class="prop-desc">Processor architecture required to run the application (e.g. IA64). </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="productID.html" class="prefix-schema">schema:productID</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Product.html" class="prefix-schema">schema:Product</a>&nbsp;</td><td class="prop-desc">The product identifier, such as ISBN. For example: <code>&lt;meta itemprop='productID' content='isbn:123-456-789'/&gt;</code>. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="productSupported.html" class="prefix-schema">schema:productSupported</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="ContactPoint.html" class="prefix-schema">schema:ContactPoint</a>&nbsp;</td><td class="prop-desc">The product or service this support contact point is related to (such as product support for a particular product line). This can be a specific product or product line (e.g. "iPhone") or a general category of products or services (e.g. "smartphones"). </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="proficiencyLevel.html" class="prefix-schema">schema:proficiencyLevel</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="TechArticle.html" class="prefix-schema">schema:TechArticle</a>&nbsp;</td><td class="prop-desc">Proficiency needed for this content; expected values: 'Beginner', 'Expert'. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="programName.html" class="prefix-schema">schema:programName</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="ProgramMembership.html" class="prefix-schema">schema:ProgramMembership</a>&nbsp;</td><td class="prop-desc">The program providing the membership. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="programmingModel.html" class="prefix-schema">schema:programmingModel</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="APIReference.html" class="prefix-schema">schema:APIReference</a>&nbsp;</td><td class="prop-desc">Indicates whether API is managed or unmanaged. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="proprietaryName.html" class="prefix-schema">schema:proprietaryName</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Diet.html" class="prefix-schema">schema:Diet</a>&nbsp;</td><td class="prop-desc">Proprietary name given to the diet plan, typically by its originator or creator. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="publicationType.html" class="prefix-schema">schema:publicationType</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="MedicalScholarlyArticle.html" class="prefix-schema">schema:MedicalScholarlyArticle</a>&nbsp;</td><td class="prop-desc">The type of the medical article, taken from the US NLM MeSH <a href=http://www.nlm.nih.gov/mesh/pubtypes.html>publication type catalog. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="qualifications.html" class="prefix-schema">schema:qualifications</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="JobPosting.html" class="prefix-schema">schema:JobPosting</a>&nbsp;</td><td class="prop-desc">Specific qualifications required for this role. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="query.html" class="prefix-schema">schema:query</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="SearchAction.html" class="prefix-schema">schema:SearchAction</a>&nbsp;</td><td class="prop-desc">A sub property of instrument. The query used on this action. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="question-2.html" class="prefix-schema">schema:question</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="AskAction.html" class="prefix-schema">schema:AskAction</a>&nbsp;</td><td class="prop-desc">A sub property of object. A question. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="ratingValue.html" class="prefix-schema">schema:ratingValue</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Rating.html" class="prefix-schema">schema:Rating</a>&nbsp;</td><td class="prop-desc">The rating for the content. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="recipeCategory.html" class="prefix-schema">schema:recipeCategory</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Recipe.html" class="prefix-schema">schema:Recipe</a>&nbsp;</td><td class="prop-desc">The category of the recipe&#x2014;for example, appetizer, entree, etc. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="recipeCuisine.html" class="prefix-schema">schema:recipeCuisine</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Recipe.html" class="prefix-schema">schema:Recipe</a>&nbsp;</td><td class="prop-desc">The cuisine of the recipe (for example, French or Ethiopian). </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="recipeInstructions.html" class="prefix-schema">schema:recipeInstructions</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Recipe.html" class="prefix-schema">schema:Recipe</a>&nbsp;</td><td class="prop-desc">The steps to make the dish. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="recipeYield.html" class="prefix-schema">schema:recipeYield</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Recipe.html" class="prefix-schema">schema:Recipe</a>&nbsp;</td><td class="prop-desc">The quantity produced by the recipe (for example, number of people served, number of servings, etc). </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="recommendationStrength.html" class="prefix-schema">schema:recommendationStrength</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="MedicalGuidelineRecommendation.html" class="prefix-schema">schema:MedicalGuidelineRecommendation</a>&nbsp;</td><td class="prop-desc">Strength of the guideline's recommendation (e.g. 'class I'). </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="releaseNotes.html" class="prefix-schema">schema:releaseNotes</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="SoftwareApplication.html" class="prefix-schema">schema:SoftwareApplication</a>&nbsp;</td><td class="prop-desc">Description of what changed in this version. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="requiredGender.html" class="prefix-schema">schema:requiredGender</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="PeopleAudience.html" class="prefix-schema">schema:PeopleAudience</a>&nbsp;</td><td class="prop-desc">Audiences defined by a person's gender. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="requirements.html" class="prefix-schema">schema:requirements</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="SoftwareApplication.html" class="prefix-schema">schema:SoftwareApplication</a>&nbsp;</td><td class="prop-desc">Component dependency requirements for application. This includes runtime environments and shared libraries that are not included in the application distribution package, but required to run the application (Examples: DirectX, Java or .NET runtime). </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="reservationId.html" class="prefix-schema">schema:reservationId</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Reservation.html" class="prefix-schema">schema:Reservation</a>&nbsp;</td><td class="prop-desc">A unique identifier for the reservation. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="responsibilities.html" class="prefix-schema">schema:responsibilities</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="JobPosting.html" class="prefix-schema">schema:JobPosting</a>&nbsp;</td><td class="prop-desc">Responsibilities associated with this role. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="restPeriods.html" class="prefix-schema">schema:restPeriods</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="ExercisePlan.html" class="prefix-schema">schema:ExercisePlan</a>&nbsp;</td><td class="prop-desc">How often one should break from the activity. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="reviewBody.html" class="prefix-schema">schema:reviewBody</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Review.html" class="prefix-schema">schema:Review</a>&nbsp;</td><td class="prop-desc">The actual body of the review. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="risks.html" class="prefix-schema">schema:risks</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Diet.html" class="prefix-schema">schema:Diet</a>&nbsp;</td><td class="prop-desc">Specific physiologic risks associated to the plan. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="roleName.html" class="prefix-schema">schema:roleName</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Role.html" class="prefix-schema">schema:Role</a>&nbsp;</td><td class="prop-desc">A role played, performed or filled by a person or organization. For example, the team of creators for a comic book might fill the roles named 'inker', 'penciller', and 'letterer'; or an athlete in a SportsTeam might play in the position named 'Quarterback'.  Supersedes <a href="namedPosition.html" class="prefix-schema">schema:namedPosition</a>.</td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="runtime.html" class="prefix-schema">schema:runtime</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Code.html" class="prefix-schema">schema:Code</a>&nbsp;</td><td class="prop-desc">Runtime platform or script interpreter dependencies (Example - Java v1, Python2.3, .Net Framework 3.0). </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="safetyConsideration.html" class="prefix-schema">schema:safetyConsideration</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="DietarySupplement.html" class="prefix-schema">schema:DietarySupplement</a>&nbsp;</td><td class="prop-desc">Any potential safety concern associated with the supplement. May include interactions with other drugs and foods, pregnancy, breastfeeding, known adverse reactions, and documented efficacy of the supplement. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="salaryCurrency.html" class="prefix-schema">schema:salaryCurrency</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="EmployeeRole.html" class="prefix-schema">schema:EmployeeRole</a>&nbsp; or<br/> <a href="JobPosting.html" class="prefix-schema">schema:JobPosting</a>&nbsp;</td><td class="prop-desc">The currency (coded using ISO 4217, http://en.wikipedia.org/wiki/ISO_4217 ) used for the main salary information in this job posting or for this employee. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="sampleType.html" class="prefix-schema">schema:sampleType</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Code.html" class="prefix-schema">schema:Code</a>&nbsp;</td><td class="prop-desc">Full (compile ready) solution, code snippet, inline code, scripts, template. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="seasonNumber.html" class="prefix-schema">schema:seasonNumber</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Season.html" class="prefix-schema">schema:Season</a>&nbsp;</td><td class="prop-desc">Position of the season within an ordered group of seasons. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="seatNumber.html" class="prefix-schema">schema:seatNumber</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Seat.html" class="prefix-schema">schema:Seat</a>&nbsp;</td><td class="prop-desc">The location of the reserved seat (e.g., 27). </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="seatRow.html" class="prefix-schema">schema:seatRow</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Seat.html" class="prefix-schema">schema:Seat</a>&nbsp;</td><td class="prop-desc">The row location of the reserved seat (e.g., B). </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="seatSection.html" class="prefix-schema">schema:seatSection</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Seat.html" class="prefix-schema">schema:Seat</a>&nbsp;</td><td class="prop-desc">The section location of the reserved seat (e.g. Orchestra). </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="seatingType.html" class="prefix-schema">schema:seatingType</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Seat.html" class="prefix-schema">schema:Seat</a>&nbsp;</td><td class="prop-desc">The type/class of the seat. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="serialNumber.html" class="prefix-schema">schema:serialNumber</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Demand.html" class="prefix-schema">schema:Demand</a>&nbsp; or<br/> <a href="IndividualProduct.html" class="prefix-schema">schema:IndividualProduct</a>&nbsp; or<br/> <a href="Offer.html" class="prefix-schema">schema:Offer</a>&nbsp;</td><td class="prop-desc">The serial number or any alphanumeric identifier of a particular product. When attached to an offer, it is a shortcut for the serial number of the product included in the offer. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="servesCuisine.html" class="prefix-schema">schema:servesCuisine</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="FoodEstablishment.html" class="prefix-schema">schema:FoodEstablishment</a>&nbsp;</td><td class="prop-desc">The cuisine of the restaurant. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="serviceType.html" class="prefix-schema">schema:serviceType</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Service.html" class="prefix-schema">schema:Service</a>&nbsp;</td><td class="prop-desc">The type of service being offered, e.g. veterans' benefits, emergency relief, etc. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="servingSize.html" class="prefix-schema">schema:servingSize</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="NutritionInformation.html" class="prefix-schema">schema:NutritionInformation</a>&nbsp;</td><td class="prop-desc">The serving size, in terms of the number of volume or mass. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="significance.html" class="prefix-schema">schema:significance</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="SuperficialAnatomy.html" class="prefix-schema">schema:SuperficialAnatomy</a>&nbsp;</td><td class="prop-desc">The significance associated with the superficial anatomy; as an example, how characteristics of the superficial anatomy can suggest underlying medical conditions or courses of treatment. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="skills.html" class="prefix-schema">schema:skills</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="JobPosting.html" class="prefix-schema">schema:JobPosting</a>&nbsp;</td><td class="prop-desc">Skills required to fulfill this role. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="sku.html" class="prefix-schema">schema:sku</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Product.html" class="prefix-schema">schema:Product</a>&nbsp; or<br/> <a href="Offer.html" class="prefix-schema">schema:Offer</a>&nbsp; or<br/> <a href="Demand.html" class="prefix-schema">schema:Demand</a>&nbsp;</td><td class="prop-desc">The Stock Keeping Unit (SKU), i.e. a merchant-specific identifier for a product or service, or the product to which the offer refers. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="softwareVersion.html" class="prefix-schema">schema:softwareVersion</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="SoftwareApplication.html" class="prefix-schema">schema:SoftwareApplication</a>&nbsp;</td><td class="prop-desc">Version of the software instance. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="specialCommitments.html" class="prefix-schema">schema:specialCommitments</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="JobPosting.html" class="prefix-schema">schema:JobPosting</a>&nbsp;</td><td class="prop-desc">Any special commitments associated with this job posting. Valid entries include VeteranCommit, MilitarySpouseCommit, etc. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="sport.html" class="prefix-schema">schema:sport</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="SportsOrganization.html" class="prefix-schema">schema:SportsOrganization</a>&nbsp;</td><td class="prop-desc">A type of sport (e.g. Baseball). </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="storageRequirements.html" class="prefix-schema">schema:storageRequirements</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="SoftwareApplication.html" class="prefix-schema">schema:SoftwareApplication</a>&nbsp;</td><td class="prop-desc">Storage requirements (free space required). </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="streetAddress.html" class="prefix-schema">schema:streetAddress</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="PostalAddress.html" class="prefix-schema">schema:PostalAddress</a>&nbsp;</td><td class="prop-desc">The street address. For example, 1600 Amphitheatre Pkwy. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="strengthUnit.html" class="prefix-schema">schema:strengthUnit</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="DrugStrength.html" class="prefix-schema">schema:DrugStrength</a>&nbsp;</td><td class="prop-desc">The units of an active ingredient's strength, e.g. mg. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="structuralClass.html" class="prefix-schema">schema:structuralClass</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Joint.html" class="prefix-schema">schema:Joint</a>&nbsp;</td><td class="prop-desc">The name given to how bone physically connects to each other. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="subStageSuffix.html" class="prefix-schema">schema:subStageSuffix</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="MedicalConditionStage.html" class="prefix-schema">schema:MedicalConditionStage</a>&nbsp;</td><td class="prop-desc">The substage, e.g. 'a' for Stage IIIa. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="subtype.html" class="prefix-schema">schema:subtype</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="MedicalCondition.html" class="prefix-schema">schema:MedicalCondition</a>&nbsp;</td><td class="prop-desc">A more specific type of the condition, where applicable, for example 'Type 1 Diabetes', 'Type 2 Diabetes', or 'Gestational Diabetes' for Diabetes. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="suggestedGender.html" class="prefix-schema">schema:suggestedGender</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="PeopleAudience.html" class="prefix-schema">schema:PeopleAudience</a>&nbsp;</td><td class="prop-desc">The gender of the person or audience. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="surface.html" class="prefix-schema">schema:surface</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="VisualArtwork.html" class="prefix-schema">schema:VisualArtwork</a>&nbsp;</td><td class="prop-desc">e.g. Canvas, Paper, Wood, Board, etc. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="targetDescription.html" class="prefix-schema">schema:targetDescription</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="AlignmentObject.html" class="prefix-schema">schema:AlignmentObject</a>&nbsp;</td><td class="prop-desc">The description of a node in an established educational framework. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="targetName.html" class="prefix-schema">schema:targetName</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="AlignmentObject.html" class="prefix-schema">schema:AlignmentObject</a>&nbsp;</td><td class="prop-desc">The name of a node in an established educational framework. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="targetPlatform.html" class="prefix-schema">schema:targetPlatform</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="APIReference.html" class="prefix-schema">schema:APIReference</a>&nbsp;</td><td class="prop-desc">Type of app development: phone, Metro style, desktop, XBox, etc. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="targetPopulation.html" class="prefix-schema">schema:targetPopulation</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="DoseSchedule.html" class="prefix-schema">schema:DoseSchedule</a>&nbsp; or<br/> <a href="DietarySupplement.html" class="prefix-schema">schema:DietarySupplement</a>&nbsp;</td><td class="prop-desc">Characteristics of the population for which this is intended, or which typically uses it, e.g. 'adults'. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="taxID.html" class="prefix-schema">schema:taxID</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Organization.html" class="prefix-schema">schema:Organization</a>&nbsp; or<br/> <a href="Person.html" class="prefix-schema">schema:Person</a>&nbsp;</td><td class="prop-desc">The Tax / Fiscal ID of the organization or person, e.g. the TIN in the US or the CIF/NIF in Spain. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="telephone.html" class="prefix-schema">schema:telephone</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Organization.html" class="prefix-schema">schema:Organization</a>&nbsp; or<br/> <a href="Place.html" class="prefix-schema">schema:Place</a>&nbsp; or<br/> <a href="Person.html" class="prefix-schema">schema:Person</a>&nbsp; or<br/> <a href="ContactPoint.html" class="prefix-schema">schema:ContactPoint</a>&nbsp;</td><td class="prop-desc">The telephone number. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="text-2.html" class="prefix-schema">schema:text</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="CreativeWork.html" class="prefix-schema">schema:CreativeWork</a>&nbsp;</td><td class="prop-desc">The textual content of this CreativeWork. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="tickerSymbol.html" class="prefix-schema">schema:tickerSymbol</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Corporation.html" class="prefix-schema">schema:Corporation</a>&nbsp;</td><td class="prop-desc">The exchange traded instrument associated with a Corporation object. The tickerSymbol is expressed as an exchange and an instrument name separated by a space character. For the exchange component of the tickerSymbol attribute, we reccommend using the controlled vocaulary of Market Identifier Codes (MIC) specified in ISO15022. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="ticketNumber.html" class="prefix-schema">schema:ticketNumber</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Ticket.html" class="prefix-schema">schema:Ticket</a>&nbsp;</td><td class="prop-desc">The unique identifier for the ticket. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="ticketToken.html" class="prefix-schema">schema:ticketToken</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Ticket.html" class="prefix-schema">schema:Ticket</a>&nbsp;</td><td class="prop-desc">Reference to an asset (e.g., Barcode, QR code image or PDF) usable for entrance. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="tissueSample.html" class="prefix-schema">schema:tissueSample</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="PathologyTest.html" class="prefix-schema">schema:PathologyTest</a>&nbsp;</td><td class="prop-desc">The type of tissue sample required for the test. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="title.html" class="prefix-schema">schema:title</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="JobPosting.html" class="prefix-schema">schema:JobPosting</a>&nbsp;</td><td class="prop-desc">The title of the job. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="totalPrice.html" class="prefix-schema">schema:totalPrice</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Reservation.html" class="prefix-schema">schema:Reservation</a>&nbsp; or<br/> <a href="Ticket.html" class="prefix-schema">schema:Ticket</a>&nbsp;</td><td class="prop-desc">The total price for the reservation or ticket, including applicable taxes, shipping, etc. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="trackingNumber.html" class="prefix-schema">schema:trackingNumber</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="ParcelDelivery.html" class="prefix-schema">schema:ParcelDelivery</a>&nbsp;</td><td class="prop-desc">Shipper tracking number. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="trainName.html" class="prefix-schema">schema:trainName</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="TrainTrip.html" class="prefix-schema">schema:TrainTrip</a>&nbsp;</td><td class="prop-desc">The name of the train (e.g. The Orient Express). </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="trainNumber.html" class="prefix-schema">schema:trainNumber</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="TrainTrip.html" class="prefix-schema">schema:TrainTrip</a>&nbsp;</td><td class="prop-desc">The unique identifier for the train. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="transcript.html" class="prefix-schema">schema:transcript</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="AudioObject.html" class="prefix-schema">schema:AudioObject</a>&nbsp; or<br/> <a href="VideoObject.html" class="prefix-schema">schema:VideoObject</a>&nbsp;</td><td class="prop-desc">If this MediaObject is an AudioObject or VideoObject, the transcript of that object. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="transmissionMethod.html" class="prefix-schema">schema:transmissionMethod</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="InfectiousDisease.html" class="prefix-schema">schema:InfectiousDisease</a>&nbsp;</td><td class="prop-desc">How the disease spreads, either as a route or vector, for example 'direct contact', 'Aedes aegypti', etc. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="typicalAgeRange.html" class="prefix-schema">schema:typicalAgeRange</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="CreativeWork.html" class="prefix-schema">schema:CreativeWork</a>&nbsp; or<br/> <a href="Event.html" class="prefix-schema">schema:Event</a>&nbsp;</td><td class="prop-desc">The typical expected age range, e.g. '7-9', '11-'. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="unitCode.html" class="prefix-schema">schema:unitCode</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="QuantitativeValue.html" class="prefix-schema">schema:QuantitativeValue</a>&nbsp; or<br/> <a href="TypeAndQuantityNode.html" class="prefix-schema">schema:TypeAndQuantityNode</a>&nbsp; or<br/> <a href="UnitPriceSpecification.html" class="prefix-schema">schema:UnitPriceSpecification</a>&nbsp;</td><td class="prop-desc">The unit of measurement given using the UN/CEFACT Common Code (3 characters). </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="urlTemplate.html" class="prefix-schema">schema:urlTemplate</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="EntryPoint.html" class="prefix-schema">schema:EntryPoint</a>&nbsp;</td><td class="prop-desc">An url template (RFC6570) that will be used to construct the target of the execution of the action. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="valueName.html" class="prefix-schema">schema:valueName</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="PropertyValueSpecification.html" class="prefix-schema">schema:PropertyValueSpecification</a>&nbsp;</td><td class="prop-desc">Indicates the name of the PropertyValueSpecification to be used in URL templates and form encoding in a manner analogous to HTML's input@name. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="valuePattern.html" class="prefix-schema">schema:valuePattern</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="PropertyValueSpecification.html" class="prefix-schema">schema:PropertyValueSpecification</a>&nbsp;</td><td class="prop-desc">Specifies a regular expression for testing literal values according to the HTML spec. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="vatID.html" class="prefix-schema">schema:vatID</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Organization.html" class="prefix-schema">schema:Organization</a>&nbsp; or<br/> <a href="Person.html" class="prefix-schema">schema:Person</a>&nbsp;</td><td class="prop-desc">The Value-added Tax ID of the organization or person. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="videoFrameSize.html" class="prefix-schema">schema:videoFrameSize</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="VideoObject.html" class="prefix-schema">schema:VideoObject</a>&nbsp;</td><td class="prop-desc">The frame size of the video. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="videoQuality.html" class="prefix-schema">schema:videoQuality</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="VideoObject.html" class="prefix-schema">schema:VideoObject</a>&nbsp;</td><td class="prop-desc">The quality of the video. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="volumeNumber.html" class="prefix-schema">schema:volumeNumber</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="PublicationVolume.html" class="prefix-schema">schema:PublicationVolume</a>&nbsp;</td><td class="prop-desc">Identifies the volume of publication or multi-part work; for example, "iii" or "2". </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="warning.html" class="prefix-schema">schema:warning</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Drug.html" class="prefix-schema">schema:Drug</a>&nbsp;</td><td class="prop-desc">Any FDA or other warnings about the drug (text or URL). </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="workHours.html" class="prefix-schema">schema:workHours</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="JobPosting.html" class="prefix-schema">schema:JobPosting</a>&nbsp;</td><td class="prop-desc">The typical working hours for this job (e.g. 1st shift, night shift, 8am-5pm). </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="worstRating.html" class="prefix-schema">schema:worstRating</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Rating.html" class="prefix-schema">schema:Rating</a>&nbsp;</td><td class="prop-desc">The lowest value allowed in this rating system. If worstRating is omitted, 1 is assumed. </td></tr></table>
+
+
+</table>
+
+<br/><b>More specific Types</b><li> <a href="URL.html" class="prefix-schema">schema:URL</a><h4 id='prefixes'>Prefixes used:</h4>
+<li>schema: http://schema.org/</li>
+<li>bgn: http://bibliograph.net/</li>
+<p class="version">BiblioGraph.net Version 1.1<br/>
+Schema.org Version 1.93<br/>
+Code Version 1.1</p>
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','../www.google-analytics.com/analytics.js','ga');
+          ga('create', 'UA-52860601-1', 'auto');ga('send', 'pageview');</script></div>
+<div id="footer"><a href="docs/terms.html" class="noborder pull-right">BiblioGraph.net Terms and Conditions</a></div>
+<script src="assets/bootstrap3/js/bootstrap.min.js"></script>
+</div>
+</body>
+
+<!-- Mirrored from bibliograph.net/Text by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 21 May 2019 10:23:20 GMT -->
+</html>

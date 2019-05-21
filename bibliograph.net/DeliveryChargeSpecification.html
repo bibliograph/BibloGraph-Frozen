@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<!-- Mirrored from bibliograph.net/DeliveryChargeSpecification by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 21 May 2019 10:25:57 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <title>DeliveryChargeSpecification - BiblioGraph.net</title>
+    <meta name="description" content="BiblioGraph.net is a set of extensible schemas, with a bibliographic focus, that build on the capabilities of Schema.org 
+    that enable webmasters to embed structured data on their web pages for use by search engines and other applications." />
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" type="text/css" href="assets/bootstrap3/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="docs/bibliograph.css" />
+    <link rel="stylesheet" type="text/css" href="docs/prettify.css" />
+    <script type="text/javascript" src="docs/prettify.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+
+<script type="text/javascript">
+      $(document).ready(function(){
+        prettyPrint();
+        setTimeout(function(){
+
+  $(".atn:contains(itemscope), .atn:contains(itemtype), .atn:contains(itemprop), .atn:contains(itemid), .atn:contains(time), .atn:contains(datetime), .atn:contains(datetime), .tag:contains(time) ").addClass('new');
+  $('.new + .pun + .atv').addClass('curl');
+
+        }, 500);
+        setTimeout(function(){
+
+  $(".atn:contains(property), .atn:contains(typeof) ").addClass('new');
+  $('.new + .pun + .atv').addClass('curl');
+
+        }, 500);
+        setTimeout(function() {
+          $('.ds-selector-tabs .selectors a').click(function() {
+            var $this = $(this);
+            var $p = $this.parents('.ds-selector-tabs');
+            $('.selected', $p).removeClass('selected');
+            $this.addClass('selected');
+            $('pre.' + $this.data('selects'), $p).addClass('selected');
+          });
+        }, 0);
+      });
+</script>
+
+<style>
+
+  .pln    { color: #444;    } /* plain text                 */
+  .tag    { color: #515484; } /* div, span, a, etc          */
+  .atn,
+  .atv    { color: #314B17; } /* href, datetime             */
+  .new    { color: #660003; } /* itemscope, itemtype, etc,. */
+  .curl   { color: #080;    } /* new url                    */
+
+  table.definition-table {
+    border-spacing: 3px;
+    border-collapse: separate;
+  }
+
+</style>
+
+</head>
+<body>
+    <div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <h1><a href="index.html" class="noborder"><span class="logo_dark">Biblio</span><span class="logo_light">Graph</span><span class="logo_dark">.net</span></a></h1>
+        </div>
+		
+        <div class="col-md-6">
+            <div class="pull-right">
+                 <div id="cse-search-form" style="width: 400px;"></div>
+            </div>
+        </div>
+
+		<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+		<script type="text/javascript">
+		  google.load('search', '1', {language : 'en', style : google.loader.themes.MINIMALIST});
+		  google.setOnLoadCallback(function() {
+		    var customSearchControl = new google.search.CustomSearchControl('014918374978744102058:-yfdgutyfb8');
+		    customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+		    var options = new google.search.DrawOptions();
+		    options.enableSearchboxOnly("docs/search_results.html", null, false, '#');
+		    customSearchControl.draw('cse-search-form', options);
+		    // over-ride gsc css with bootstrap css
+		    $( "#gsc-i-id1" ).addClass( "form-control" );
+		    $( "input[type='button']" ).removeClass( "gsc-search-button" ).addClass( "btn btn-success" );
+		  }, true);
+		</script>
+    </div>
+
+    <ul class="nav nav-tabs">
+        <li><a href="index.html" >Home</a></li>
+        <li><a href="schemas.html" >Schemas</a></li>
+        <li><a href="docs/bgn_releases.html" >Releases</a></li>
+        <li><a href="docs/feedback.html" >Feedback</a></li>
+    </ul>
+
+
+  <div id="mainContent" vocab="http://schema.org/" typeof="rdfs:Class" resource="http://schema.org/DeliveryChargeSpecification"  prefix="schema:http://schema.org/ bgn:http://bibliograph.net/ ">
+  <!-- no external mappings noted for this term. -->
+
+<h1 class="page-title">
+DeliveryChargeSpecification</h1><h4><span class='breadcrums'><a href="Thing.html" class="prefix-schema">schema:Thing</a> &gt; <a href="Intangible.html" class="prefix-schema">schema:Intangible</a> &gt; <a href="StructuredValue.html" class="prefix-schema">schema:StructuredValue</a> &gt; <a href="PriceSpecification.html" class="prefix-schema">schema:PriceSpecification</a> &gt; <a href="DeliveryChargeSpecification.html" class="prefix-schema">schema:DeliveryChargeSpecification</a></span></h4>
+ <div property="rdfs:comment">The price for the delivery of an offer using a particular delivery method.</div>
+
+
+<table class="definition-table">
+        <thead>
+  <tr><th>Property</th><th>Expected Type</th><th>Description</th>               
+  </tr>
+  </thead>
+
+<thead class="supertype">
+  <tr>
+    <th class="supertype-name" colspan="3">Properties from <a href="DeliveryChargeSpecification.html" property="rdfs:subClassOf" class="prefix-schema">schema:DeliveryChargeSpecification</a></th>
+  </tr>
+</thead>
+
+<tbody class="supertype">
+  
+<tr typeof="rdfs:Property" resource="http://schema.org/appliesToDeliveryMethod">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="appliesToDeliveryMethod.html" class="prefix-schema">schema:appliesToDeliveryMethod</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="DeliveryMethod.html" property="rangeIncludes" class="prefix-schema">schema:DeliveryMethod</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The delivery method(s) to which the delivery charge or payment charge specification applies.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/eligibleRegion">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="eligibleRegion.html" class="prefix-schema">schema:eligibleRegion</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="GeoShape.html" property="rangeIncludes" class="prefix-schema">schema:GeoShape</a>&nbsp; or <br/> <a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The ISO 3166-1 (ISO 3166-1 alpha-2) or ISO 3166-2 code, or the GeoShape for the geo-political region(s) for which the offer or delivery charge specification is valid.</td></tr><thead class="supertype">
+  <tr>
+    <th class="supertype-name" colspan="3">Properties from <a href="PriceSpecification.html" class="prefix-schema">schema:PriceSpecification</a></th>
+  </tr>
+</thead>
+
+<tbody class="supertype">
+  
+<tr typeof="rdfs:Property" resource="http://schema.org/eligibleQuantity">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="eligibleQuantity.html" class="prefix-schema">schema:eligibleQuantity</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="QuantitativeValue.html" property="rangeIncludes" class="prefix-schema">schema:QuantitativeValue</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The interval and unit of measurement of ordering quantities for which the offer or price specification is valid. This allows e.g. specifying that a certain freight charge is valid only for a certain quantity.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/eligibleTransactionVolume">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="eligibleTransactionVolume.html" class="prefix-schema">schema:eligibleTransactionVolume</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="PriceSpecification.html" property="rangeIncludes" class="prefix-schema">schema:PriceSpecification</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The transaction volume, in a monetary unit, for which the offer or price specification is valid, e.g. for indicating a minimal purchasing volume, to express free shipping above a certain order volume, or to limit the acceptance of credit cards to purchases to a certain minimal amount.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/maxPrice">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="maxPrice.html" class="prefix-schema">schema:maxPrice</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Number.html" property="rangeIncludes" class="prefix-schema">schema:Number</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The highest price if the price is a range.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/minPrice">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="minPrice.html" class="prefix-schema">schema:minPrice</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Number.html" property="rangeIncludes" class="prefix-schema">schema:Number</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The lowest price if the price is a range.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/price">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="price.html" class="prefix-schema">schema:price</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Number.html" property="rangeIncludes" class="prefix-schema">schema:Number</a>&nbsp; or <br/> <a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The offer price of a product, or of a price component when attached to PriceSpecification and its subtypes.
+<br />
+<br />
+      Usage guidelines:
+<br />
+<ul>
+<li>Use the <a href="priceCurrency.html">priceCurrency</a> property (with <a href="http://en.wikipedia.org/wiki/ISO_4217#Active_codes">ISO 4217 codes</a> e.g. "USD") instead of
+      including <a href="http://en.wikipedia.org/wiki/Dollar_sign#Currencies_that_use_the_dollar_or_peso_sign">ambiguous symbols</a> such as '$' in the value.
+</li>
+<li>
+      Use '.' (Unicode 'FULL STOP' (U+002E)) rather than ',' to indicate a decimal point. Avoid using these symbols as a readability separator.
+</li>
+<li>
+      Note that both <a href="http://www.w3.org/TR/xhtml-rdfa-primer/#using-the-content-attribute">RDFa</a> and Microdata syntax allow the use of a "content=" attribute for publishing simple machine-readable values
+      alongside more human-friendly formatting.
+</li>
+<li>
+      Use values from 0123456789 (Unicode 'DIGIT ZERO' (U+0030) to 'DIGIT NINE' (U+0039)) rather than superficially similiar Unicode symbols.
+</li>
+</ul>
+      </td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/priceCurrency">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="priceCurrency.html" class="prefix-schema">schema:priceCurrency</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The currency (in 3-letter ISO 4217 format) of the price or a price component, when attached to PriceSpecification and its subtypes.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/validFrom">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="validFrom.html" class="prefix-schema">schema:validFrom</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="DateTime.html" property="rangeIncludes" class="prefix-schema">schema:DateTime</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The date when the item becomes valid.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/validThrough">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="validThrough.html" class="prefix-schema">schema:validThrough</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="DateTime.html" property="rangeIncludes" class="prefix-schema">schema:DateTime</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The end of the validity of offer, price specification, or opening hours data.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/valueAddedTaxIncluded">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="valueAddedTaxIncluded.html" class="prefix-schema">schema:valueAddedTaxIncluded</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Boolean.html" property="rangeIncludes" class="prefix-schema">schema:Boolean</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">Specifies whether the applicable value-added tax (VAT) is included in the price specification or not.</td></tr><thead class="supertype">
+  <tr>
+    <th class="supertype-name" colspan="3">Properties from <a href="Thing.html" class="prefix-schema">schema:Thing</a></th>
+  </tr>
+</thead>
+
+<tbody class="supertype">
+  
+<tr typeof="rdfs:Property" resource="http://schema.org/additionalType">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="additionalType.html" class="prefix-schema">schema:additionalType</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="URL.html" property="rangeIncludes" class="prefix-schema">schema:URL</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">An additional type for the item, typically used for adding more specific types from external vocabularies in microdata syntax. This is a relationship between something and a class that the thing is in. In RDFa syntax, it is better to use the native RDFa syntax - the 'typeof' attribute - for multiple types. Schema.org tools may have only weaker understanding of extra types, in particular those defined externally.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/alternateName">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="alternateName.html" class="prefix-schema">schema:alternateName</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">An alias for the item.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/description">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="description.html" class="prefix-schema">schema:description</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">A short description of the item.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/image">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="image-2.html" class="prefix-schema">schema:image</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="ImageObject.html" property="rangeIncludes" class="prefix-schema">schema:ImageObject</a>&nbsp; or <br/> <a href="URL.html" property="rangeIncludes" class="prefix-schema">schema:URL</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">An image of the item. This can be a <a href="http://schema.org/URL">URL</a> or a fully described <a href="http://schema.org/ImageObject">ImageObject</a>.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/name">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="name.html" class="prefix-schema">schema:name</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The name of the item.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/potentialAction">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="potentialAction.html" class="prefix-schema">schema:potentialAction</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Action.html" property="rangeIncludes" class="prefix-schema">schema:Action</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">Indicates a potential Action, which describes an idealized action in which this thing would play an 'object' role.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/sameAs">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="sameAs.html" class="prefix-schema">schema:sameAs</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="URL.html" property="rangeIncludes" class="prefix-schema">schema:URL</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">URL of a reference Web page that unambiguously indicates the item's identity. E.g. the URL of the item's Wikipedia page, Freebase page, or official website.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/url">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="url-2.html" class="prefix-schema">schema:url</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="URL.html" property="rangeIncludes" class="prefix-schema">schema:URL</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">URL of the item.</td></tr></table>
+
+
+</table>
+
+<h4 id='prefixes'>Prefixes used:</h4>
+<li>schema: http://schema.org/</li>
+<h4  id="acks">Acknowledgements</h4>
+This class is derived from the GoodRelations Vocabulary for E-Commerce, created by Martin Hepp. GoodRelations is a data model for sharing e-commerce data on the Web that can be expressed in a variety of syntaxes, including RDFa and HTML5 Microdata. More information about GoodRelations can be found at <a href="http://purl.org/goodrelations/">http://purl.org/goodrelations/</a>.<br/><p class="version">BiblioGraph.net Version 1.1<br/>
+Schema.org Version 1.93<br/>
+Code Version 1.1</p>
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','../www.google-analytics.com/analytics.js','ga');
+          ga('create', 'UA-52860601-1', 'auto');ga('send', 'pageview');</script></div>
+<div id="footer"><a href="docs/terms.html" class="noborder pull-right">BiblioGraph.net Terms and Conditions</a></div>
+<script src="assets/bootstrap3/js/bootstrap.min.js"></script>
+</div>
+</body>
+
+<!-- Mirrored from bibliograph.net/DeliveryChargeSpecification by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 21 May 2019 10:25:57 GMT -->
+</html>

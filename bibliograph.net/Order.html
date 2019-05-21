@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<!-- Mirrored from bibliograph.net/Order by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 21 May 2019 10:25:49 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <title>Order - BiblioGraph.net</title>
+    <meta name="description" content="BiblioGraph.net is a set of extensible schemas, with a bibliographic focus, that build on the capabilities of Schema.org 
+    that enable webmasters to embed structured data on their web pages for use by search engines and other applications." />
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" type="text/css" href="assets/bootstrap3/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="docs/bibliograph.css" />
+    <link rel="stylesheet" type="text/css" href="docs/prettify.css" />
+    <script type="text/javascript" src="docs/prettify.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+
+<script type="text/javascript">
+      $(document).ready(function(){
+        prettyPrint();
+        setTimeout(function(){
+
+  $(".atn:contains(itemscope), .atn:contains(itemtype), .atn:contains(itemprop), .atn:contains(itemid), .atn:contains(time), .atn:contains(datetime), .atn:contains(datetime), .tag:contains(time) ").addClass('new');
+  $('.new + .pun + .atv').addClass('curl');
+
+        }, 500);
+        setTimeout(function(){
+
+  $(".atn:contains(property), .atn:contains(typeof) ").addClass('new');
+  $('.new + .pun + .atv').addClass('curl');
+
+        }, 500);
+        setTimeout(function() {
+          $('.ds-selector-tabs .selectors a').click(function() {
+            var $this = $(this);
+            var $p = $this.parents('.ds-selector-tabs');
+            $('.selected', $p).removeClass('selected');
+            $this.addClass('selected');
+            $('pre.' + $this.data('selects'), $p).addClass('selected');
+          });
+        }, 0);
+      });
+</script>
+
+<style>
+
+  .pln    { color: #444;    } /* plain text                 */
+  .tag    { color: #515484; } /* div, span, a, etc          */
+  .atn,
+  .atv    { color: #314B17; } /* href, datetime             */
+  .new    { color: #660003; } /* itemscope, itemtype, etc,. */
+  .curl   { color: #080;    } /* new url                    */
+
+  table.definition-table {
+    border-spacing: 3px;
+    border-collapse: separate;
+  }
+
+</style>
+
+</head>
+<body>
+    <div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <h1><a href="index.html" class="noborder"><span class="logo_dark">Biblio</span><span class="logo_light">Graph</span><span class="logo_dark">.net</span></a></h1>
+        </div>
+		
+        <div class="col-md-6">
+            <div class="pull-right">
+                 <div id="cse-search-form" style="width: 400px;"></div>
+            </div>
+        </div>
+
+		<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+		<script type="text/javascript">
+		  google.load('search', '1', {language : 'en', style : google.loader.themes.MINIMALIST});
+		  google.setOnLoadCallback(function() {
+		    var customSearchControl = new google.search.CustomSearchControl('014918374978744102058:-yfdgutyfb8');
+		    customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+		    var options = new google.search.DrawOptions();
+		    options.enableSearchboxOnly("docs/search_results.html", null, false, '#');
+		    customSearchControl.draw('cse-search-form', options);
+		    // over-ride gsc css with bootstrap css
+		    $( "#gsc-i-id1" ).addClass( "form-control" );
+		    $( "input[type='button']" ).removeClass( "gsc-search-button" ).addClass( "btn btn-success" );
+		  }, true);
+		</script>
+    </div>
+
+    <ul class="nav nav-tabs">
+        <li><a href="index.html" >Home</a></li>
+        <li><a href="schemas.html" >Schemas</a></li>
+        <li><a href="docs/bgn_releases.html" >Releases</a></li>
+        <li><a href="docs/feedback.html" >Feedback</a></li>
+    </ul>
+
+
+  <div id="mainContent" vocab="http://schema.org/" typeof="rdfs:Class" resource="http://schema.org/Order"  prefix="schema:http://schema.org/ bgn:http://bibliograph.net/ ">
+  <!-- no external mappings noted for this term. -->
+
+<h1 class="page-title">
+Order</h1><h4><span class='breadcrums'><a href="Thing.html" class="prefix-schema">schema:Thing</a> &gt; <a href="Intangible.html" class="prefix-schema">schema:Intangible</a> &gt; <a href="Order.html" class="prefix-schema">schema:Order</a></span></h4>
+ <div property="rdfs:comment">An order is a confirmation of a transaction (a receipt), which can contain multiple line items, each represented by an Offer that has been accepted by the customer.</div>
+
+
+<table class="definition-table">
+        <thead>
+  <tr><th>Property</th><th>Expected Type</th><th>Description</th>               
+  </tr>
+  </thead>
+
+<thead class="supertype">
+  <tr>
+    <th class="supertype-name" colspan="3">Properties from <a href="Order.html" property="rdfs:subClassOf" class="prefix-schema">schema:Order</a></th>
+  </tr>
+</thead>
+
+<tbody class="supertype">
+  
+<tr typeof="rdfs:Property" resource="http://schema.org/acceptedOffer">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="acceptedOffer.html" class="prefix-schema">schema:acceptedOffer</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Offer.html" property="rangeIncludes" class="prefix-schema">schema:Offer</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The offer(s) -- e.g., product, quantity and price combinations -- included in the order.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/billingAddress">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="billingAddress.html" class="prefix-schema">schema:billingAddress</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="PostalAddress.html" property="rangeIncludes" class="prefix-schema">schema:PostalAddress</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The billing address for the order.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/broker">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="broker.html" class="prefix-schema">schema:broker</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Person.html" property="rangeIncludes" class="prefix-schema">schema:Person</a>&nbsp; or <br/> <a href="Organization.html" property="rangeIncludes" class="prefix-schema">schema:Organization</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">An entity that arranges for an exchange between a buyer and a seller.  In most cases a broker never acquires or releases ownership of a product or service involved in an exchange.  If it is not clear whether an entity is a broker, seller, or buyer, the latter two terms are preferred. Supersedes <a href="bookingAgent.html" class="prefix-schema">schema:bookingAgent</a>.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/confirmationNumber">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="confirmationNumber.html" class="prefix-schema">schema:confirmationNumber</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">A number that confirms the given order or payment has been received.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/customer">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="customer.html" class="prefix-schema">schema:customer</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Organization.html" property="rangeIncludes" class="prefix-schema">schema:Organization</a>&nbsp; or <br/> <a href="Person.html" property="rangeIncludes" class="prefix-schema">schema:Person</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">Party placing the order or paying the invoice.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/discount">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="discount.html" class="prefix-schema">schema:discount</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Number.html" property="rangeIncludes" class="prefix-schema">schema:Number</a>&nbsp; or <br/> <a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">Any discount applied (to an Order).</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/discountCode">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="discountCode.html" class="prefix-schema">schema:discountCode</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">Code used to redeem a discount.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/discountCurrency">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="discountCurrency.html" class="prefix-schema">schema:discountCurrency</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The currency (in 3-letter ISO 4217 format) of the discount.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/isGift">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="isGift.html" class="prefix-schema">schema:isGift</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Boolean.html" property="rangeIncludes" class="prefix-schema">schema:Boolean</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">Was the offer accepted as a gift for someone other than the buyer.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/orderDate">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="orderDate.html" class="prefix-schema">schema:orderDate</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="DateTime.html" property="rangeIncludes" class="prefix-schema">schema:DateTime</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">Date order was placed.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/orderNumber">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="orderNumber.html" class="prefix-schema">schema:orderNumber</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The identifier of the transaction.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/orderStatus">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="orderStatus-2.html" class="prefix-schema">schema:orderStatus</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="OrderStatus.html" property="rangeIncludes" class="prefix-schema">schema:OrderStatus</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The current status of the order.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/orderedItem">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="orderedItem.html" class="prefix-schema">schema:orderedItem</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Product.html" property="rangeIncludes" class="prefix-schema">schema:Product</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The item ordered.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/partOfInvoice">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="partOfInvoice.html" class="prefix-schema">schema:partOfInvoice</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Invoice.html" property="rangeIncludes" class="prefix-schema">schema:Invoice</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The order is being paid as part of the referenced Invoice.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/paymentDue">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="paymentDue.html" class="prefix-schema">schema:paymentDue</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="DateTime.html" property="rangeIncludes" class="prefix-schema">schema:DateTime</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The date that payment is due.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/paymentMethod">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="paymentMethod-2.html" class="prefix-schema">schema:paymentMethod</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="PaymentMethod.html" property="rangeIncludes" class="prefix-schema">schema:PaymentMethod</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The name of the credit card or other method of payment for the order.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/paymentMethodId">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="paymentMethodId.html" class="prefix-schema">schema:paymentMethodId</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">An identifier for the method of payment used (e.g. the last 4 digits of the credit card).</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/paymentUrl">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="paymentUrl.html" class="prefix-schema">schema:paymentUrl</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="URL.html" property="rangeIncludes" class="prefix-schema">schema:URL</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The URL for sending a payment.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/seller">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="seller.html" class="prefix-schema">schema:seller</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Organization.html" property="rangeIncludes" class="prefix-schema">schema:Organization</a>&nbsp; or <br/> <a href="Person.html" property="rangeIncludes" class="prefix-schema">schema:Person</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">An entity which offers (sells / leases / lends / loans) the services / goods.  A seller may also be a provider. Supersedes <a href="merchant.html" class="prefix-schema">schema:merchant</a>, <a href="vendor.html" class="prefix-schema">schema:vendor</a>.</td></tr><thead class="supertype">
+  <tr>
+    <th class="supertype-name" colspan="3">Properties from <a href="Thing.html" class="prefix-schema">schema:Thing</a></th>
+  </tr>
+</thead>
+
+<tbody class="supertype">
+  
+<tr typeof="rdfs:Property" resource="http://schema.org/additionalType">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="additionalType.html" class="prefix-schema">schema:additionalType</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="URL.html" property="rangeIncludes" class="prefix-schema">schema:URL</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">An additional type for the item, typically used for adding more specific types from external vocabularies in microdata syntax. This is a relationship between something and a class that the thing is in. In RDFa syntax, it is better to use the native RDFa syntax - the 'typeof' attribute - for multiple types. Schema.org tools may have only weaker understanding of extra types, in particular those defined externally.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/alternateName">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="alternateName.html" class="prefix-schema">schema:alternateName</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">An alias for the item.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/description">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="description.html" class="prefix-schema">schema:description</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">A short description of the item.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/image">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="image-2.html" class="prefix-schema">schema:image</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="ImageObject.html" property="rangeIncludes" class="prefix-schema">schema:ImageObject</a>&nbsp; or <br/> <a href="URL.html" property="rangeIncludes" class="prefix-schema">schema:URL</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">An image of the item. This can be a <a href="http://schema.org/URL">URL</a> or a fully described <a href="http://schema.org/ImageObject">ImageObject</a>.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/name">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="name.html" class="prefix-schema">schema:name</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The name of the item.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/potentialAction">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="potentialAction.html" class="prefix-schema">schema:potentialAction</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Action.html" property="rangeIncludes" class="prefix-schema">schema:Action</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">Indicates a potential Action, which describes an idealized action in which this thing would play an 'object' role.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/sameAs">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="sameAs.html" class="prefix-schema">schema:sameAs</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="URL.html" property="rangeIncludes" class="prefix-schema">schema:URL</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">URL of a reference Web page that unambiguously indicates the item's identity. E.g. the URL of the item's Wikipedia page, Freebase page, or official website.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/url">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="url-2.html" class="prefix-schema">schema:url</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="URL.html" property="rangeIncludes" class="prefix-schema">schema:URL</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">URL of the item.</td></tr></table>
+<br/><br/>Instances of <a href="Order.html" class="prefix-schema">schema:Order</a> may appear as values for the following properties<br/><table class="definition-table">
+        
+  
+<thead>
+  <tr><th>Property</th><th>On Types</th><th>Description</th>               
+  </tr>
+</thead>
+
+<tr>
+<th class="prop-nam" scope="row">
+ <code><a href="partOfOrder.html" class="prefix-schema">schema:partOfOrder</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="ParcelDelivery.html" class="prefix-schema">schema:ParcelDelivery</a>&nbsp;</td><td class="prop-desc">The overall order the items in this delivery were included in. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="referencesOrder.html" class="prefix-schema">schema:referencesOrder</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Invoice.html" class="prefix-schema">schema:Invoice</a>&nbsp;</td><td class="prop-desc">The Order(s) related to this Invoice. One or more Orders may be combined into a single Invoice. </td></tr></table>
+
+
+</table>
+
+<h4 id='prefixes'>Prefixes used:</h4>
+<li>schema: http://schema.org/</li>
+<h4 class="example">Examples</h4><ul class="nav nav-tabs"><li class="active"><a href="#original_html_0" data-toggle="tab">Without Markup</a></li><li><a href="#microdata_0" data-toggle="tab">Microdata</a></li><li><a href="#rdfa_0" data-toggle="tab">RDFa</a></li><li><a href="#jsonld_0" data-toggle="tab">JSON-LD</a></li></ul><div class="tab-content">
+<div class="tab-pane active" id="original_html_0"><pre class="prettyprint lang-html linenums original_html selected">An example of a invoice for a purchase and installation.
+ACME Home Heating
+Bill for: New furnace and installation
+Customer: Jane Doe
+payment due: 2015-01-30
+minimum payment: $0.00
+total due: $0.00
+payment status: paid
+order: furnace model ABC123
+order: installation labor
+</pre>
+</div><div class="tab-pane" id="microdata_0"><pre class="prettyprint lang-html linenums microdata ">&lt;div itemscope itemtype="http://schema.org/Invoice"&gt;
+  &lt;h1 itemprop="description"&gt;New furnace and installation&lt;/h1&gt;
+  &lt;div itemprop="broker" itemscope itemtype="http://schema.org/LocalBusiness"&gt;
+    &lt;b itemprop="name"&gt;ACME Home Heating&lt;/b&gt;
+  &lt;/div&gt;
+  &lt;div itemprop="customer" itemscope itemtype="http://schema.org/Person"&gt;
+    &lt;b itemprop="name"&gt;Jane Doe&lt;/b&gt;
+  &lt;/div&gt;
+  &lt;span itemprop="paymentDue"&gt;2015-01-30&lt;/span&gt;
+  &lt;div itemprop="minimumPaymentDue" itemscope itemtype="http://schema.org/PriceSpecification"&gt;
+    &lt;span itemprop="price"&gt;0.00&lt;/span&gt;
+    &lt;span itemprop="priceCurrency"&gt;USD&lt;/span&gt;
+  &lt;/div&gt;
+  &lt;div itemprop="totalPaymentDue" itemscope itemtype="http://schema.org/PriceSpecification"&gt;
+    &lt;span itemprop="price"&gt;0.00&lt;/span&gt;
+    &lt;span itemprop="priceCurrency"&gt;USD&lt;/span&gt;
+  &lt;/div&gt;
+  &lt;span itemprop="paymentStatus"&gt;paid&lt;/span&gt;
+  &lt;div itemprop="referencesOrder" itemscope itemtype="http://schema.org/Order"&gt;
+    &lt;span itemprop="description"&gt;furnace&lt;/span&gt;
+    &lt;span itemprop="orderDate"&gt;2014-12-01&lt;/span&gt;
+    &lt;span itemprop="orderNumber"&gt;123ABC&lt;/span&gt;
+    &lt;div itemprop="orderedItem" itemscope itemtype="http://schema.org/Product"&gt;
+      &lt;span itemprop="name"&gt;ACME Furnace 3000&lt;/span&gt;
+      &lt;meta itemprop="productId" content="ABC123" /&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div itemprop="referencesOrder" itemscope itemtype="http://schema.org/Order"&gt;
+    &lt;span itemprop="description"&gt;furnace installation&lt;/span&gt;
+    &lt;span itemprop="orderDate"&gt;2014-12-02&lt;/span&gt;
+    &lt;div itemprop="orderedItem" itemscope itemtype="http://schema.org/Service"&gt;
+      &lt;span itemprop="description"&gt;furnace installation&lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+ 
+</pre>
+</div><div class="tab-pane" id="rdfa_0"><pre class="prettyprint lang-html linenums rdfa ">&lt;div vocab="http://schema.org" typeof="Invoice"&gt;
+  &lt;h1 property="description"&gt;New furnace and installation&lt;/h1&gt;
+  &lt;div property="broker" itemscope typeof="http://schema.org/LocalBusiness"&gt;
+    &lt;b property="name"&gt;ACME Home Heating&lt;/b&gt;
+  &lt;/div&gt;
+  &lt;div property="customer" typeof="http://schema.org/Person"&gt;
+    &lt;b property="name"&gt;Jane Doe&lt;/b&gt;
+  &lt;/div&gt;
+  &lt;span property="paymentDue"&gt;2015-01-30&lt;/span&gt;
+  &lt;div property="minimumPaymentDue" typeof="http://schema.org/PriceSpecification"&gt;
+    &lt;span property="price"&gt;0.00&lt;/span&gt;
+    &lt;span property="priceCurrency"&gt;USD&lt;/span&gt;
+  &lt;/div&gt;
+  &lt;div property="totalPaymentDue" typeof="http://schema.org/PriceSpecification"&gt;
+    &lt;span property="price"&gt;0.00&lt;/span&gt;
+    &lt;span property="priceCurrency"&gt;USD&lt;/span&gt;
+  &lt;/div&gt;
+  &lt;meta property="billingPeriod" content="2014-12-21/P30D" /&gt;starts:2014-12-21 30 days
+  &lt;span property="paymentStatus"&gt;paid&lt;/span&gt;
+  &lt;div property="referencesOrder" typeof="Order"&gt;
+    &lt;span property="description"&gt;furnace&lt;/span&gt;
+    &lt;span property="orderDate"&gt;2014-12-01&lt;/span&gt;
+    &lt;span property="orderNumber"&gt;123ABC&lt;/span&gt;
+    &lt;div property="orderedItem" typeof="Product"&gt;
+      &lt;span property="name"&gt;ACME Furnace 3000&lt;/span&gt;
+      &lt;meta property="productId" content="ABC123" /&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div property="referencesOrder" typeof="Order"&gt;
+    &lt;span property="description"&gt;furnace installation&lt;/span&gt;
+    &lt;span property="orderDate"&gt;2014-12-02&lt;/span&gt;
+    &lt;div property="orderedItem" typeof="Service"&gt;
+      &lt;span property="description"&gt;furnace installation&lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+</div><div class="tab-pane" id="jsonld_0"><pre class="prettyprint lang-html linenums jsonld ">&lt;script type="application/ld+json"&gt;
+{
+    "@context": "http://schema.org",
+    "@type": "Invoice",
+    "broker": {
+      "@type": "LocalBusiness",
+      "name": "ACME Home Heating",
+    },
+    "accountId": "xxxx-xxxx-xxxx-1234",
+    "customer": {
+      "@type": "Person",
+      "name": "Jane Doe"
+    },
+    "paymentDue": "2015-01-30",
+    "minimumPaymentDue": {
+      "@type": "PriceSpecification",
+      "price": 0.00,
+      "priceCurrency": "USD"
+    },
+    "totalPaymentDue": {
+      "@type": "PriceSpecification",
+      "price": 0.00,
+      "priceCurrency": "USD"
+    },
+    "paymentStatus": "paid",
+    "referencesOrder": [
+      {
+        "@type": "Order",
+        "description": "furnace",
+        "orderDate": "2014-12-01",
+        "orderNumber": "123ABC",
+        "paymentMethod": "http://purl.org/goodrelations/v1#ByInvoice",
+        "orderedItem": {
+          "@type": "Product",
+          "name": "ACME Furnace 3000",
+          "productId": "ABC123"
+        }
+      },
+      {
+        "@type": "Order",
+        "description": "furnace installation",
+        "orderDate": "2014-12-02",
+        "paymentMethod": "http://purl.org/goodrelations/v1#ByInvoice",
+        "orderedItem": {
+          "@type": "Service",
+          "description": "furnace installation"
+        }
+      },
+    ]
+}
+&lt;/script&gt;
+    
+</pre>
+</div></div>
+<p class="version">BiblioGraph.net Version 1.1<br/>
+Schema.org Version 1.93<br/>
+Code Version 1.1</p>
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','../www.google-analytics.com/analytics.js','ga');
+          ga('create', 'UA-52860601-1', 'auto');ga('send', 'pageview');</script></div>
+<div id="footer"><a href="docs/terms.html" class="noborder pull-right">BiblioGraph.net Terms and Conditions</a></div>
+<script src="assets/bootstrap3/js/bootstrap.min.js"></script>
+</div>
+</body>
+
+<!-- Mirrored from bibliograph.net/Order by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 21 May 2019 10:25:50 GMT -->
+</html>

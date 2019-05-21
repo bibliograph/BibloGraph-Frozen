@@ -1,0 +1,1737 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<!-- Mirrored from bibliograph.net/Person by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 21 May 2019 10:24:00 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <title>Person - BiblioGraph.net</title>
+    <meta name="description" content="BiblioGraph.net is a set of extensible schemas, with a bibliographic focus, that build on the capabilities of Schema.org 
+    that enable webmasters to embed structured data on their web pages for use by search engines and other applications." />
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" type="text/css" href="assets/bootstrap3/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="docs/bibliograph.css" />
+    <link rel="stylesheet" type="text/css" href="docs/prettify.css" />
+    <script type="text/javascript" src="docs/prettify.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+
+<script type="text/javascript">
+      $(document).ready(function(){
+        prettyPrint();
+        setTimeout(function(){
+
+  $(".atn:contains(itemscope), .atn:contains(itemtype), .atn:contains(itemprop), .atn:contains(itemid), .atn:contains(time), .atn:contains(datetime), .atn:contains(datetime), .tag:contains(time) ").addClass('new');
+  $('.new + .pun + .atv').addClass('curl');
+
+        }, 500);
+        setTimeout(function(){
+
+  $(".atn:contains(property), .atn:contains(typeof) ").addClass('new');
+  $('.new + .pun + .atv').addClass('curl');
+
+        }, 500);
+        setTimeout(function() {
+          $('.ds-selector-tabs .selectors a').click(function() {
+            var $this = $(this);
+            var $p = $this.parents('.ds-selector-tabs');
+            $('.selected', $p).removeClass('selected');
+            $this.addClass('selected');
+            $('pre.' + $this.data('selects'), $p).addClass('selected');
+          });
+        }, 0);
+      });
+</script>
+
+<style>
+
+  .pln    { color: #444;    } /* plain text                 */
+  .tag    { color: #515484; } /* div, span, a, etc          */
+  .atn,
+  .atv    { color: #314B17; } /* href, datetime             */
+  .new    { color: #660003; } /* itemscope, itemtype, etc,. */
+  .curl   { color: #080;    } /* new url                    */
+
+  table.definition-table {
+    border-spacing: 3px;
+    border-collapse: separate;
+  }
+
+</style>
+
+</head>
+<body>
+    <div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <h1><a href="index.html" class="noborder"><span class="logo_dark">Biblio</span><span class="logo_light">Graph</span><span class="logo_dark">.net</span></a></h1>
+        </div>
+		
+        <div class="col-md-6">
+            <div class="pull-right">
+                 <div id="cse-search-form" style="width: 400px;"></div>
+            </div>
+        </div>
+
+		<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+		<script type="text/javascript">
+		  google.load('search', '1', {language : 'en', style : google.loader.themes.MINIMALIST});
+		  google.setOnLoadCallback(function() {
+		    var customSearchControl = new google.search.CustomSearchControl('014918374978744102058:-yfdgutyfb8');
+		    customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+		    var options = new google.search.DrawOptions();
+		    options.enableSearchboxOnly("docs/search_results.html", null, false, '#');
+		    customSearchControl.draw('cse-search-form', options);
+		    // over-ride gsc css with bootstrap css
+		    $( "#gsc-i-id1" ).addClass( "form-control" );
+		    $( "input[type='button']" ).removeClass( "gsc-search-button" ).addClass( "btn btn-success" );
+		  }, true);
+		</script>
+    </div>
+
+    <ul class="nav nav-tabs">
+        <li><a href="index.html" >Home</a></li>
+        <li><a href="schemas.html" >Schemas</a></li>
+        <li><a href="docs/bgn_releases.html" >Releases</a></li>
+        <li><a href="docs/feedback.html" >Feedback</a></li>
+    </ul>
+
+
+  <div id="mainContent" vocab="http://schema.org/" typeof="rdfs:Class" resource="http://schema.org/Person"  prefix="schema:http://schema.org/ bgn:http://bibliograph.net/ ">
+  <link property="owl:equivalentClass" href="http://xmlns.com/foaf/0.1/Person"/>
+
+
+<h1 class="page-title">
+Person</h1><h4><span class='breadcrums'><a href="Thing.html" class="prefix-schema">schema:Thing</a> &gt; <a href="Agent.html" class="prefix-bgn">bgn:Agent</a> &gt; <a href="Person.html" class="prefix-schema">schema:Person</a></span><br/><span class='breadcrums'><a href="Thing.html" class="prefix-schema">schema:Thing</a> &gt; <a href="Person.html" class="prefix-schema">schema:Person</a></span></h4>
+ <div property="rdfs:comment">A person (alive, dead, undead, or fictional).</div>
+
+
+<table class="definition-table">
+        <thead>
+  <tr><th>Property</th><th>Expected Type</th><th>Description</th>               
+  </tr>
+  </thead>
+
+<thead class="supertype">
+  <tr>
+    <th class="supertype-name" colspan="3">Properties from <a href="Person.html" property="rdfs:subClassOf" class="prefix-schema">schema:Person</a></th>
+  </tr>
+</thead>
+
+<tbody class="supertype">
+  
+<tr typeof="rdfs:Property" resource="http://schema.org/additionalName">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="additionalName.html" class="prefix-schema">schema:additionalName</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">An additional name for a Person, can be used for a middle name.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/address">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="address.html" class="prefix-schema">schema:address</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="PostalAddress.html" property="rangeIncludes" class="prefix-schema">schema:PostalAddress</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">Physical address of the item.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/affiliation">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="affiliation.html" class="prefix-schema">schema:affiliation</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Organization.html" property="rangeIncludes" class="prefix-schema">schema:Organization</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">An organization that this person is affiliated with. For example, a school/university, a club, or a team.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/alumniOf">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="alumniOf.html" class="prefix-schema">schema:alumniOf</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="EducationalOrganization.html" property="rangeIncludes" class="prefix-schema">schema:EducationalOrganization</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">An educational organizations that the person is an alumni of.<br/> Inverse property: <a href="alumni.html" class="prefix-schema">schema:alumni</a>.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/award">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="award.html" class="prefix-schema">schema:award</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">An award won by this person or for this creative work. Supersedes <a href="awards.html" class="prefix-schema">schema:awards</a>.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/birthDate">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="birthDate.html" class="prefix-schema">schema:birthDate</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Date.html" property="rangeIncludes" class="prefix-schema">schema:Date</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">Date of birth.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/birthPlace">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="birthPlace.html" class="prefix-schema">schema:birthPlace</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Place.html" property="rangeIncludes" class="prefix-schema">schema:Place</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The place where the person was born.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/brand">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="brand-2.html" class="prefix-schema">schema:brand</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Organization.html" property="rangeIncludes" class="prefix-schema">schema:Organization</a>&nbsp; or <br/> <a href="Brand.html" property="rangeIncludes" class="prefix-schema">schema:Brand</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The brand(s) associated with a product or service, or the brand(s) maintained by an organization or business person.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/children">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="children.html" class="prefix-schema">schema:children</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Person.html" property="rangeIncludes" class="prefix-schema">schema:Person</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">A child of the person.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/colleague">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="colleague.html" class="prefix-schema">schema:colleague</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Person.html" property="rangeIncludes" class="prefix-schema">schema:Person</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">A colleague of the person. Supersedes <a href="colleagues.html" class="prefix-schema">schema:colleagues</a>.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/contactPoint">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="contactPoint-2.html" class="prefix-schema">schema:contactPoint</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="ContactPoint.html" property="rangeIncludes" class="prefix-schema">schema:ContactPoint</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">A contact point for a person or organization. Supersedes <a href="contactPoints.html" class="prefix-schema">schema:contactPoints</a>.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/deathDate">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="deathDate.html" class="prefix-schema">schema:deathDate</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Date.html" property="rangeIncludes" class="prefix-schema">schema:Date</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">Date of death.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/deathPlace">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="deathPlace.html" class="prefix-schema">schema:deathPlace</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Place.html" property="rangeIncludes" class="prefix-schema">schema:Place</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The place where the person died.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/duns">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="duns.html" class="prefix-schema">schema:duns</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The Dun & Bradstreet DUNS number for identifying an organization or business person.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/email">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="email.html" class="prefix-schema">schema:email</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">Email address.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/familyName">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="familyName.html" class="prefix-schema">schema:familyName</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">Family name. In the U.S., the last name of an Person. This can be used along with givenName instead of the name property.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/faxNumber">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="faxNumber.html" class="prefix-schema">schema:faxNumber</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The fax number.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/follows">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="follows.html" class="prefix-schema">schema:follows</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Person.html" property="rangeIncludes" class="prefix-schema">schema:Person</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The most generic uni-directional social relation.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/gender">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="gender.html" class="prefix-schema">schema:gender</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">Gender of the person.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/givenName">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="givenName.html" class="prefix-schema">schema:givenName</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">Given name. In the U.S., the first name of a Person. This can be used along with familyName instead of the name property.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/globalLocationNumber">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="globalLocationNumber.html" class="prefix-schema">schema:globalLocationNumber</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The Global Location Number (GLN, sometimes also referred to as International Location Number or ILN) of the respective organization, person, or place. The GLN is a 13-digit number used to identify parties and physical locations.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/hasPOS">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="hasPOS.html" class="prefix-schema">schema:hasPOS</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Place.html" property="rangeIncludes" class="prefix-schema">schema:Place</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">Points-of-Sales operated by the organization or person.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/height">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="height.html" class="prefix-schema">schema:height</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Distance.html" property="rangeIncludes" class="prefix-schema">schema:Distance</a>&nbsp; or <br/> <a href="QuantitativeValue.html" property="rangeIncludes" class="prefix-schema">schema:QuantitativeValue</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The height of the item.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/homeLocation">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="homeLocation.html" class="prefix-schema">schema:homeLocation</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Place.html" property="rangeIncludes" class="prefix-schema">schema:Place</a>&nbsp; or <br/> <a href="ContactPoint.html" property="rangeIncludes" class="prefix-schema">schema:ContactPoint</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">A contact location for a person's residence.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/honorificPrefix">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="honorificPrefix.html" class="prefix-schema">schema:honorificPrefix</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">An honorific prefix preceding a Person's name such as Dr/Mrs/Mr.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/honorificSuffix">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="honorificSuffix.html" class="prefix-schema">schema:honorificSuffix</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">An honorific suffix preceding a Person's name such as M.D. /PhD/MSCSW.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/interactionCount">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="interactionCount.html" class="prefix-schema">schema:interactionCount</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">A count of a specific user interactions with this item&#x2014;for example, <code>20 UserLikes</code>, <code>5 UserComments</code>, or <code>300 UserDownloads</code>. The user interaction type should be one of the sub types of <a href='UserInteraction.html'>UserInteraction</a>.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/isicV4">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="isicV4.html" class="prefix-schema">schema:isicV4</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The International Standard of Industrial Classification of All Economic Activities (ISIC), Revision 4 code for a particular organization, business person, or place.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/jobTitle">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="jobTitle.html" class="prefix-schema">schema:jobTitle</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The job title of the person (for example, Financial Manager).</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/knows">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="knows.html" class="prefix-schema">schema:knows</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Person.html" property="rangeIncludes" class="prefix-schema">schema:Person</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The most generic bi-directional social/work relation.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/makesOffer">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="makesOffer.html" class="prefix-schema">schema:makesOffer</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Offer.html" property="rangeIncludes" class="prefix-schema">schema:Offer</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">A pointer to products or services offered by the organization or person.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/memberOf">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="memberOf.html" class="prefix-schema">schema:memberOf</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Organization.html" property="rangeIncludes" class="prefix-schema">schema:Organization</a>&nbsp; or <br/> <a href="ProgramMembership.html" property="rangeIncludes" class="prefix-schema">schema:ProgramMembership</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">An Organization (or ProgramMembership) to which this Person or Organization belongs.<br/> Inverse property: <a href="member.html" class="prefix-schema">schema:member</a>.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/naics">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="naics.html" class="prefix-schema">schema:naics</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The North American Industry Classification System (NAICS) code for a particular organization or business person.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/nationality">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="nationality.html" class="prefix-schema">schema:nationality</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Country.html" property="rangeIncludes" class="prefix-schema">schema:Country</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">Nationality of the person.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/netWorth">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="netWorth.html" class="prefix-schema">schema:netWorth</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="PriceSpecification.html" property="rangeIncludes" class="prefix-schema">schema:PriceSpecification</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The total financial value of the organization or person as calculated by subtracting assets from liabilities.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/owns">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="owns.html" class="prefix-schema">schema:owns</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Product.html" property="rangeIncludes" class="prefix-schema">schema:Product</a>&nbsp; or <br/> <a href="OwnershipInfo.html" property="rangeIncludes" class="prefix-schema">schema:OwnershipInfo</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">Products owned by the organization or person.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/parent">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="parent.html" class="prefix-schema">schema:parent</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Person.html" property="rangeIncludes" class="prefix-schema">schema:Person</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">A parent of this person. Supersedes <a href="parents.html" class="prefix-schema">schema:parents</a>.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/performerIn">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="performerIn.html" class="prefix-schema">schema:performerIn</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Event.html" property="rangeIncludes" class="prefix-schema">schema:Event</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">Event that this person is a performer or participant in.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/relatedTo">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="relatedTo.html" class="prefix-schema">schema:relatedTo</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Person.html" property="rangeIncludes" class="prefix-schema">schema:Person</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The most generic familial relation.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/seeks">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="seeks.html" class="prefix-schema">schema:seeks</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Demand.html" property="rangeIncludes" class="prefix-schema">schema:Demand</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">A pointer to products or services sought by the organization or person (demand).</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/sibling">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="sibling.html" class="prefix-schema">schema:sibling</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Person.html" property="rangeIncludes" class="prefix-schema">schema:Person</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">A sibling of the person. Supersedes <a href="siblings.html" class="prefix-schema">schema:siblings</a>.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/spouse">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="spouse.html" class="prefix-schema">schema:spouse</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Person.html" property="rangeIncludes" class="prefix-schema">schema:Person</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The person's spouse.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/taxID">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="taxID.html" class="prefix-schema">schema:taxID</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The Tax / Fiscal ID of the organization or person, e.g. the TIN in the US or the CIF/NIF in Spain.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/telephone">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="telephone.html" class="prefix-schema">schema:telephone</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The telephone number.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/vatID">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="vatID.html" class="prefix-schema">schema:vatID</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The Value-added Tax ID of the organization or person.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/weight">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="weight.html" class="prefix-schema">schema:weight</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="QuantitativeValue.html" property="rangeIncludes" class="prefix-schema">schema:QuantitativeValue</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The weight of the product or person.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/workLocation">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="workLocation.html" class="prefix-schema">schema:workLocation</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Place.html" property="rangeIncludes" class="prefix-schema">schema:Place</a>&nbsp; or <br/> <a href="ContactPoint.html" property="rangeIncludes" class="prefix-schema">schema:ContactPoint</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">A contact location for a person's place of work.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/worksFor">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="worksFor.html" class="prefix-schema">schema:worksFor</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Organization.html" property="rangeIncludes" class="prefix-schema">schema:Organization</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">Organizations that the person works for.</td></tr><thead class="supertype">
+  <tr>
+    <th class="supertype-name" colspan="3">Properties from <a href="Thing.html" class="prefix-schema">schema:Thing</a></th>
+  </tr>
+</thead>
+
+<tbody class="supertype">
+  
+<tr typeof="rdfs:Property" resource="http://schema.org/additionalType">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="additionalType.html" class="prefix-schema">schema:additionalType</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="URL.html" property="rangeIncludes" class="prefix-schema">schema:URL</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">An additional type for the item, typically used for adding more specific types from external vocabularies in microdata syntax. This is a relationship between something and a class that the thing is in. In RDFa syntax, it is better to use the native RDFa syntax - the 'typeof' attribute - for multiple types. Schema.org tools may have only weaker understanding of extra types, in particular those defined externally.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/alternateName">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="alternateName.html" class="prefix-schema">schema:alternateName</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">An alias for the item.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/description">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="description.html" class="prefix-schema">schema:description</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">A short description of the item.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/image">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="image-2.html" class="prefix-schema">schema:image</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="ImageObject.html" property="rangeIncludes" class="prefix-schema">schema:ImageObject</a>&nbsp; or <br/> <a href="URL.html" property="rangeIncludes" class="prefix-schema">schema:URL</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">An image of the item. This can be a <a href="http://schema.org/URL">URL</a> or a fully described <a href="http://schema.org/ImageObject">ImageObject</a>.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/name">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="name.html" class="prefix-schema">schema:name</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The name of the item.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/potentialAction">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="potentialAction.html" class="prefix-schema">schema:potentialAction</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Action.html" property="rangeIncludes" class="prefix-schema">schema:Action</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">Indicates a potential Action, which describes an idealized action in which this thing would play an 'object' role.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/sameAs">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="sameAs.html" class="prefix-schema">schema:sameAs</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="URL.html" property="rangeIncludes" class="prefix-schema">schema:URL</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">URL of a reference Web page that unambiguously indicates the item's identity. E.g. the URL of the item's Wikipedia page, Freebase page, or official website.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/url">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="url-2.html" class="prefix-schema">schema:url</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="URL.html" property="rangeIncludes" class="prefix-schema">schema:URL</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">URL of the item.</td></tr></table>
+<br/><br/>Instances of <a href="Person.html" class="prefix-schema">schema:Person</a> may appear as values for the following properties<br/><table class="definition-table">
+        
+  
+<thead>
+  <tr><th>Property</th><th>On Types</th><th>Description</th>               
+  </tr>
+</thead>
+
+<tr>
+<th class="prop-nam" scope="row">
+ <code><a href="accountablePerson.html" class="prefix-schema">schema:accountablePerson</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="CreativeWork.html" class="prefix-schema">schema:CreativeWork</a>&nbsp;</td><td class="prop-desc">Specifies the Person that is legally accountable for the CreativeWork. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="acquiredFrom.html" class="prefix-schema">schema:acquiredFrom</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="OwnershipInfo.html" class="prefix-schema">schema:OwnershipInfo</a>&nbsp;</td><td class="prop-desc">The organization or person from which the product was acquired. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="actor.html" class="prefix-schema">schema:actor</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Clip.html" class="prefix-schema">schema:Clip</a>&nbsp; or<br/> <a href="Episode.html" class="prefix-schema">schema:Episode</a>&nbsp; or<br/> <a href="TVSeries.html" class="prefix-schema">schema:TVSeries</a>&nbsp; or<br/> <a href="VideoObject.html" class="prefix-schema">schema:VideoObject</a>&nbsp; or<br/> <a href="RadioSeries.html" class="prefix-schema">schema:RadioSeries</a>&nbsp; or<br/> <a href="Movie.html" class="prefix-schema">schema:Movie</a>&nbsp; or<br/> <a href="VideoGameSeries.html" class="prefix-schema">schema:VideoGameSeries</a>&nbsp; or<br/> <a href="VideoGame.html" class="prefix-schema">schema:VideoGame</a>&nbsp; or<br/> <a href="MovieSeries.html" class="prefix-schema">schema:MovieSeries</a>&nbsp;</td><td class="prop-desc">An actor, e.g. in tv, radio, movie, video games etc. Actors can be associated with individual items or with a series, episode, clip.  Supersedes <a href="actors.html" class="prefix-schema">schema:actors</a>.</td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="agent-2.html" class="prefix-schema">schema:agent</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Action.html" class="prefix-schema">schema:Action</a>&nbsp;</td><td class="prop-desc">The direct performer or driver of the action (animate or inanimate). e.g. *John* wrote a book. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="alumni.html" class="prefix-schema">schema:alumni</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="EducationalOrganization.html" class="prefix-schema">schema:EducationalOrganization</a>&nbsp;</td><td class="prop-desc">Alumni of educational organization. <br/> inverse property: <a href="alumniOf.html" class="prefix-schema">schema:alumniOf</a>.</td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="athlete.html" class="prefix-schema">schema:athlete</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="SportsTeam.html" class="prefix-schema">schema:SportsTeam</a>&nbsp;</td><td class="prop-desc">A person that acts as performing member of a sports team; a player as opposed to a coach. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="attendee.html" class="prefix-schema">schema:attendee</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Event.html" class="prefix-schema">schema:Event</a>&nbsp;</td><td class="prop-desc">A person or organization attending the event.  Supersedes <a href="attendees.html" class="prefix-schema">schema:attendees</a>.</td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="author.html" class="prefix-schema">schema:author</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="CreativeWork.html" class="prefix-schema">schema:CreativeWork</a>&nbsp;</td><td class="prop-desc">The author of this content. Please note that author is special in that HTML 5 provides a special mechanism for indicating authorship via the rel tag. That is equivalent to this and may be used interchangeably. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="awayTeam.html" class="prefix-schema">schema:awayTeam</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="SportsEvent.html" class="prefix-schema">schema:SportsEvent</a>&nbsp;</td><td class="prop-desc">The away team in a sports event. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="borrower.html" class="prefix-schema">schema:borrower</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="LendAction.html" class="prefix-schema">schema:LendAction</a>&nbsp;</td><td class="prop-desc">A sub property of participant. The person that borrows the object being lent. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="broker.html" class="prefix-schema">schema:broker</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Order.html" class="prefix-schema">schema:Order</a>&nbsp; or<br/> <a href="Invoice.html" class="prefix-schema">schema:Invoice</a>&nbsp; or<br/> <a href="Reservation.html" class="prefix-schema">schema:Reservation</a>&nbsp;</td><td class="prop-desc">An entity that arranges for an exchange between a buyer and a seller.  In most cases a broker never acquires or releases ownership of a product or service involved in an exchange.  If it is not clear whether an entity is a broker, seller, or buyer, the latter two terms are preferred.  Supersedes <a href="bookingAgent.html" class="prefix-schema">schema:bookingAgent</a>.</td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="buyer.html" class="prefix-schema">schema:buyer</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="SellAction.html" class="prefix-schema">schema:SellAction</a>&nbsp;</td><td class="prop-desc">A sub property of participant. The participant/person/organization that bought the object. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="candidate.html" class="prefix-schema">schema:candidate</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="VoteAction.html" class="prefix-schema">schema:VoteAction</a>&nbsp;</td><td class="prop-desc">A sub property of object. The candidate subject of this action. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="character.html" class="prefix-schema">schema:character</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="CreativeWork.html" class="prefix-schema">schema:CreativeWork</a>&nbsp;</td><td class="prop-desc">Fictional person connected with a creative work. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="children.html" class="prefix-schema">schema:children</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Person.html" class="prefix-schema">schema:Person</a>&nbsp;</td><td class="prop-desc">A child of the person. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="coach.html" class="prefix-schema">schema:coach</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="SportsTeam.html" class="prefix-schema">schema:SportsTeam</a>&nbsp;</td><td class="prop-desc">A person that acts in a coaching role for a sports team. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="colleague.html" class="prefix-schema">schema:colleague</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Person.html" class="prefix-schema">schema:Person</a>&nbsp;</td><td class="prop-desc">A colleague of the person.  Supersedes <a href="colleagues.html" class="prefix-schema">schema:colleagues</a>.</td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="competitor.html" class="prefix-schema">schema:competitor</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="SportsEvent.html" class="prefix-schema">schema:SportsEvent</a>&nbsp;</td><td class="prop-desc">A competitor in a sports event. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="composer.html" class="prefix-schema">schema:composer</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="MusicComposition.html" class="prefix-schema">schema:MusicComposition</a>&nbsp;</td><td class="prop-desc">The person or organization who wrote the composition. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="contributor.html" class="prefix-schema">schema:contributor</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="CreativeWork.html" class="prefix-schema">schema:CreativeWork</a>&nbsp;</td><td class="prop-desc">A secondary contributor to the CreativeWork. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="copyrightHolder.html" class="prefix-schema">schema:copyrightHolder</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="CreativeWork.html" class="prefix-schema">schema:CreativeWork</a>&nbsp;</td><td class="prop-desc">The party holding the legal copyright to the CreativeWork. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="creator.html" class="prefix-schema">schema:creator</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="UserComments.html" class="prefix-schema">schema:UserComments</a>&nbsp; or<br/> <a href="CreativeWork.html" class="prefix-schema">schema:CreativeWork</a>&nbsp;</td><td class="prop-desc">The creator/author of this CreativeWork or UserComments. This is the same as the Author property for CreativeWork. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="creditedTo.html" class="prefix-schema">schema:creditedTo</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="MusicRelease.html" class="prefix-schema">schema:MusicRelease</a>&nbsp;</td><td class="prop-desc">The group the release is credited to if different than the byArtist. For example, Red and Blue is credited to "Stefani Germanotta Band", but by Lady Gaga. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="customer.html" class="prefix-schema">schema:customer</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Invoice.html" class="prefix-schema">schema:Invoice</a>&nbsp; or<br/> <a href="Order.html" class="prefix-schema">schema:Order</a>&nbsp;</td><td class="prop-desc">Party placing the order or paying the invoice. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="director.html" class="prefix-schema">schema:director</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Clip.html" class="prefix-schema">schema:Clip</a>&nbsp; or<br/> <a href="Episode.html" class="prefix-schema">schema:Episode</a>&nbsp; or<br/> <a href="TVSeries.html" class="prefix-schema">schema:TVSeries</a>&nbsp; or<br/> <a href="VideoObject.html" class="prefix-schema">schema:VideoObject</a>&nbsp; or<br/> <a href="RadioSeries.html" class="prefix-schema">schema:RadioSeries</a>&nbsp; or<br/> <a href="Movie.html" class="prefix-schema">schema:Movie</a>&nbsp; or<br/> <a href="VideoGameSeries.html" class="prefix-schema">schema:VideoGameSeries</a>&nbsp; or<br/> <a href="VideoGame.html" class="prefix-schema">schema:VideoGame</a>&nbsp; or<br/> <a href="MovieSeries.html" class="prefix-schema">schema:MovieSeries</a>&nbsp;</td><td class="prop-desc">A director of e.g. tv, radio, movie, video games etc. content. Directors can be associated with individual items or with a series, episode, clip.  Supersedes <a href="directors.html" class="prefix-schema">schema:directors</a>.</td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="editor.html" class="prefix-schema">schema:editor</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="CreativeWork.html" class="prefix-schema">schema:CreativeWork</a>&nbsp;</td><td class="prop-desc">Specifies the Person who edited the CreativeWork. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="employee.html" class="prefix-schema">schema:employee</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Organization.html" class="prefix-schema">schema:Organization</a>&nbsp;</td><td class="prop-desc">Someone working for this organization.  Supersedes <a href="employees.html" class="prefix-schema">schema:employees</a>.</td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="endorsee.html" class="prefix-schema">schema:endorsee</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="EndorseAction.html" class="prefix-schema">schema:EndorseAction</a>&nbsp;</td><td class="prop-desc">A sub property of participant. The person/organization being supported. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="endorsers.html" class="prefix-schema">schema:endorsers</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Diet.html" class="prefix-schema">schema:Diet</a>&nbsp;</td><td class="prop-desc">People or organizations that endorse the plan. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="followee.html" class="prefix-schema">schema:followee</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="FollowAction.html" class="prefix-schema">schema:FollowAction</a>&nbsp;</td><td class="prop-desc">A sub property of object. The person or organization being followed. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="follows.html" class="prefix-schema">schema:follows</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Person.html" class="prefix-schema">schema:Person</a>&nbsp;</td><td class="prop-desc">The most generic uni-directional social relation. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="founder.html" class="prefix-schema">schema:founder</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Organization.html" class="prefix-schema">schema:Organization</a>&nbsp;</td><td class="prop-desc">A person who founded this organization.  Supersedes <a href="founders.html" class="prefix-schema">schema:founders</a>.</td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="homeTeam.html" class="prefix-schema">schema:homeTeam</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="SportsEvent.html" class="prefix-schema">schema:SportsEvent</a>&nbsp;</td><td class="prop-desc">The home team in a sports event. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="illustrator.html" class="prefix-schema">schema:illustrator</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Book.html" class="prefix-schema">schema:Book</a>&nbsp;</td><td class="prop-desc">The illustrator of the book. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="knows.html" class="prefix-schema">schema:knows</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Person.html" class="prefix-schema">schema:Person</a>&nbsp;</td><td class="prop-desc">The most generic bi-directional social/work relation. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="landlord.html" class="prefix-schema">schema:landlord</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="RentAction.html" class="prefix-schema">schema:RentAction</a>&nbsp;</td><td class="prop-desc">A sub property of participant. The owner of the real estate property. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="lender.html" class="prefix-schema">schema:lender</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="BorrowAction.html" class="prefix-schema">schema:BorrowAction</a>&nbsp;</td><td class="prop-desc">A sub property of participant. The person that lends the object being borrowed. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="loser.html" class="prefix-schema">schema:loser</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="WinAction.html" class="prefix-schema">schema:WinAction</a>&nbsp;</td><td class="prop-desc">A sub property of participant. The loser of the action. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="lyricist.html" class="prefix-schema">schema:lyricist</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="MusicComposition.html" class="prefix-schema">schema:MusicComposition</a>&nbsp;</td><td class="prop-desc">The person who wrote the words. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="member.html" class="prefix-schema">schema:member</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Organization.html" class="prefix-schema">schema:Organization</a>&nbsp; or<br/> <a href="ProgramMembership.html" class="prefix-schema">schema:ProgramMembership</a>&nbsp;</td><td class="prop-desc">A member of an Organization or a ProgramMembership. Organizations can be members of organizations; ProgramMembership is typically for individuals.  Supersedes <a href="members.html" class="prefix-schema">schema:members</a>.<br/> inverse property: <a href="memberOf.html" class="prefix-schema">schema:memberOf</a>.</td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="musicBy.html" class="prefix-schema">schema:musicBy</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Clip.html" class="prefix-schema">schema:Clip</a>&nbsp; or<br/> <a href="Episode.html" class="prefix-schema">schema:Episode</a>&nbsp; or<br/> <a href="TVSeries.html" class="prefix-schema">schema:TVSeries</a>&nbsp; or<br/> <a href="VideoObject.html" class="prefix-schema">schema:VideoObject</a>&nbsp; or<br/> <a href="RadioSeries.html" class="prefix-schema">schema:RadioSeries</a>&nbsp; or<br/> <a href="Movie.html" class="prefix-schema">schema:Movie</a>&nbsp; or<br/> <a href="VideoGameSeries.html" class="prefix-schema">schema:VideoGameSeries</a>&nbsp; or<br/> <a href="VideoGame.html" class="prefix-schema">schema:VideoGame</a>&nbsp; or<br/> <a href="MovieSeries.html" class="prefix-schema">schema:MovieSeries</a>&nbsp;</td><td class="prop-desc">The composer of the soundtrack. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="opponent.html" class="prefix-schema">schema:opponent</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="ExerciseAction.html" class="prefix-schema">schema:ExerciseAction</a>&nbsp;</td><td class="prop-desc">A sub property of participant. The opponent on this action. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="organizer.html" class="prefix-schema">schema:organizer</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Event.html" class="prefix-schema">schema:Event</a>&nbsp;</td><td class="prop-desc">An organizer of an Event. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="parent.html" class="prefix-schema">schema:parent</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Person.html" class="prefix-schema">schema:Person</a>&nbsp;</td><td class="prop-desc">A parent of this person.  Supersedes <a href="parents.html" class="prefix-schema">schema:parents</a>.</td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="participant.html" class="prefix-schema">schema:participant</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Action.html" class="prefix-schema">schema:Action</a>&nbsp;</td><td class="prop-desc">Other co-agents that participated in the action indirectly. e.g. John wrote a book with *Steve*. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="performer.html" class="prefix-schema">schema:performer</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Event.html" class="prefix-schema">schema:Event</a>&nbsp;</td><td class="prop-desc">A performer at the event&#x2014;for example, a presenter, musician, musical group or actor.  Supersedes <a href="performers.html" class="prefix-schema">schema:performers</a>.</td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="producer.html" class="prefix-schema">schema:producer</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="CreativeWork.html" class="prefix-schema">schema:CreativeWork</a>&nbsp;</td><td class="prop-desc">The person or organization who produced the work (e.g. music album, movie, tv/radio series etc.). </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="provider.html" class="prefix-schema">schema:provider</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Reservation.html" class="prefix-schema">schema:Reservation</a>&nbsp; or<br/> <a href="BusTrip.html" class="prefix-schema">schema:BusTrip</a>&nbsp; or<br/> <a href="Service.html" class="prefix-schema">schema:Service</a>&nbsp; or<br/> <a href="Flight.html" class="prefix-schema">schema:Flight</a>&nbsp; or<br/> <a href="ParcelDelivery.html" class="prefix-schema">schema:ParcelDelivery</a>&nbsp; or<br/> <a href="CreativeWork.html" class="prefix-schema">schema:CreativeWork</a>&nbsp; or<br/> <a href="Invoice.html" class="prefix-schema">schema:Invoice</a>&nbsp; or<br/> <a href="TrainTrip.html" class="prefix-schema">schema:TrainTrip</a>&nbsp;</td><td class="prop-desc">The service provider, service operator, or service performer; the goods producer. Another party (a seller) may offer those services or goods on behalf of the provider. A provider may also serve as the seller.  Supersedes <a href="carrier.html" class="prefix-schema">schema:carrier</a>.</td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="recipient.html" class="prefix-schema">schema:recipient</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="AuthorizeAction.html" class="prefix-schema">schema:AuthorizeAction</a>&nbsp; or<br/> <a href="PayAction.html" class="prefix-schema">schema:PayAction</a>&nbsp; or<br/> <a href="DonateAction.html" class="prefix-schema">schema:DonateAction</a>&nbsp; or<br/> <a href="ReturnAction.html" class="prefix-schema">schema:ReturnAction</a>&nbsp; or<br/> <a href="CommunicateAction.html" class="prefix-schema">schema:CommunicateAction</a>&nbsp; or<br/> <a href="GiveAction.html" class="prefix-schema">schema:GiveAction</a>&nbsp; or<br/> <a href="SendAction.html" class="prefix-schema">schema:SendAction</a>&nbsp; or<br/> <a href="TipAction.html" class="prefix-schema">schema:TipAction</a>&nbsp;</td><td class="prop-desc">A sub property of participant. The participant who is at the receiving end of the action. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="relatedTo.html" class="prefix-schema">schema:relatedTo</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Person.html" class="prefix-schema">schema:Person</a>&nbsp;</td><td class="prop-desc">The most generic familial relation. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="reviewedBy.html" class="prefix-schema">schema:reviewedBy</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="WebPage.html" class="prefix-schema">schema:WebPage</a>&nbsp;</td><td class="prop-desc">People or organizations that have reviewed the content on this web page for accuracy and/or completeness. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="seller.html" class="prefix-schema">schema:seller</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Flight.html" class="prefix-schema">schema:Flight</a>&nbsp; or<br/> <a href="Demand.html" class="prefix-schema">schema:Demand</a>&nbsp; or<br/> <a href="Order.html" class="prefix-schema">schema:Order</a>&nbsp; or<br/> <a href="Offer.html" class="prefix-schema">schema:Offer</a>&nbsp; or<br/> <a href="BuyAction.html" class="prefix-schema">schema:BuyAction</a>&nbsp;</td><td class="prop-desc">An entity which offers (sells / leases / lends / loans) the services / goods.  A seller may also be a provider.  Supersedes <a href="merchant.html" class="prefix-schema">schema:merchant</a>.</td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="sender.html" class="prefix-schema">schema:sender</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="ReceiveAction.html" class="prefix-schema">schema:ReceiveAction</a>&nbsp;</td><td class="prop-desc">A sub property of participant. The participant who is at the sending end of the action. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="sibling.html" class="prefix-schema">schema:sibling</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Person.html" class="prefix-schema">schema:Person</a>&nbsp;</td><td class="prop-desc">A sibling of the person.  Supersedes <a href="siblings.html" class="prefix-schema">schema:siblings</a>.</td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="spouse.html" class="prefix-schema">schema:spouse</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Person.html" class="prefix-schema">schema:Person</a>&nbsp;</td><td class="prop-desc">The person's spouse. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="translator.html" class="prefix-schema">schema:translator</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="CreativeWork.html" class="prefix-schema">schema:CreativeWork</a>&nbsp;</td><td class="prop-desc">An agent responsible for rendering a translated work from a source work </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="underName.html" class="prefix-schema">schema:underName</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Reservation.html" class="prefix-schema">schema:Reservation</a>&nbsp; or<br/> <a href="Ticket.html" class="prefix-schema">schema:Ticket</a>&nbsp;</td><td class="prop-desc">The person or organization the reservation or ticket is for. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="winner.html" class="prefix-schema">schema:winner</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="LoseAction.html" class="prefix-schema">schema:LoseAction</a>&nbsp;</td><td class="prop-desc">A sub property of participant. The winner of the action. </td></tr></table>
+
+
+</table>
+
+<h4 id='prefixes'>Prefixes used:</h4>
+<li>schema: http://schema.org/</li>
+<li>bgn: http://bibliograph.net/</li>
+<h4  id="acks">Acknowledgements</h4>
+This class contains derivatives of IPTC rNews properties. rNews is a data model of publishing metadata with serializations currently available for RDFa as well as HTML5 Microdata. More information about the IPTC and rNews can be found at <a href=http://rnews.org/>rnews.org</a>.<br/><h4 class="example">Examples</h4><ul class="nav nav-tabs"><li class="active"><a href="#original_html_0" data-toggle="tab">Without Markup</a></li><li><a href="#microdata_0" data-toggle="tab">Microdata</a></li><li><a href="#rdfa_0" data-toggle="tab">RDFa</a></li><li><a href="#jsonld_0" data-toggle="tab">JSON-LD</a></li></ul><div class="tab-content">
+<div class="tab-pane active" id="original_html_0"><pre class="prettyprint lang-html linenums original_html selected">Jane Doe
+&lt;img src="janedoe.jpg" alt="Photo of Jane Joe"/&gt;
+Professor
+20341 Whitworth Institute
+405 Whitworth
+Seattle WA 98052
+(425) 123-4567
+&lt;a href="mailto:jane-doe@xyz.edu"&gt;jane-doe@illinois.edu&lt;/a&gt;
+Jane's home page:
+&lt;a href="http://www.janedoe.com"&gt;janedoe.com&lt;/a&gt;
+Graduate students:
+&lt;a href="http://www.xyz.edu/students/alicejones.html"&gt;Alice Jones&lt;/a&gt;
+&lt;a href="http://www.xyz.edu/students/bobsmith.html"&gt;Bob Smith&lt;/a&gt;
+</pre>
+</div><div class="tab-pane" id="microdata_0"><pre class="prettyprint lang-html linenums microdata ">&lt;div itemscope itemtype="http://schema.org/Person"&gt;
+  &lt;span itemprop="name"&gt;Jane Doe&lt;/span&gt;
+  &lt;img src="janedoe.jpg" itemprop="image" alt="Photo of Jane Joe"/&gt;
+  &lt;span itemprop="jobTitle"&gt;Professor&lt;/span&gt;
+  &lt;div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"&gt;
+    &lt;span itemprop="streetAddress"&gt;
+      20341 Whitworth Institute
+      405 N. Whitworth
+    &lt;/span&gt;
+    &lt;span itemprop="addressLocality"&gt;Seattle&lt;/span&gt;,
+    &lt;span itemprop="addressRegion"&gt;WA&lt;/span&gt;
+    &lt;span itemprop="postalCode"&gt;98052&lt;/span&gt;
+  &lt;/div&gt;
+  &lt;span itemprop="telephone"&gt;(425) 123-4567&lt;/span&gt;
+  &lt;a href="mailto:jane-doe@xyz.edu" itemprop="email"&gt;
+    jane-doe@xyz.edu&lt;/a&gt;
+  Jane's home page:
+  &lt;a href="http://www.janedoe.com" itemprop="url"&gt;janedoe.com&lt;/a&gt;
+  Graduate students:
+  &lt;a href="http://www.xyz.edu/students/alicejones.html" itemprop="colleague"&gt;
+    Alice Jones&lt;/a&gt;
+  &lt;a href="http://www.xyz.edu/students/bobsmith.html" itemprop="colleague"&gt;
+    Bob Smith&lt;/a&gt;
+&lt;/div&gt;
+</pre>
+</div><div class="tab-pane" id="rdfa_0"><pre class="prettyprint lang-html linenums rdfa ">&lt;div vocab="http://schema.org/" typeof="Person"&gt;
+  &lt;span property="name"&gt;Jane Doe&lt;/span&gt;
+  &lt;img src="janedoe.jpg" property="image" alt="Photo of Jane Joe"/&gt;
+  &lt;span property="jobTitle"&gt;Professor&lt;/span&gt;
+  &lt;div property="address"  typeof="PostalAddress"&gt;
+    &lt;span property="streetAddress"&gt;
+      20341 Whitworth Institute
+      405 N. Whitworth
+    &lt;/span&gt;
+    &lt;span property="addressLocality"&gt;Seattle&lt;/span&gt;,
+    &lt;span property="addressRegion"&gt;WA&lt;/span&gt;
+    &lt;span property="postalCode"&gt;98052&lt;/span&gt;
+  &lt;/div&gt;
+  &lt;span property="telephone"&gt;(425) 123-4567&lt;/span&gt;
+  &lt;a href="mailto:jane-doe@xyz.edu" property="email"&gt;
+    jane-doe@xyz.edu&lt;/a&gt;
+  Jane's home page:
+  &lt;a href="http://www.janedoe.com" property="url"&gt;janedoe.com&lt;/a&gt;
+  Graduate students:
+  &lt;a href="http://www.xyz.edu/students/alicejones.html" property="colleague"&gt;
+    Alice Jones&lt;/a&gt;
+  &lt;a href="http://www.xyz.edu/students/bobsmith.html" property="colleague"&gt;
+    Bob Smith&lt;/a&gt;
+&lt;/div&gt;
+</pre>
+</div><div class="tab-pane" id="jsonld_0"><pre class="prettyprint lang-html linenums jsonld ">&lt;script type="application/ld+json"&gt;
+{
+  "@context": "http://schema.org",
+  "@type": "Person",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Seattle",
+    "addressRegion": "WA",
+    "postalCode": "98052",
+    "streetAddress": "20341 Whitworth Institute 405 N. Whitworth"
+  },
+  "colleague": [
+    "http://www.xyz.edu/students/alicejones.html",
+    "http://www.xyz.edu/students/bobsmith.html"
+  ],
+  "email": "mailto:jane-doe@xyz.edu",
+  "image": "janedoe.jpg",
+  "jobTitle": "Professor",
+  "name": "Jane Doe",
+  "telephone": "(425) 123-4567",
+  "url": "http://www.janedoe.com"
+}
+&lt;/script&gt;
+</pre>
+</div></div>
+<ul class="nav nav-tabs"><li class="active"><a href="#original_html_1" data-toggle="tab">Without Markup</a></li><li><a href="#microdata_1" data-toggle="tab">Microdata</a></li><li><a href="#rdfa_1" data-toggle="tab">RDFa</a></li><li><a href="#jsonld_1" data-toggle="tab">JSON-LD</a></li></ul><div class="tab-content">
+<div class="tab-pane active" id="original_html_1"><pre class="prettyprint lang-html linenums original_html selected">&lt;div&gt;
+  &lt;h2&gt;Shostakovich Leningrad&lt;/h2&gt;
+  &lt;div&gt;
+    &lt;div&gt;May&lt;span&gt;23&lt;/span&gt;&lt;/div&gt;
+    &lt;div&gt;8:00 PM&lt;/div&gt;
+    &lt;div&gt;
+      &lt;strong&gt;Britten, Shostakovich&lt;/strong&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+    &lt;p&gt;Jaap van Zweden conducts two World War II-era pieces showcasing the glorious sound of the CSO.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+    &lt;h3&gt;Program&lt;/h3&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;link href="http://en.wikipedia.org/wiki/Peter_Grimes" /&gt;
+        &lt;span&gt;&lt;strong&gt;Britten&lt;/strong&gt; Four Sea Interludes and Passacaglia from &lt;em&gt;Peter Grimes&lt;/em&gt;&lt;/span&gt;
+  &lt;/li&gt;
+      &lt;li&gt;
+      &lt;link href="http://en.wikipedia.org/wiki/Symphony_No._7_(Shostakovich)" /&gt;
+      &lt;span&gt;&lt;strong&gt;Shostakovich&lt;/strong&gt; Symphony No. 7 &lt;em&gt;(Leningrad)&lt;/em&gt;&lt;/span&gt;
+  &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+    &lt;h3&gt;Performers&lt;/h3&gt;
+    &lt;div&gt;
+      &lt;img src="/examples/cso_c_logo_s.jpg" alt="Chicago Symphony Orchestra" /&gt;
+      &lt;link href="http://cso.org/" /&gt;
+      &lt;link href="http://en.wikipedia.org/wiki/Chicago_Symphony_Orchestra" /&gt;
+      &lt;div&gt;
+        &lt;a href="examples/Performer?id=4434"&gt;Chicago Symphony Orchestra&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div&gt;
+      &lt;link href="http://www.jaapvanzweden.com/" /&gt;
+      &lt;img src="/examples/jvanzweden_s.jpg" alt="Jaap van Zweden"/&gt;
+      &lt;div&gt;
+        &lt;a href="/examples/Performer.aspx?id=11324"&gt;Jaap van Zweden&lt;/a&gt;
+      &lt;/div&gt;
+      &lt;div&gt;conductor&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+</div><div class="tab-pane" id="microdata_1"><pre class="prettyprint lang-html linenums microdata ">&lt;div itemscope="" itemtype="http://schema.org/MusicEvent"&gt;
+  &lt;div itemprop="location" itemscope="" itemtype="http://schema.org/MusicVenue"&gt;
+    &lt;meta itemprop="name" content="Chicago Symphony Center"/&gt;
+    &lt;link itemprop="sameAs" href="http://en.wikipedia.org/wiki/Symphony_Center"/&gt;
+    &lt;meta itemprop="address" content="220 S. Michigan Ave, Chicago, Illinois, USA"/&gt;
+  &lt;/div&gt;
+  &lt;div itemprop="offers" itemscope="" itemtype="http://schema.org/Offer"&gt;
+    &lt;link itemprop="url" href="/examples/ticket/12341234" /&gt;
+    &lt;meta itemprop="price" content="40"/&gt;
+    &lt;meta itemprop="priceCurrency" content="USD" /&gt;
+    &lt;meta itemprop="availability" href="http://schema.org/InStock"/&gt;
+  &lt;/div&gt;
+  &lt;h2 itemprop="name"&gt;Shostakovich Leningrad&lt;/h2&gt;
+  &lt;div&gt;
+    &lt;div itemprop="startDate" content="2014-05-23T20:00"&gt;May&lt;span&gt;23&lt;/span&gt;&lt;/div&gt;
+    &lt;div&gt;8:00 PM&lt;/div&gt;
+    &lt;div&gt;
+      &lt;strong&gt;Britten, Shostakovich&lt;/strong&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+    &lt;p&gt;Jaap van Zweden conducts two World War II-era pieces showcasing the glorious sound of the CSO.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+    &lt;h3&gt;Program&lt;/h3&gt;
+    &lt;ul&gt;
+      &lt;li itemprop="workPerformed" itemscope="" itemtype="http://schema.org/CreativeWork"&gt;
+        &lt;link itemprop="sameAs" href="http://en.wikipedia.org/wiki/Peter_Grimes" /&gt;
+        &lt;span itemprop="name"&gt;&lt;strong&gt;Britten&lt;/strong&gt; Four Sea Interludes and Passacaglia from &lt;em itemprop="name"&gt;Peter Grimes&lt;/em&gt;&lt;/span&gt;
+  &lt;/li&gt;
+      &lt;li itemprop="workPerformed" itemscope="" itemtype="http://schema.org/CreativeWork"&gt;
+      &lt;link itemprop="sameAs" href="http://en.wikipedia.org/wiki/Symphony_No._7_(Shostakovich)" /&gt;
+      &lt;span itemprop="name"&gt;&lt;strong&gt;Shostakovich&lt;/strong&gt; Symphony No. 7 &lt;em&gt;(Leningrad)&lt;/em&gt;&lt;/span&gt;
+  &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+    &lt;h3&gt;Performers&lt;/h3&gt;
+    &lt;div itemprop="performer" itemscope="" itemtype="http://schema.org/MusicGroup"&gt;
+      &lt;img src="/examples/cso_c_logo_s.jpg" alt="Chicago Symphony Orchestra" /&gt;
+      &lt;link itemprop="sameAs" href="http://cso.org/" /&gt;
+      &lt;link itemprop="sameAs" href="http://en.wikipedia.org/wiki/Chicago_Symphony_Orchestra" /&gt;
+      &lt;div&gt;
+        &lt;a href="examples/Performer?id=4434"&gt;&lt;span itemprop="name"&gt;Chicago Symphony Orchestra&lt;/span&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div itemprop="performer" itemscope="" itemtype="http://schema.org/Person"&gt;
+      &lt;link itemprop="sameAs" href="http://www.jaapvanzweden.com/" /&gt;
+      &lt;img itemprop="image" src="/examples/jvanzweden_s.jpg" alt="Jaap van Zweden"/&gt;
+      &lt;div&gt;
+        &lt;a href="/examples/Performer.aspx?id=11324"&gt;&lt;span itemprop="name"&gt;Jaap van Zweden&lt;/span&gt;&lt;/a&gt;
+      &lt;/div&gt;
+      &lt;div&gt;conductor&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+</div><div class="tab-pane" id="rdfa_1"><pre class="prettyprint lang-html linenums rdfa ">&lt;div vocab="http://schema.org/" typeof="MusicEvent"&gt;
+  &lt;div property="location" typeof="MusicVenue"&gt;
+    &lt;meta property="name" content="Chicago Symphony Center"/&gt;
+    &lt;link property="sameAs" href="http://en.wikipedia.org/wiki/Symphony_Center"/&gt;
+    &lt;meta property="address" content="220 S. Michigan Ave, Chicago, Illinois, USA"/&gt;
+  &lt;/div&gt;
+  &lt;div property="offers" typeof="Offer"&gt;
+    &lt;link property="url" href="/examples/ticket/12341234"/&gt;
+    &lt;meta property="price" content="40"/&gt;
+    &lt;meta property="priceCurrency" content="USD" /&gt;
+    &lt;meta property="availability" href="http://schema.org/InStock"/&gt;
+  &lt;/div&gt;
+  &lt;h2 property="name"&gt;Shostakovich Leningrad&lt;/h2&gt;
+  &lt;div&gt;
+    &lt;div property="startDate" content="2014-05-23T20:00"&gt;May&lt;span&gt;23&lt;/span&gt;&lt;/div&gt;
+    &lt;div&gt;8:00 PM&lt;/div&gt;
+    &lt;div&gt;
+      &lt;strong&gt;Britten, Shostakovich&lt;/strong&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+    &lt;p&gt;Jaap van Zweden conducts two World War II-era pieces showcasing the glorious sound of the CSO.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+    &lt;h3&gt;Program&lt;/h3&gt;
+    &lt;ul&gt;
+      &lt;li property="workPerformed" typeof="CreativeWork"&gt;
+        &lt;link href="http://en.wikipedia.org/wiki/Peter_Grimes" property="sameAs"/&gt;
+        &lt;span property="name"&gt;&lt;strong&gt;Britten&lt;/strong&gt; Four Sea Interludes and Passacaglia from &lt;em property="name"&gt;Peter Grimes&lt;/em&gt;&lt;/span&gt;
+  &lt;/li&gt;
+      &lt;li property="workPerformed" typeof="CreativeWork"&gt;
+      &lt;link href="http://en.wikipedia.org/wiki/Symphony_No._7_(Shostakovich)" property="sameAs"/&gt;
+      &lt;span property="name"&gt;&lt;strong&gt;Shostakovich&lt;/strong&gt; Symphony No. 7 &lt;em&gt;(Leningrad)&lt;/em&gt;&lt;/span&gt;
+  &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+  &lt;div&gt;
+    &lt;h3&gt;Performers&lt;/h3&gt;
+    &lt;div property="performer" typeof="MusicGroup"&gt;
+      &lt;img src="/examples/cso_c_logo_s.jpg" alt="Chicago Symphony Orchestra"/&gt;
+      &lt;link href="http://cso.org/" property="sameAs"/&gt;
+      &lt;link href="http://en.wikipedia.org/wiki/Chicago_Symphony_Orchestra" property="sameAs"/&gt;
+      &lt;a property="name" href="examples/Performer?id=4434"&gt;Chicago Symphony Orchestra&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div property="performer" typeof="Person"&gt;
+      &lt;link href="http://www.jaapvanzweden.com/" property="sameAs"/&gt;
+      &lt;img src="/examples/jvanzweden_s.jpg" alt="Jaap van Zweden" property="image"/&gt;
+      &lt;a property="name" href="/examples/Performer.aspx?id=11324"&gt;Jaap van Zweden&lt;/a&gt;
+      &lt;div&gt;conductor&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+</div><div class="tab-pane" id="jsonld_1"><pre class="prettyprint lang-html linenums jsonld ">&lt;script type="application/ld+json"&gt;
+{
+  "@context": "http://schema.org",
+  "@type": "MusicEvent",
+  "location": {
+    "@type": "MusicVenue",
+    "name": "Chicago Symphony Center",
+    "address": "220 S. Michigan Ave, Chicago, Illinois, USA"
+  },
+  "name": "Shostakovich Leningrad",
+  "offers": {
+    "@type": "Offer",
+    "url": "/examples/ticket/12341234",
+    "price": "40",
+    "priceCurrency": "USD",
+    "availability": "http://schema.org/InStock"
+  },
+  "performer": [
+    {
+      "@type": "MusicGroup",
+      "name": "Chicago Symphony Orchestra",
+      "sameAs": [
+        "http://cso.org/",
+        "http://en.wikipedia.org/wiki/Chicago_Symphony_Orchestra"
+      ]
+    },
+    {
+      "@type": "Person",
+      "image": "/examples/jvanzweden_s.jpg",
+      "name": "Jaap van Zweden",
+      "sameAs": "http://www.jaapvanzweden.com/"
+    }
+  ],
+  "startDate": "2014-05-23T20:00",
+  "workPerformed": [
+    {
+      "@type": "CreativeWork",
+      "name": "Britten Four Sea Interludes and Passacaglia from Peter Grimes",
+      "sameAs": "http://en.wikipedia.org/wiki/Peter_Grimes"
+    },
+    {
+      "@type": "CreativeWork",
+      "name": "Shostakovich Symphony No. 7 (Leningrad)",
+      "sameAs": "http://en.wikipedia.org/wiki/Symphony_No._7_(Shostakovich)"
+    }
+  ]
+}
+&lt;/script&gt;
+</pre>
+</div></div>
+<ul class="nav nav-tabs"><li class="active"><a href="#original_html_2" data-toggle="tab">Without Markup</a></li><li><a href="#microdata_2" data-toggle="tab">Microdata</a></li><li><a href="#rdfa_2" data-toggle="tab">RDFa</a></li><li><a href="#jsonld_2" data-toggle="tab">JSON-LD</a></li></ul><div class="tab-content">
+<div class="tab-pane active" id="original_html_2"><pre class="prettyprint lang-html linenums original_html selected">A JSON example of an OrganizationRole, showing information
+about a 'member' of a 'SportsTeam', including time qualfiers
+(when he began and ended that role).
+</pre>
+</div><div class="tab-pane" id="microdata_2"><pre class="prettyprint lang-html linenums microdata ">&lt;div itemscope itemtype="http://schema.org/SportsTeam"&gt;
+  &lt;span itemprop="name"&gt;San Francisco 49ers&lt;/span&gt;
+  &lt;div itemprop="member" itemscope
+        itemtype="http://schema.org/OrganizationRole"&gt;
+    &lt;div itemprop="member" itemscope
+            itemtype="http://schema.org/Person"&gt;
+      &lt;span itemprop="name"&gt;Joe Montana&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;span itemprop="startDate"&gt;1979&lt;/span&gt;
+    &lt;span itemprop="endDate"&gt;1992&lt;/span&gt;
+    &lt;span itemprop="roleName"&gt;Quarterback&lt;/span&gt;
+&lt;/div&gt;
+</pre>
+</div><div class="tab-pane" id="rdfa_2"><pre class="prettyprint lang-html linenums rdfa ">&lt;div vocab="http://schema.org/" typeof="SportsTeam"&gt;
+  &lt;span property="name"&gt;San Francisco 49ers&lt;/span&gt;
+  &lt;div property="member" typeof="OrganizationRole"&gt;
+    &lt;div property="member" typeof="http://schema.org/Person"&gt;
+      &lt;span property="name"&gt;Joe Montana&lt;/span&gt;
+    &lt;/div&gt;
+    &lt;span property="startDate"&gt;1979&lt;/span&gt;
+    &lt;span property="endDate"&gt;1992&lt;/span&gt;
+    &lt;span property="roleName"&gt;Quarterback&lt;/span&gt;
+&lt;/div&gt;
+</pre>
+</div><div class="tab-pane" id="jsonld_2"><pre class="prettyprint lang-html linenums jsonld ">&lt;script type="application/ld+json"&gt;
+{
+  "@context": "http://schema.org",
+  "@type": "SportsTeam",
+  "name": "San Francisco 49ers",
+  "member": {
+    "@type": "OrganizationRole",
+    "member": {
+      "@type": "Person",
+      "name": "Joe Montana"
+    },
+    "startDate": "1979",
+    "endDate": "1992",
+    "roleName": "Quarterback"
+  }
+}
+&lt;/script&gt;
+</pre>
+</div></div>
+<ul class="nav nav-tabs"><li class="active"><a href="#original_html_3" data-toggle="tab">Without Markup</a></li><li><a href="#microdata_3" data-toggle="tab">Microdata</a></li><li><a href="#rdfa_3" data-toggle="tab">RDFa</a></li><li><a href="#jsonld_3" data-toggle="tab">JSON-LD</a></li></ul><div class="tab-content">
+<div class="tab-pane active" id="original_html_3"><pre class="prettyprint lang-html linenums original_html selected">An example of a credit card bill (invoice).
+ACME Bank
+Bill for: January 2015 Visa
+invoice link: http://www.acmebank.com/invoice.pdf
+Customer: Jane Doe
+account ID: xxxx-xxxx-xxxx-1234
+payment due: 2015-01-30
+minimum payment: $15.00
+total due: $200.00
+billing period: 2014-12-21 to 2015-01-20
+payment due
+</pre>
+</div><div class="tab-pane" id="microdata_3"><pre class="prettyprint lang-html linenums microdata ">&lt;div itemscope itemtype="http://schema.org/Invoice"&gt;
+  &lt;h1 itemprop="description"&gt;January 2015 Visa&lt;/h1&gt;
+  &lt;link itemprop="url" href="http://acmebank.com/invoice.pdf" /&gt;Invoice PDF
+  &lt;div itemprop="broker" itemscope itemtype="http://schema.org/BankOrCreditUnion"&gt;
+    &lt;b itemprop="name"&gt;ACME Bank&lt;/b&gt;
+  &lt;/div&gt;
+  &lt;span itemprop="accountId"&gt;xxxx-xxxx-xxxx-1234&lt;/span&gt;
+  &lt;div itemprop="customer" itemscope itemtype="http://schema.org/Person"&gt;
+    &lt;b itemprop="name"&gt;Jane Doe&lt;/b&gt;
+  &lt;/div&gt;
+  &lt;span itemprop="paymentDue"&gt;2015-01-30&lt;/span&gt;
+  &lt;div itemprop="minimumPaymentDue" itemscope itemtype="http://schema.org/PriceSpecification"&gt;
+    &lt;span itemprop="price"&gt;15.00&lt;/span&gt;
+    &lt;span itemprop="priceCurrency"&gt;USD&lt;/span&gt;
+  &lt;/div&gt;
+  &lt;div itemprop="totalPaymentDue" itemscope itemtype="http://schema.org/PriceSpecification"&gt;
+    &lt;span itemprop="price"&gt;200.00&lt;/span&gt;
+    &lt;span itemprop="priceCurrency"&gt;USD&lt;/span&gt;
+  &lt;/div&gt;
+  &lt;meta itemprop="billingPeriod" content="2014-12-21/P30D" /&gt;starts:2014-12-21 30 days
+  &lt;span itemprop="paymentStatus"&gt;payment due&lt;/span&gt;
+&lt;/div&gt;
+ 
+</pre>
+</div><div class="tab-pane" id="rdfa_3"><pre class="prettyprint lang-html linenums rdfa ">&lt;div vocab="http://schema.org" typeof="Invoice"&gt;
+  &lt;h1 property="description"&gt;January 2015 Visa&lt;/h1&gt;
+  &lt;link property="url" href="http://acmebank.com/invoice.pdf" /&gt;Invoice PDF
+  &lt;div property="broker" itemscope typeof="http://schema.org/BankOrCreditUnion"&gt;
+    &lt;b property="name"&gt;ACME Bank&lt;/b&gt;
+  &lt;/div&gt;
+  &lt;span property="accountId"&gt;xxxx-xxxx-xxxx-1234&lt;/span&gt;
+  &lt;div property="customer" typeof="http://schema.org/Person"&gt;
+    &lt;b property="name"&gt;Jane Doe&lt;/b&gt;
+  &lt;/div&gt;
+  &lt;span property="paymentDue"&gt;2015-01-30&lt;/span&gt;
+  &lt;div property="minimumPaymentDue" typeof="http://schema.org/PriceSpecification"&gt;
+    &lt;span property="price"&gt;15.00&lt;/span&gt;
+    &lt;span property="priceCurrency"&gt;USD&lt;/span&gt;
+  &lt;/div&gt;
+  &lt;div property="totalPaymentDue" typeof="http://schema.org/PriceSpecification"&gt;
+    &lt;span property="price"&gt;200.00&lt;/span&gt;
+    &lt;span property="priceCurrency"&gt;USD&lt;/span&gt;
+  &lt;/div&gt;
+  &lt;meta property="billingPeriod" content="2014-12-21/P30D" /&gt;starts:2014-12-21 30 days
+  &lt;span property="paymentStatus"&gt;payment due&lt;/span&gt;
+&lt;/div&gt;
+</pre>
+</div><div class="tab-pane" id="jsonld_3"><pre class="prettyprint lang-html linenums jsonld ">&lt;script type="application/ld+json"&gt;
+{
+    "@context": "http://schema.org",
+    "@type": "Invoice",
+    "description": "January 2015 Visa bill.",
+    "url": "http://acmebank.com/invoice.pdf",
+    "broker": {
+      "@type": "BankOrCreditUnion",
+      "name": "ACME Bank",
+    },
+    "accountId": "xxxx-xxxx-xxxx-1234",
+    "customer": {
+      "@type": "Person",
+      "name": "Jane Doe"
+    },
+    "paymentDue": "2015-01-30",
+    "minimumPaymentDue": {
+      "@type": "PriceSpecification",
+      "price": 15.00,
+      "priceCurrency": "USD"
+    },
+    "totalPaymentDue": {
+      "@type": "PriceSpecification",
+      "price": 200.00,
+      "priceCurrency": "USD"
+    },
+    "billingPeriod": "2014-12-21/P30D",
+    "paymentStatus": "payment due"
+}
+&lt;/script&gt;
+</pre>
+</div></div>
+<ul class="nav nav-tabs"><li class="active"><a href="#original_html_4" data-toggle="tab">Without Markup</a></li><li><a href="#microdata_4" data-toggle="tab">Microdata</a></li><li><a href="#rdfa_4" data-toggle="tab">RDFa</a></li><li><a href="#jsonld_4" data-toggle="tab">JSON-LD</a></li></ul><div class="tab-content">
+<div class="tab-pane active" id="original_html_4"><pre class="prettyprint lang-html linenums original_html selected">An example of a invoice for a purchase and installation.
+ACME Home Heating
+Bill for: New furnace and installation
+Customer: Jane Doe
+payment due: 2015-01-30
+minimum payment: $0.00
+total due: $0.00
+payment status: paid
+order: furnace model ABC123
+order: installation labor
+</pre>
+</div><div class="tab-pane" id="microdata_4"><pre class="prettyprint lang-html linenums microdata ">&lt;div itemscope itemtype="http://schema.org/Invoice"&gt;
+  &lt;h1 itemprop="description"&gt;New furnace and installation&lt;/h1&gt;
+  &lt;div itemprop="broker" itemscope itemtype="http://schema.org/LocalBusiness"&gt;
+    &lt;b itemprop="name"&gt;ACME Home Heating&lt;/b&gt;
+  &lt;/div&gt;
+  &lt;div itemprop="customer" itemscope itemtype="http://schema.org/Person"&gt;
+    &lt;b itemprop="name"&gt;Jane Doe&lt;/b&gt;
+  &lt;/div&gt;
+  &lt;span itemprop="paymentDue"&gt;2015-01-30&lt;/span&gt;
+  &lt;div itemprop="minimumPaymentDue" itemscope itemtype="http://schema.org/PriceSpecification"&gt;
+    &lt;span itemprop="price"&gt;0.00&lt;/span&gt;
+    &lt;span itemprop="priceCurrency"&gt;USD&lt;/span&gt;
+  &lt;/div&gt;
+  &lt;div itemprop="totalPaymentDue" itemscope itemtype="http://schema.org/PriceSpecification"&gt;
+    &lt;span itemprop="price"&gt;0.00&lt;/span&gt;
+    &lt;span itemprop="priceCurrency"&gt;USD&lt;/span&gt;
+  &lt;/div&gt;
+  &lt;span itemprop="paymentStatus"&gt;paid&lt;/span&gt;
+  &lt;div itemprop="referencesOrder" itemscope itemtype="http://schema.org/Order"&gt;
+    &lt;span itemprop="description"&gt;furnace&lt;/span&gt;
+    &lt;span itemprop="orderDate"&gt;2014-12-01&lt;/span&gt;
+    &lt;span itemprop="orderNumber"&gt;123ABC&lt;/span&gt;
+    &lt;div itemprop="orderedItem" itemscope itemtype="http://schema.org/Product"&gt;
+      &lt;span itemprop="name"&gt;ACME Furnace 3000&lt;/span&gt;
+      &lt;meta itemprop="productId" content="ABC123" /&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div itemprop="referencesOrder" itemscope itemtype="http://schema.org/Order"&gt;
+    &lt;span itemprop="description"&gt;furnace installation&lt;/span&gt;
+    &lt;span itemprop="orderDate"&gt;2014-12-02&lt;/span&gt;
+    &lt;div itemprop="orderedItem" itemscope itemtype="http://schema.org/Service"&gt;
+      &lt;span itemprop="description"&gt;furnace installation&lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+ 
+</pre>
+</div><div class="tab-pane" id="rdfa_4"><pre class="prettyprint lang-html linenums rdfa ">&lt;div vocab="http://schema.org" typeof="Invoice"&gt;
+  &lt;h1 property="description"&gt;New furnace and installation&lt;/h1&gt;
+  &lt;div property="broker" itemscope typeof="http://schema.org/LocalBusiness"&gt;
+    &lt;b property="name"&gt;ACME Home Heating&lt;/b&gt;
+  &lt;/div&gt;
+  &lt;div property="customer" typeof="http://schema.org/Person"&gt;
+    &lt;b property="name"&gt;Jane Doe&lt;/b&gt;
+  &lt;/div&gt;
+  &lt;span property="paymentDue"&gt;2015-01-30&lt;/span&gt;
+  &lt;div property="minimumPaymentDue" typeof="http://schema.org/PriceSpecification"&gt;
+    &lt;span property="price"&gt;0.00&lt;/span&gt;
+    &lt;span property="priceCurrency"&gt;USD&lt;/span&gt;
+  &lt;/div&gt;
+  &lt;div property="totalPaymentDue" typeof="http://schema.org/PriceSpecification"&gt;
+    &lt;span property="price"&gt;0.00&lt;/span&gt;
+    &lt;span property="priceCurrency"&gt;USD&lt;/span&gt;
+  &lt;/div&gt;
+  &lt;meta property="billingPeriod" content="2014-12-21/P30D" /&gt;starts:2014-12-21 30 days
+  &lt;span property="paymentStatus"&gt;paid&lt;/span&gt;
+  &lt;div property="referencesOrder" typeof="Order"&gt;
+    &lt;span property="description"&gt;furnace&lt;/span&gt;
+    &lt;span property="orderDate"&gt;2014-12-01&lt;/span&gt;
+    &lt;span property="orderNumber"&gt;123ABC&lt;/span&gt;
+    &lt;div property="orderedItem" typeof="Product"&gt;
+      &lt;span property="name"&gt;ACME Furnace 3000&lt;/span&gt;
+      &lt;meta property="productId" content="ABC123" /&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div property="referencesOrder" typeof="Order"&gt;
+    &lt;span property="description"&gt;furnace installation&lt;/span&gt;
+    &lt;span property="orderDate"&gt;2014-12-02&lt;/span&gt;
+    &lt;div property="orderedItem" typeof="Service"&gt;
+      &lt;span property="description"&gt;furnace installation&lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+</div><div class="tab-pane" id="jsonld_4"><pre class="prettyprint lang-html linenums jsonld ">&lt;script type="application/ld+json"&gt;
+{
+    "@context": "http://schema.org",
+    "@type": "Invoice",
+    "broker": {
+      "@type": "LocalBusiness",
+      "name": "ACME Home Heating",
+    },
+    "accountId": "xxxx-xxxx-xxxx-1234",
+    "customer": {
+      "@type": "Person",
+      "name": "Jane Doe"
+    },
+    "paymentDue": "2015-01-30",
+    "minimumPaymentDue": {
+      "@type": "PriceSpecification",
+      "price": 0.00,
+      "priceCurrency": "USD"
+    },
+    "totalPaymentDue": {
+      "@type": "PriceSpecification",
+      "price": 0.00,
+      "priceCurrency": "USD"
+    },
+    "paymentStatus": "paid",
+    "referencesOrder": [
+      {
+        "@type": "Order",
+        "description": "furnace",
+        "orderDate": "2014-12-01",
+        "orderNumber": "123ABC",
+        "paymentMethod": "http://purl.org/goodrelations/v1#ByInvoice",
+        "orderedItem": {
+          "@type": "Product",
+          "name": "ACME Furnace 3000",
+          "productId": "ABC123"
+        }
+      },
+      {
+        "@type": "Order",
+        "description": "furnace installation",
+        "orderDate": "2014-12-02",
+        "paymentMethod": "http://purl.org/goodrelations/v1#ByInvoice",
+        "orderedItem": {
+          "@type": "Service",
+          "description": "furnace installation"
+        }
+      },
+    ]
+}
+&lt;/script&gt;
+    
+</pre>
+</div></div>
+<ul class="nav nav-tabs"><li class="active"><a href="#original_html_5" data-toggle="tab">Without Markup</a></li><li><a href="#microdata_5" data-toggle="tab">Microdata</a></li><li><a href="#rdfa_5" data-toggle="tab">RDFa</a></li><li><a href="#jsonld_5" data-toggle="tab">JSON-LD</a></li></ul><div class="tab-content">
+<div class="tab-pane active" id="original_html_5"><pre class="prettyprint lang-html linenums original_html selected">A MusicComposition Example. The following JSON-LD models
+the composition A Day in the Life by Lennon and McCartney,
+regardless of who performs or records the song.
+</pre>
+</div><div class="tab-pane" id="microdata_5"><pre class="prettyprint lang-html linenums microdata ">Not available yet.
+</pre>
+</div><div class="tab-pane" id="rdfa_5"><pre class="prettyprint lang-html linenums rdfa ">Not available yet.
+</pre>
+</div><div class="tab-pane" id="jsonld_5"><pre class="prettyprint lang-html linenums jsonld ">&lt;script type="application/ld+json"&gt;
+{
+    "@context": "http://schema.org",
+    "@type": "MusicComposition",
+    "@id": "http://musicbrainz.org/work/fd1aa4f2-ba26-3a05-b72d-4392c35a073c",
+    "name": "A Day in the Life",
+    "composer": [
+        {
+            "@type": "Person",
+            "name": "John Lennon",
+            "@id": "http://musicbrainz.org/artist/4d5447d7-c61c-4120-ba1b-d7f471d385b9"
+        },
+        {
+            "@type": "Person",
+            "name": "Paul McCartney",
+            "@id": "http://musicbrainz.org/artist/ba550d0e-adac-4864-b88b-407cab5e76af"
+        }
+    ],
+    "iswcCode": "T-010.140.236-1",
+    "inLanguage": "EN",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Northern Songs, Ltd.",
+        "@id": "http://musicbrainz.org/label/26df054d-78cf-4d83-9bb1-a41816125528"
+    },
+    "datePublished": "1967"
+}
+&lt;/script&gt;
+</pre>
+</div></div>
+<ul class="nav nav-tabs"><li class="active"><a href="#original_html_6" data-toggle="tab">Without Markup</a></li><li><a href="#microdata_6" data-toggle="tab">Microdata</a></li><li><a href="#rdfa_6" data-toggle="tab">RDFa</a></li><li><a href="#jsonld_6" data-toggle="tab">JSON-LD</a></li></ul><div class="tab-content">
+<div class="tab-pane active" id="original_html_6"><pre class="prettyprint lang-html linenums original_html selected">Fairly straightforward painting markup.
+    &lt;div&gt;
+        &lt;h1 lang="fr"&gt;La trahison des images &lt;/h1&gt;
+        &lt;p&gt;
+            A painting also known as The Treason of Images or 
+            The Treachery of Images.
+        &lt;/p&gt;  
+        &lt;img src="http://http://upload.wikimedia.org/wikipedia/en/b/b9/MagrittePipe.jpg" /&gt;
+        &lt;div&gt;
+            &lt;p&gt;
+                The painting shows a pipe. Below it, Magritte painted, 
+                &lt;q lang="fr"&gt;Ceci n'est pas une pipe.&lt;/q&gt;, French for 
+                "This is not a pipe."
+            &lt;/p&gt;
+            &lt;p&gt;
+                His statement is taken to mean that the painting itself is not a pipe. 
+                The painting is merely an image of a pipe. Hence, the description, 
+                "this is not a pipe."
+            &lt;/p&gt;
+            &lt;p&gt;
+                Similarly, the image shown above is neither a pipe nor even a painting, 
+                but rather a digital photograph.
+            &lt;/p&gt;
+            &lt;p&gt;
+                The painting is sometimes given as an example of meta message conveyed 
+                by paralanguage. Compare with Korzybski's &lt;q&gt;The word is not the thing&lt;/q&gt; 
+                and &lt;q&gt;The map is not the territory&lt;/q&gt;.
+        &lt;/div&gt;
+        &lt;ul&gt;
+            &lt;li&gt;Artist: &lt;a href="https://www.freebase.com/m/06h88"&gt;René Magritte&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;Dimensions: 940 mm × 635 mm&lt;/li&gt;
+            &lt;li&gt;Materials: oil on canvas&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+</pre>
+</div><div class="tab-pane" id="microdata_6"><pre class="prettyprint lang-html linenums microdata ">    &lt;div itemscope itemtype="http://schema.org/VisualArtwork"&gt;
+        &lt;link itemprop="sameAs" href="http://rdf.freebase.com/rdf/m.0439_q" /&gt;
+        &lt;h1 itemprop="name" lang="fr"&gt;La trahison des images &lt;/h1&gt;
+        &lt;p&gt;
+            A &lt;span itemprop="artform"&gt;painting&lt;/span&gt; also known as 
+            &lt;span&gt;The Treason of Images&lt;/span&gt; or 
+            &lt;span itemprop="alternateName"&gt;The Treachery of Images&lt;/span&gt;.
+        &lt;/p&gt;
+        &lt;img itemprop="image" src="http://http://upload.wikimedia.org/wikipedia/en/b/b9/MagrittePipe.jpg" /&gt;
+        &lt;div itemprop="description"&gt;
+            &lt;p&gt;
+                The painting shows a pipe. Below it, Magritte painted, 
+                &lt;q lang="fr"&gt;Ceci n'est pas une pipe.&lt;/q&gt;, French for 
+                "This is not a pipe."
+            &lt;/p&gt;
+            &lt;p&gt;
+                His statement is taken to mean that the painting itself is not a pipe. 
+                The painting is merely an image of a pipe. Hence, the description, 
+                "this is not a pipe."
+            &lt;/p&gt;
+            &lt;p&gt;
+                Similarly, the image shown above is neither a pipe nor even a painting, 
+                but rather a digital photograph.
+            &lt;/p&gt;
+            &lt;p&gt;
+                The painting is sometimes given as an example of meta message conveyed 
+                by paralanguage. Compare with Korzybski's &lt;q&gt;The word is not the thing&lt;/q&gt; 
+                and &lt;q&gt;The map is not the territory&lt;/q&gt;.
+        &lt;/div&gt;
+        &lt;ul&gt;
+            &lt;li&gt;Artist: 
+                &lt;span itemprop="creator" itemscope itemtype="http://schema.org/Person"&gt;
+                    &lt;a itemprop="sameAs" href="https://www.freebase.com/m/06h88"&gt;
+                        &lt;span itemprop="name"&gt;René Magritte&lt;/span&gt;
+                    &lt;/a&gt;
+                &lt;/span&gt;
+            &lt;/li&gt;
+            &lt;li&gt;Dimensions:
+                &lt;span itemprop="width" itemscope itemtype="http://schema.org/Distance"&gt;940 mm&lt;/span&gt; × 
+                &lt;span itemprop="height" itemscope itemtype="http://schema.org/Distance"&gt;635 mm&lt;/span&gt;
+            &lt;/li&gt;
+            &lt;li&gt;Materials:
+                &lt;span itemprop="material"&gt;oil&lt;/span&gt; on &lt;span itemprop="surface"&gt;canvas&lt;/span&gt;
+            &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+</pre>
+</div><div class="tab-pane" id="rdfa_6"><pre class="prettyprint lang-html linenums rdfa ">    &lt;div vocab="http://schema.org/" typeof="VisualArtwork"&gt;
+        &lt;link property="sameAs" href="http://rdf.freebase.com/rdf/m.0439_q" /&gt;
+        &lt;h1 property="name" lang="fr"&gt;La trahison des images &lt;/h1&gt;
+        &lt;p&gt;
+            A &lt;span property="artform"&gt;painting&lt;/span&gt; also known as 
+            &lt;span&gt;The Treason of Images&lt;/span&gt; or 
+            &lt;span property="alternateName"&gt;The Treachery of Images&lt;/span&gt;.
+        &lt;/p&gt;
+        &lt;img property="image" src="http://http://upload.wikimedia.org/wikipedia/en/b/b9/MagrittePipe.jpg" /&gt;
+        &lt;div property="description"&gt;
+            &lt;p&gt;
+                The painting shows a pipe. Below it, Magritte painted, 
+                &lt;q lang="fr"&gt;Ceci n'est pas une pipe.&lt;/q&gt;, French for 
+                "This is not a pipe."
+            &lt;/p&gt;
+            &lt;p&gt;
+                His statement is taken to mean that the painting itself is not a pipe. 
+                The painting is merely an image of a pipe. Hence, the description, 
+                "this is not a pipe."
+            &lt;/p&gt;
+            &lt;p&gt;
+                Similarly, the image shown above is neither a pipe nor even a painting, 
+                but rather a digital photograph.
+            &lt;/p&gt;
+            &lt;p&gt;
+                The painting is sometimes given as an example of meta message conveyed 
+                by paralanguage. Compare with Korzybski's &lt;q&gt;The word is not the thing&lt;/q&gt; 
+                and &lt;q&gt;The map is not the territory&lt;/q&gt;.
+        &lt;/div&gt;
+        &lt;ul&gt;
+            &lt;li&gt;Artist: 
+                &lt;span property="creator" typeof="Person"&gt;
+                    &lt;a property="sameAs" href="https://www.freebase.com/m/06h88"&gt;
+                        &lt;span property="name"&gt;René Magritte&lt;/span&gt;
+                    &lt;/a&gt;
+                &lt;/span&gt;
+            &lt;/li&gt;
+            &lt;li&gt;Dimensions:
+                &lt;span property="width" typeof="Distance"&gt;940 mm&lt;/span&gt; × 
+                &lt;span property="height" typeof="Distance"&gt;635 mm&lt;/span&gt;
+            &lt;/li&gt;
+            &lt;li&gt;Materials:
+                &lt;span property="material"&gt;oil&lt;/span&gt; on &lt;span property="surface"&gt;canvas&lt;/span&gt;
+            &lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/div&gt;
+</pre>
+</div><div class="tab-pane" id="jsonld_6"><pre class="prettyprint lang-html linenums jsonld ">    &lt;script type="application/ld+json"&gt;
+    {
+      "@context": "http://schema.org",
+      "@type": "VisualArtwork",
+      "name": "La trahison des images",
+      "alternateName": "The Treachery of Images",
+      "image": "http://upload.wikimedia.org/wikipedia/en/b/b9/MagrittePipe.jpg",
+      "description": "The painting shows a pipe. Below it, Magritte...",
+      "creator": [
+        {
+          "@type": "Person",
+          "name": "René Magritte",
+          "sameAs": "https://www.freebase.com/m/06h88"
+        }
+      ],
+      "width": [
+        {
+          "@type": "Distance",
+          "name": "940 mm"
+        }
+      ],
+      "height": [
+        {
+          "@type": "Distance",
+          "name": "635 mm"
+        }
+      ],
+      "material": "oil",
+      "surface": "canvas"
+    }
+    &lt;/script&gt;
+</pre>
+</div></div>
+<p class="version">BiblioGraph.net Version 1.1<br/>
+Schema.org Version 1.93<br/>
+Code Version 1.1</p>
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','../www.google-analytics.com/analytics.js','ga');
+          ga('create', 'UA-52860601-1', 'auto');ga('send', 'pageview');</script></div>
+<div id="footer"><a href="docs/terms.html" class="noborder pull-right">BiblioGraph.net Terms and Conditions</a></div>
+<script src="assets/bootstrap3/js/bootstrap.min.js"></script>
+</div>
+</body>
+
+<!-- Mirrored from bibliograph.net/Person by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 21 May 2019 10:24:08 GMT -->
+</html>

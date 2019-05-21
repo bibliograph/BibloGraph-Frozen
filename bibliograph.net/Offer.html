@@ -1,0 +1,1568 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<!-- Mirrored from bibliograph.net/Offer by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 21 May 2019 10:23:32 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <title>Offer - BiblioGraph.net</title>
+    <meta name="description" content="BiblioGraph.net is a set of extensible schemas, with a bibliographic focus, that build on the capabilities of Schema.org 
+    that enable webmasters to embed structured data on their web pages for use by search engines and other applications." />
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" type="text/css" href="assets/bootstrap3/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="docs/bibliograph.css" />
+    <link rel="stylesheet" type="text/css" href="docs/prettify.css" />
+    <script type="text/javascript" src="docs/prettify.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+
+<script type="text/javascript">
+      $(document).ready(function(){
+        prettyPrint();
+        setTimeout(function(){
+
+  $(".atn:contains(itemscope), .atn:contains(itemtype), .atn:contains(itemprop), .atn:contains(itemid), .atn:contains(time), .atn:contains(datetime), .atn:contains(datetime), .tag:contains(time) ").addClass('new');
+  $('.new + .pun + .atv').addClass('curl');
+
+        }, 500);
+        setTimeout(function(){
+
+  $(".atn:contains(property), .atn:contains(typeof) ").addClass('new');
+  $('.new + .pun + .atv').addClass('curl');
+
+        }, 500);
+        setTimeout(function() {
+          $('.ds-selector-tabs .selectors a').click(function() {
+            var $this = $(this);
+            var $p = $this.parents('.ds-selector-tabs');
+            $('.selected', $p).removeClass('selected');
+            $this.addClass('selected');
+            $('pre.' + $this.data('selects'), $p).addClass('selected');
+          });
+        }, 0);
+      });
+</script>
+
+<style>
+
+  .pln    { color: #444;    } /* plain text                 */
+  .tag    { color: #515484; } /* div, span, a, etc          */
+  .atn,
+  .atv    { color: #314B17; } /* href, datetime             */
+  .new    { color: #660003; } /* itemscope, itemtype, etc,. */
+  .curl   { color: #080;    } /* new url                    */
+
+  table.definition-table {
+    border-spacing: 3px;
+    border-collapse: separate;
+  }
+
+</style>
+
+</head>
+<body>
+    <div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <h1><a href="index.html" class="noborder"><span class="logo_dark">Biblio</span><span class="logo_light">Graph</span><span class="logo_dark">.net</span></a></h1>
+        </div>
+		
+        <div class="col-md-6">
+            <div class="pull-right">
+                 <div id="cse-search-form" style="width: 400px;"></div>
+            </div>
+        </div>
+
+		<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+		<script type="text/javascript">
+		  google.load('search', '1', {language : 'en', style : google.loader.themes.MINIMALIST});
+		  google.setOnLoadCallback(function() {
+		    var customSearchControl = new google.search.CustomSearchControl('014918374978744102058:-yfdgutyfb8');
+		    customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+		    var options = new google.search.DrawOptions();
+		    options.enableSearchboxOnly("docs/search_results.html", null, false, '#');
+		    customSearchControl.draw('cse-search-form', options);
+		    // over-ride gsc css with bootstrap css
+		    $( "#gsc-i-id1" ).addClass( "form-control" );
+		    $( "input[type='button']" ).removeClass( "gsc-search-button" ).addClass( "btn btn-success" );
+		  }, true);
+		</script>
+    </div>
+
+    <ul class="nav nav-tabs">
+        <li><a href="index.html" >Home</a></li>
+        <li><a href="schemas.html" >Schemas</a></li>
+        <li><a href="docs/bgn_releases.html" >Releases</a></li>
+        <li><a href="docs/feedback.html" >Feedback</a></li>
+    </ul>
+
+
+  <div id="mainContent" vocab="http://schema.org/" typeof="rdfs:Class" resource="http://schema.org/Offer"  prefix="schema:http://schema.org/ bgn:http://bibliograph.net/ ">
+  <!-- no external mappings noted for this term. -->
+
+<h1 class="page-title">
+Offer</h1><h4><span class='breadcrums'><a href="Thing.html" class="prefix-schema">schema:Thing</a> &gt; <a href="Intangible.html" class="prefix-schema">schema:Intangible</a> &gt; <a href="Offer.html" class="prefix-schema">schema:Offer</a></span></h4>
+ <div property="rdfs:comment">An offer to transfer some rights to an item or to provide a service&#x2014;for example, an offer to sell tickets to an event, to rent the DVD of a movie, to stream a TV show over the internet, to repair a motorcycle, or to loan a book.
+      <br/><br/>
+      For <a href="http://www.gs1.org/barcodes/technical/idkeys/gtin">GTIN</a>-related fields, see
+      <a href="http://www.gs1.org/barcodes/support/check_digit_calculator">Check Digit calculator</a>
+      and <a href="http://www.gs1us.org/resources/standards/gtin-validation-guide">validation guide</a>
+      from <a href="http://www.gs1.org/">GS1</a>.</div>
+
+
+<table class="definition-table">
+        <thead>
+  <tr><th>Property</th><th>Expected Type</th><th>Description</th>               
+  </tr>
+  </thead>
+
+<thead class="supertype">
+  <tr>
+    <th class="supertype-name" colspan="3">Properties from <a href="Offer.html" property="rdfs:subClassOf" class="prefix-schema">schema:Offer</a></th>
+  </tr>
+</thead>
+
+<tbody class="supertype">
+  
+<tr typeof="rdfs:Property" resource="http://schema.org/acceptedPaymentMethod">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="acceptedPaymentMethod.html" class="prefix-schema">schema:acceptedPaymentMethod</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="PaymentMethod.html" property="rangeIncludes" class="prefix-schema">schema:PaymentMethod</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The payment method(s) accepted by seller for this offer.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/addOn">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="addOn.html" class="prefix-schema">schema:addOn</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Offer.html" property="rangeIncludes" class="prefix-schema">schema:Offer</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">An additional offer that can only be obtained in combination with the first base offer (e.g. supplements and extensions that are available for a surcharge).</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/advanceBookingRequirement">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="advanceBookingRequirement.html" class="prefix-schema">schema:advanceBookingRequirement</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="QuantitativeValue.html" property="rangeIncludes" class="prefix-schema">schema:QuantitativeValue</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The amount of time that is required between accepting the offer and the actual usage of the resource or service.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/aggregateRating">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="aggregateRating-2.html" class="prefix-schema">schema:aggregateRating</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="AggregateRating.html" property="rangeIncludes" class="prefix-schema">schema:AggregateRating</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The overall rating, based on a collection of reviews or ratings, of the item.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/availability">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="availability.html" class="prefix-schema">schema:availability</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="ItemAvailability.html" property="rangeIncludes" class="prefix-schema">schema:ItemAvailability</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The availability of this item&#x2014;for example In stock, Out of stock, Pre-order, etc.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/availabilityEnds">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="availabilityEnds.html" class="prefix-schema">schema:availabilityEnds</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="DateTime.html" property="rangeIncludes" class="prefix-schema">schema:DateTime</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The end of the availability of the product or service included in the offer.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/availabilityStarts">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="availabilityStarts.html" class="prefix-schema">schema:availabilityStarts</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="DateTime.html" property="rangeIncludes" class="prefix-schema">schema:DateTime</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The beginning of the availability of the product or service included in the offer.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/availableAtOrFrom">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="availableAtOrFrom.html" class="prefix-schema">schema:availableAtOrFrom</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Place.html" property="rangeIncludes" class="prefix-schema">schema:Place</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The place(s) from which the offer can be obtained (e.g. store locations).</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/availableDeliveryMethod">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="availableDeliveryMethod.html" class="prefix-schema">schema:availableDeliveryMethod</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="DeliveryMethod.html" property="rangeIncludes" class="prefix-schema">schema:DeliveryMethod</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The delivery method(s) available for this offer.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/businessFunction">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="businessFunction-2.html" class="prefix-schema">schema:businessFunction</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="BusinessFunction.html" property="rangeIncludes" class="prefix-schema">schema:BusinessFunction</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The business function (e.g. sell, lease, repair, dispose) of the offer or component of a bundle (TypeAndQuantityNode). The default is http://purl.org/goodrelations/v1#Sell.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/category">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="category.html" class="prefix-schema">schema:category</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp; or <br/> <a href="Thing.html" property="rangeIncludes" class="prefix-schema">schema:Thing</a>&nbsp; or <br/> <a href="PhysicalActivityCategory.html" property="rangeIncludes" class="prefix-schema">schema:PhysicalActivityCategory</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">A category for the item. Greater signs or slashes can be used to informally indicate a category hierarchy.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/deliveryLeadTime">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="deliveryLeadTime.html" class="prefix-schema">schema:deliveryLeadTime</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="QuantitativeValue.html" property="rangeIncludes" class="prefix-schema">schema:QuantitativeValue</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The typical delay between the receipt of the order and the goods leaving the warehouse.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/eligibleCustomerType">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="eligibleCustomerType.html" class="prefix-schema">schema:eligibleCustomerType</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="BusinessEntityType.html" property="rangeIncludes" class="prefix-schema">schema:BusinessEntityType</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The type(s) of customers for which the given offer is valid.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/eligibleDuration">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="eligibleDuration.html" class="prefix-schema">schema:eligibleDuration</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="QuantitativeValue.html" property="rangeIncludes" class="prefix-schema">schema:QuantitativeValue</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The duration for which the given offer is valid.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/eligibleQuantity">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="eligibleQuantity.html" class="prefix-schema">schema:eligibleQuantity</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="QuantitativeValue.html" property="rangeIncludes" class="prefix-schema">schema:QuantitativeValue</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The interval and unit of measurement of ordering quantities for which the offer or price specification is valid. This allows e.g. specifying that a certain freight charge is valid only for a certain quantity.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/eligibleRegion">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="eligibleRegion.html" class="prefix-schema">schema:eligibleRegion</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="GeoShape.html" property="rangeIncludes" class="prefix-schema">schema:GeoShape</a>&nbsp; or <br/> <a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The ISO 3166-1 (ISO 3166-1 alpha-2) or ISO 3166-2 code, or the GeoShape for the geo-political region(s) for which the offer or delivery charge specification is valid.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/eligibleTransactionVolume">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="eligibleTransactionVolume.html" class="prefix-schema">schema:eligibleTransactionVolume</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="PriceSpecification.html" property="rangeIncludes" class="prefix-schema">schema:PriceSpecification</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The transaction volume, in a monetary unit, for which the offer or price specification is valid, e.g. for indicating a minimal purchasing volume, to express free shipping above a certain order volume, or to limit the acceptance of credit cards to purchases to a certain minimal amount.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/gtin13">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="gtin13.html" class="prefix-schema">schema:gtin13</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The <a href="http://apps.gs1.org/GDD/glossary/Pages/GTIN-13.aspx">GTIN-13</a> code of the product, or the product to which the offer refers. This is equivalent to 13-digit ISBN codes and EAN UCC-13. Former 12-digit UPC codes can be converted into a GTIN-13 code by simply adding a preceeding zero. See <a href="http://www.gs1.org/barcodes/technical/idkeys/gtin">GS1 GTIN Summary</a> for more details.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/gtin14">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="gtin14.html" class="prefix-schema">schema:gtin14</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The <a href="http://apps.gs1.org/GDD/glossary/Pages/GTIN-14.aspx">GTIN-14</a> code of the product, or the product to which the offer refers. See <a href="http://www.gs1.org/barcodes/technical/idkeys/gtin">GS1 GTIN Summary</a> for more details.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/gtin8">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="gtin8.html" class="prefix-schema">schema:gtin8</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The <a href="http://apps.gs1.org/GDD/glossary/Pages/GTIN-8.aspx">GTIN-8</a> code of the product, or the product to which the offer refers. This code is also known as EAN/UCC-8 or 8-digit EAN. See <a href="http://www.gs1.org/barcodes/technical/idkeys/gtin">GS1 GTIN Summary</a> for more details.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/includesObject">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="includesObject.html" class="prefix-schema">schema:includesObject</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="TypeAndQuantityNode.html" property="rangeIncludes" class="prefix-schema">schema:TypeAndQuantityNode</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">This links to a node or nodes indicating the exact quantity of the products included in the offer.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/ineligibleRegion">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="ineligibleRegion.html" class="prefix-schema">schema:ineligibleRegion</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Place.html" property="rangeIncludes" class="prefix-schema">schema:Place</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The place(s) from which the offer cannot be obtained (e.g. a region where the transaction is not allowed).</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/inventoryLevel">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="inventoryLevel.html" class="prefix-schema">schema:inventoryLevel</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="QuantitativeValue.html" property="rangeIncludes" class="prefix-schema">schema:QuantitativeValue</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The current approximate inventory level for the item or items.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/itemCondition">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="itemCondition.html" class="prefix-schema">schema:itemCondition</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="OfferItemCondition.html" property="rangeIncludes" class="prefix-schema">schema:OfferItemCondition</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">A predefined value from OfferItemCondition or a textual description of the condition of the product or service, or the products or services included in the offer.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/itemOffered">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="itemOffered.html" class="prefix-schema">schema:itemOffered</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Product.html" property="rangeIncludes" class="prefix-schema">schema:Product</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The item being offered.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/mpn">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="mpn.html" class="prefix-schema">schema:mpn</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The Manufacturer Part Number (MPN) of the product, or the product to which the offer refers.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/price">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="price.html" class="prefix-schema">schema:price</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Number.html" property="rangeIncludes" class="prefix-schema">schema:Number</a>&nbsp; or <br/> <a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The offer price of a product, or of a price component when attached to PriceSpecification and its subtypes.
+<br />
+<br />
+      Usage guidelines:
+<br />
+<ul>
+<li>Use the <a href="priceCurrency.html">priceCurrency</a> property (with <a href="http://en.wikipedia.org/wiki/ISO_4217#Active_codes">ISO 4217 codes</a> e.g. "USD") instead of
+      including <a href="http://en.wikipedia.org/wiki/Dollar_sign#Currencies_that_use_the_dollar_or_peso_sign">ambiguous symbols</a> such as '$' in the value.
+</li>
+<li>
+      Use '.' (Unicode 'FULL STOP' (U+002E)) rather than ',' to indicate a decimal point. Avoid using these symbols as a readability separator.
+</li>
+<li>
+      Note that both <a href="http://www.w3.org/TR/xhtml-rdfa-primer/#using-the-content-attribute">RDFa</a> and Microdata syntax allow the use of a "content=" attribute for publishing simple machine-readable values
+      alongside more human-friendly formatting.
+</li>
+<li>
+      Use values from 0123456789 (Unicode 'DIGIT ZERO' (U+0030) to 'DIGIT NINE' (U+0039)) rather than superficially similiar Unicode symbols.
+</li>
+</ul>
+      </td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/priceCurrency">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="priceCurrency.html" class="prefix-schema">schema:priceCurrency</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The currency (in 3-letter ISO 4217 format) of the price or a price component, when attached to PriceSpecification and its subtypes.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/priceSpecification">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="priceSpecification-2.html" class="prefix-schema">schema:priceSpecification</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="PriceSpecification.html" property="rangeIncludes" class="prefix-schema">schema:PriceSpecification</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">One or more detailed price specifications, indicating the unit price and delivery or payment charges.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/priceValidUntil">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="priceValidUntil.html" class="prefix-schema">schema:priceValidUntil</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Date.html" property="rangeIncludes" class="prefix-schema">schema:Date</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The date after which the price is no longer available.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/review">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="review-2.html" class="prefix-schema">schema:review</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Review.html" property="rangeIncludes" class="prefix-schema">schema:Review</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">A review of the item. Supersedes <a href="reviews.html" class="prefix-schema">schema:reviews</a>.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/seller">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="seller.html" class="prefix-schema">schema:seller</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Organization.html" property="rangeIncludes" class="prefix-schema">schema:Organization</a>&nbsp; or <br/> <a href="Person.html" property="rangeIncludes" class="prefix-schema">schema:Person</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">An entity which offers (sells / leases / lends / loans) the services / goods.  A seller may also be a provider. Supersedes <a href="merchant.html" class="prefix-schema">schema:merchant</a>, <a href="vendor.html" class="prefix-schema">schema:vendor</a>.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/serialNumber">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="serialNumber.html" class="prefix-schema">schema:serialNumber</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The serial number or any alphanumeric identifier of a particular product. When attached to an offer, it is a shortcut for the serial number of the product included in the offer.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/sku">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="sku.html" class="prefix-schema">schema:sku</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The Stock Keeping Unit (SKU), i.e. a merchant-specific identifier for a product or service, or the product to which the offer refers.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/validFrom">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="validFrom.html" class="prefix-schema">schema:validFrom</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="DateTime.html" property="rangeIncludes" class="prefix-schema">schema:DateTime</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The date when the item becomes valid.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/validThrough">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="validThrough.html" class="prefix-schema">schema:validThrough</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="DateTime.html" property="rangeIncludes" class="prefix-schema">schema:DateTime</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The end of the validity of offer, price specification, or opening hours data.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/warranty">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="warranty.html" class="prefix-schema">schema:warranty</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="WarrantyPromise.html" property="rangeIncludes" class="prefix-schema">schema:WarrantyPromise</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The warranty promise(s) included in the offer.</td></tr><thead class="supertype">
+  <tr>
+    <th class="supertype-name" colspan="3">Properties from <a href="Thing.html" class="prefix-schema">schema:Thing</a></th>
+  </tr>
+</thead>
+
+<tbody class="supertype">
+  
+<tr typeof="rdfs:Property" resource="http://schema.org/additionalType">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="additionalType.html" class="prefix-schema">schema:additionalType</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="URL.html" property="rangeIncludes" class="prefix-schema">schema:URL</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">An additional type for the item, typically used for adding more specific types from external vocabularies in microdata syntax. This is a relationship between something and a class that the thing is in. In RDFa syntax, it is better to use the native RDFa syntax - the 'typeof' attribute - for multiple types. Schema.org tools may have only weaker understanding of extra types, in particular those defined externally.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/alternateName">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="alternateName.html" class="prefix-schema">schema:alternateName</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">An alias for the item.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/description">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="description.html" class="prefix-schema">schema:description</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">A short description of the item.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/image">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="image-2.html" class="prefix-schema">schema:image</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="ImageObject.html" property="rangeIncludes" class="prefix-schema">schema:ImageObject</a>&nbsp; or <br/> <a href="URL.html" property="rangeIncludes" class="prefix-schema">schema:URL</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">An image of the item. This can be a <a href="http://schema.org/URL">URL</a> or a fully described <a href="http://schema.org/ImageObject">ImageObject</a>.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/name">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="name.html" class="prefix-schema">schema:name</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Text.html" property="rangeIncludes" class="prefix-schema">schema:Text</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">The name of the item.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/potentialAction">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="potentialAction.html" class="prefix-schema">schema:potentialAction</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="Action.html" property="rangeIncludes" class="prefix-schema">schema:Action</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">Indicates a potential Action, which describes an idealized action in which this thing would play an 'object' role.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/sameAs">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="sameAs.html" class="prefix-schema">schema:sameAs</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="URL.html" property="rangeIncludes" class="prefix-schema">schema:URL</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">URL of a reference Web page that unambiguously indicates the item's identity. E.g. the URL of the item's Wikipedia page, Freebase page, or official website.</td></tr>
+<tr typeof="rdfs:Property" resource="http://schema.org/url">
+    
+      <th class="prop-nam" scope="row">
+
+<code property="rdfs:label"><a href="url-2.html" class="prefix-schema">schema:url</a></code>
+    </th>
+ <td class="prop-ect">
+<a href="URL.html" property="rangeIncludes" class="prefix-schema">schema:URL</a>&nbsp;</td><td class="prop-desc" property="rdfs:comment">URL of the item.</td></tr></table>
+<br/><br/>Instances of <a href="Offer.html" class="prefix-schema">schema:Offer</a> may appear as values for the following properties<br/><table class="definition-table">
+        
+  
+<thead>
+  <tr><th>Property</th><th>On Types</th><th>Description</th>               
+  </tr>
+</thead>
+
+<tr>
+<th class="prop-nam" scope="row">
+ <code><a href="acceptedOffer.html" class="prefix-schema">schema:acceptedOffer</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Order.html" class="prefix-schema">schema:Order</a>&nbsp;</td><td class="prop-desc">The offer(s) -- e.g., product, quantity and price combinations -- included in the order. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="addOn.html" class="prefix-schema">schema:addOn</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Offer.html" class="prefix-schema">schema:Offer</a>&nbsp;</td><td class="prop-desc">An additional offer that can only be obtained in combination with the first base offer (e.g. supplements and extensions that are available for a surcharge). </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="expectsAcceptanceOf.html" class="prefix-schema">schema:expectsAcceptanceOf</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="ConsumeAction.html" class="prefix-schema">schema:ConsumeAction</a>&nbsp;</td><td class="prop-desc">An Offer which must be accepted before the user can perform the Action. For example, the user may need to buy a movie before being able to watch it. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="makesOffer.html" class="prefix-schema">schema:makesOffer</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Organization.html" class="prefix-schema">schema:Organization</a>&nbsp; or<br/> <a href="Person.html" class="prefix-schema">schema:Person</a>&nbsp;</td><td class="prop-desc">A pointer to products or services offered by the organization or person. </td></tr><tr>
+<th class="prop-nam" scope="row">
+ <code><a href="offers.html" class="prefix-schema">schema:offers</a></code>
+</th>
+ 
+<td class="prop-ect">
+<a href="Product.html" class="prefix-schema">schema:Product</a>&nbsp; or<br/> <a href="AggregateOffer.html" class="prefix-schema">schema:AggregateOffer</a>&nbsp; or<br/> <a href="CreativeWork.html" class="prefix-schema">schema:CreativeWork</a>&nbsp; or<br/> <a href="Event.html" class="prefix-schema">schema:Event</a>&nbsp;</td><td class="prop-desc">An offer to provide this item&#x2014;for example, an offer to sell a product, rent the DVD of a movie, or give away tickets to an event. </td></tr></table>
+
+
+</table>
+
+<br/><b>More specific Types</b><li> <a href="AggregateOffer.html" class="prefix-schema">schema:AggregateOffer</a><h4 id='prefixes'>Prefixes used:</h4>
+<li>schema: http://schema.org/</li>
+<h4  id="acks">Acknowledgements</h4>
+This class contains derivatives of properties from the GoodRelations Vocabulary for E-Commerce, created by Martin Hepp. GoodRelations is a data model for sharing e-commerce data on the Web that can be expressed in a variety of syntaxes, including RDFa and HTML5 Microdata. More information about GoodRelations can be found at <a href="http://purl.org/goodrelations/">http://purl.org/goodrelations/</a>.<br/><h4 class="example">Examples</h4><ul class="nav nav-tabs"><li class="active"><a href="#original_html_0" data-toggle="tab">Without Markup</a></li><li><a href="#microdata_0" data-toggle="tab">Microdata</a></li><li><a href="#rdfa_0" data-toggle="tab">RDFa</a></li><li><a href="#jsonld_0" data-toggle="tab">JSON-LD</a></li></ul><div class="tab-content">
+<div class="tab-pane active" id="original_html_0"><pre class="prettyprint lang-html linenums original_html selected">Kenmore White 17" Microwave
+&lt;img src="kenmore-microwave-17in.jpg" alt='Kenmore 17" Microwave' /&gt;
+Rated 3.5/5 based on 11 customer reviews
+$55.00
+In stock
+Product description:
+0.7 cubic feet countertop microwave. Has six preset cooking categories and
+ convenience features like Add-A-Minute and Child Lock.
+Customer reviews:
+Not a happy camper - by Ellie, April 1, 2011
+1/5 stars
+The lamp burned out and now I have to replace it.
+ Value purchase - by Lucas, March 25, 2011
+4/5 stars
+Great microwave for the price. It is small and fits in my apartment.
+...
+</pre>
+</div><div class="tab-pane" id="microdata_0"><pre class="prettyprint lang-html linenums microdata ">&lt;div itemscope itemtype="http://schema.org/Product"&gt;
+  &lt;span itemprop="name"&gt;Kenmore White 17" Microwave&lt;/span&gt;
+  &lt;img src="kenmore-microwave-17in.jpg" alt='Kenmore 17" Microwave' /&gt;
+  &lt;div itemprop="aggregateRating"
+    itemscope itemtype="http://schema.org/AggregateRating"&gt;
+   Rated &lt;span itemprop="ratingValue"&gt;3.5&lt;/span&gt;/5
+   based on &lt;span itemprop="reviewCount"&gt;11&lt;/span&gt; customer reviews
+  &lt;/div&gt;
+  &lt;div itemprop="offers" itemscope itemtype="http://schema.org/Offer"&gt;
+    &lt;!--price is 1000, a number, with locale-specific thousands separator
+    and decimal mark, and the $ character is marked up with the
+    machine-readable code "USD" --&gt;
+    &lt;span itemprop="priceCurrency" content="USD"&gt;$&lt;/span&gt;&lt;span
+          itemprop="price" content="1000.00"&gt;1,000.00&lt;/span&gt;
+    &lt;link itemprop="availability" href="http://schema.org/InStock" /&gt;In stock
+  &lt;/div&gt;
+  Product description:
+  &lt;span itemprop="description"&gt;0.7 cubic feet countertop microwave.
+  Has six preset cooking categories and convenience features like
+  Add-A-Minute and Child Lock.&lt;/span&gt;
+  Customer reviews:
+  &lt;div itemprop="review" itemscope itemtype="http://schema.org/Review"&gt;
+    &lt;span itemprop="name"&gt;Not a happy camper&lt;/span&gt; -
+    by &lt;span itemprop="author"&gt;Ellie&lt;/span&gt;,
+    &lt;meta itemprop="datePublished" content="2011-04-01"&gt;April 1, 2011
+    &lt;div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating"&gt;
+      &lt;meta itemprop="worstRating" content = "1"&gt;
+      &lt;span itemprop="ratingValue"&gt;1&lt;/span&gt;/
+      &lt;span itemprop="bestRating"&gt;5&lt;/span&gt;stars
+    &lt;/div&gt;
+    &lt;span itemprop="description"&gt;The lamp burned out and now I have to replace
+    it. &lt;/span&gt;
+  &lt;/div&gt;
+  &lt;div itemprop="review" itemscope itemtype="http://schema.org/Review"&gt;
+    &lt;span itemprop="name"&gt;Value purchase&lt;/span&gt; -
+    by &lt;span itemprop="author"&gt;Lucas&lt;/span&gt;,
+    &lt;meta itemprop="datePublished" content="2011-03-25"&gt;March 25, 2011
+    &lt;div itemprop="reviewRating" itemscope itemtype="http://schema.org/Rating"&gt;
+      &lt;meta itemprop="worstRating" content = "1"/&gt;
+      &lt;span itemprop="ratingValue"&gt;4&lt;/span&gt;/
+      &lt;span itemprop="bestRating"&gt;5&lt;/span&gt;stars
+    &lt;/div&gt;
+    &lt;span itemprop="description"&gt;Great microwave for the price. It is small and
+    fits in my apartment.&lt;/span&gt;
+  &lt;/div&gt;
+  ...
+&lt;/div&gt;
+</pre>
+</div><div class="tab-pane" id="rdfa_0"><pre class="prettyprint lang-html linenums rdfa ">&lt;div vocab="http://schema.org/" typeof="Product"&gt;
+  &lt;span property="name"&gt;Kenmore White 17" Microwave&lt;/span&gt;
+  &lt;img src="kenmore-microwave-17in.jpg" alt='Kenmore 17" Microwave' /&gt;
+  &lt;div property="aggregateRating"
+     typeof="AggregateRating"&gt;
+   Rated &lt;span property="ratingValue"&gt;3.5&lt;/span&gt;/5
+   based on &lt;span property="reviewCount"&gt;11&lt;/span&gt; customer reviews
+  &lt;/div&gt;
+  &lt;div property="offers"  typeof="Offer"&gt;
+    &lt;!--price is 1000, a number, with locale-specific thousands separator
+        and decimal mark, and the $ character is marked up with the
+        machine-readable code "USD" --&gt;
+    &lt;span property="priceCurrency" content="USD"&gt;$&lt;/span&gt;&lt;span
+      property="price" content="1000.00"&gt;1,000.00&lt;/span&gt;
+    &lt;link property="availability" href="http://schema.org/InStock" /&gt;In stock
+  &lt;/div&gt;
+  Product description:
+  &lt;span property="description"&gt;0.7 cubic feet countertop microwave.
+  Has six preset cooking categories and convenience features like
+  Add-A-Minute and Child Lock.&lt;/span&gt;
+  Customer reviews:
+  &lt;div property="review"  typeof="Review"&gt;
+    &lt;span property="name"&gt;Not a happy camper&lt;/span&gt; -
+    by &lt;span property="author"&gt;Ellie&lt;/span&gt;,
+    &lt;meta property="datePublished" content="2011-04-01"&gt;April 1, 2011
+    &lt;div property="reviewRating"  typeof="Rating"&gt;
+      &lt;meta property="worstRating" content = "1"&gt;
+      &lt;span property="ratingValue"&gt;1&lt;/span&gt;/
+      &lt;span property="bestRating"&gt;5&lt;/span&gt;stars
+    &lt;/div&gt;
+    &lt;span property="description"&gt;The lamp burned out and now I have to replace
+    it. &lt;/span&gt;
+  &lt;/div&gt;
+  &lt;div property="review"  typeof="Review"&gt;
+    &lt;span property="name"&gt;Value purchase&lt;/span&gt; -
+    by &lt;span property="author"&gt;Lucas&lt;/span&gt;,
+    &lt;meta property="datePublished" content="2011-03-25"&gt;March 25, 2011
+    &lt;div property="reviewRating"  typeof="Rating"&gt;
+      &lt;meta property="worstRating" content = "1"/&gt;
+      &lt;span property="ratingValue"&gt;4&lt;/span&gt;/
+      &lt;span property="bestRating"&gt;5&lt;/span&gt;stars
+    &lt;/div&gt;
+    &lt;span property="description"&gt;Great microwave for the price. It is small and
+    fits in my apartment.&lt;/span&gt;
+  &lt;/div&gt;
+  ...
+&lt;/div&gt;
+</pre>
+</div><div class="tab-pane" id="jsonld_0"><pre class="prettyprint lang-html linenums jsonld ">&lt;script type="application/ld+json"&gt;
+{
+  "@context": "http://schema.org",
+  "@type": "Product",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "3.5",
+    "reviewCount": "11"
+  },
+  "description": "0.7 cubic feet countertop microwave. Has six preset cooking categories and convenience features like Add-A-Minute and Child Lock.",
+  "name": "Kenmore White 17\" Microwave",
+  "offers": {
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "55.00",
+    "priceCurrency": "USD"
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "author": "Ellie",
+      "datePublished": "2011-04-01",
+      "description": "The lamp burned out and now I have to replace it.",
+      "name": "Not a happy camper",
+      "reviewRating": {
+        "@type": "Rating",
+        "bestRating": "5",
+        "ratingValue": "1",
+        "worstRating": "1"
+      }
+    },
+    {
+      "@type": "Review",
+      "author": "Lucas",
+      "datePublished": "2011-03-25",
+      "description": "Great microwave for the price. It is small and fits in my apartment.",
+      "name": "Value purchase",
+      "reviewRating": {
+        "@type": "Rating",
+        "bestRating": "5",
+        "ratingValue": "4",
+        "worstRating": "1"
+      }
+    }
+  ]
+}
+&lt;/script&gt;
+</pre>
+</div></div>
+<ul class="nav nav-tabs"><li class="active"><a href="#original_html_1" data-toggle="tab">Without Markup</a></li><li><a href="#microdata_1" data-toggle="tab">Microdata</a></li><li><a href="#rdfa_1" data-toggle="tab">RDFa</a></li><li><a href="#jsonld_1" data-toggle="tab">JSON-LD</a></li></ul><div class="tab-content">
+<div class="tab-pane active" id="original_html_1"><pre class="prettyprint lang-html linenums original_html selected">&lt;img src="dell-30in-lcd.jpg" alt="A Dell UltraSharp monitor" /&gt;
+Dell UltraSharp 30" LCD Monitor
+87 out of 100 based on 24 user ratings
+$1250 to $1495 from 8 sellers
+Sellers:
+&lt;a href="save-a-lot-monitors.com/dell-30.html"&gt;
+  Save A Lot Monitors - $1250&lt;/a&gt;
+&lt;a href="jondoe-gadgets.com/dell-30.html"&gt;
+  Jon Doe's Gadgets - $1350&lt;/a&gt;
+...
+</pre>
+</div><div class="tab-pane" id="microdata_1"><pre class="prettyprint lang-html linenums microdata ">&lt;div itemscope itemtype="http://schema.org/Product"&gt;
+  &lt;img itemprop="image" src="dell-30in-lcd.jpg" alt="A Dell UltraSharp monitor"/&gt;
+  &lt;span itemprop="name"&gt;Dell UltraSharp 30" LCD Monitor&lt;/span&gt;
+  &lt;div itemprop="aggregateRating"
+    itemscope itemtype="http://schema.org/AggregateRating"&gt;
+    &lt;span itemprop="ratingValue"&gt;87&lt;/span&gt;
+    out of &lt;span itemprop="bestRating"&gt;100&lt;/span&gt;
+    based on &lt;span itemprop="ratingCount"&gt;24&lt;/span&gt; user ratings
+  &lt;/div&gt;
+  &lt;div itemprop="offers" itemscope itemtype="http://schema.org/AggregateOffer"&gt;
+    &lt;span itemprop="lowPrice"&gt;$1250&lt;/span&gt;
+    to &lt;span itemprop="highPrice"&gt;$1495&lt;/span&gt;
+    from &lt;span itemprop="offerCount"&gt;8&lt;/span&gt; sellers
+    Sellers:
+    &lt;div itemprop="offers" itemscope itemtype="http://schema.org/Offer"&gt;
+        &lt;a itemprop="url" href="save-a-lot-monitors.com/dell-30.html"&gt;
+        Save A Lot Monitors - $1250&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div itemprop="offers" itemscope itemtype="http://schema.org/Offer"&gt;
+        &lt;a itemprop="url" href="jondoe-gadgets.com/dell-30.html"&gt;
+        Jon Doe's Gadgets - $1350&lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  ...
+&lt;/div&gt;
+</pre>
+</div><div class="tab-pane" id="rdfa_1"><pre class="prettyprint lang-html linenums rdfa ">&lt;div vocab="http://schema.org/" typeof="Product"&gt;
+  &lt;img property="image" src="dell-30in-lcd.jpg" alt="A Dell UltraSharp monitor"/&gt;
+  &lt;span property="name"&gt;Dell UltraSharp 30" LCD Monitor&lt;/span&gt;
+  &lt;div property="aggregateRating"
+     typeof="AggregateRating"&gt;
+    &lt;span property="ratingValue"&gt;87&lt;/span&gt;
+    out of &lt;span property="bestRating"&gt;100&lt;/span&gt;
+    based on &lt;span property="ratingCount"&gt;24&lt;/span&gt; user ratings
+  &lt;/div&gt;
+  &lt;div property="offers"  typeof="AggregateOffer"&gt;
+    &lt;span property="lowPrice"&gt;$1250&lt;/span&gt;
+    to &lt;span property="highPrice"&gt;$1495&lt;/span&gt;
+    from &lt;span property="offerCount"&gt;8&lt;/span&gt; sellers
+  Sellers:
+  &lt;div property="offers"  typeof="Offer"&gt;
+    &lt;a property="url" href="save-a-lot-monitors.com/dell-30.html"&gt;
+     Save A Lot Monitors - $1250&lt;/a&gt;
+  &lt;/div&gt;
+  &lt;div property="offers"  typeof="Offer"&gt;
+    &lt;a property="url" href="jondoe-gadgets.com/dell-30.html"&gt;
+     Jon Doe's Gadgets - $1350&lt;/a&gt;
+  &lt;/div&gt;
+  ...
+&lt;/div&gt;
+</pre>
+</div><div class="tab-pane" id="jsonld_1"><pre class="prettyprint lang-html linenums jsonld ">&lt;script type="application/ld+json"&gt;
+{
+  "@context": "http://schema.org",
+  "@type": "Product",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "bestRating": "100",
+    "ratingCount": "24",
+    "ratingValue": "87"
+  },
+  "image": "dell-30in-lcd.jpg",
+  "name": "Dell UltraSharp 30\" LCD Monitor",
+  "offers": {
+    "@type": "AggregateOffer",
+    "highPrice": "$1495",
+    "lowPrice": "$1250",
+    "offerCount": "8",
+    "offers": [
+      {
+        "@type": "Offer",
+        "url": "save-a-lot-monitors.com/dell-30.html"
+      },
+      {
+        "@type": "Offer",
+        "url": "jondoe-gadgets.com/dell-30.html"
+      }
+    ]
+  }
+}
+&lt;/script&gt;
+</pre>
+</div></div>
+<ul class="nav nav-tabs"><li class="active"><a href="#original_html_2" data-toggle="tab">Without Markup</a></li><li><a href="#microdata_2" data-toggle="tab">Microdata</a></li><li><a href="#rdfa_2" data-toggle="tab">RDFa</a></li><li><a href="#jsonld_2" data-toggle="tab">JSON-LD</a></li></ul><div class="tab-content">
+<div class="tab-pane active" id="original_html_2"><pre class="prettyprint lang-html linenums original_html selected">&lt;a href="category/books.html"&gt;Books&lt;/a&gt; &gt;
+ &lt;a href="category/books-literature.html"&gt;Literature & Fiction&lt;/a&gt; &gt;
+ &lt;a href="category/books-classics"&gt;Classics&lt;/a&gt;
+&lt;img src="catcher-in-the-rye-book-cover.jpg"
+  alt="cover art: red horse, city in background"/&gt;
+The Catcher in the Rye - Mass Market Paperback
+by &lt;a href="/author/jd_salinger.html"&gt;J.D. Salinger&lt;/a&gt;
+4 stars - 3077 reviews
+Price: $6.99
+In Stock
+Product details
+224 pages
+Publisher: Little, Brown, and Company - May 1, 1991
+Language: English
+ISBN-10: 0316769487
+Reviews:
+5 stars - &lt;b&gt;"A masterpiece of literature" &lt;/b&gt;
+by John Doe. Written on May 4, 2006
+I really enjoyed this book. It captures the essential challenge people face
+as they try make sense of their lives and grow to adulthood.
+4 stars - &lt;b&gt;"love it LOLOL111!" &lt;/b&gt;
+by Bob Smith, Written on June 15, 2006
+Catcher in the Rye is a fun book. It's a good book to read.
+</pre>
+</div><div class="tab-pane" id="microdata_2"><pre class="prettyprint lang-html linenums microdata ">&lt;body itemscope itemtype="http://schema.org/WebPage"&gt;
+...
+&lt;div itemprop="breadcrumb"&gt;
+  &lt;a href="category/books.html"&gt;Books&lt;/a&gt; &gt;
+  &lt;a href="category/books-literature.html"&gt;Literature & Fiction&lt;/a&gt; &gt;
+  &lt;a href="category/books-classics"&gt;Classics&lt;/a&gt;
+&lt;/div&gt;
+&lt;div itemscope itemtype="http://schema.org/Book"&gt;
+&lt;img itemprop="image" src="catcher-in-the-rye-book-cover.jpg"
+     alt="cover art: red horse, city in background" /&gt;
+&lt;span itemprop="name"&gt;The Catcher in the Rye&lt;/span&gt; -
+ &lt;link itemprop="bookFormat" href="http://schema.org/Paperback"&gt;Mass Market Paperback
+by &lt;a itemprop="author" href="/author/jd_salinger.html"&gt;J.D. Salinger&lt;/a&gt;
+&lt;div itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating"&gt;
+  &lt;span itemprop="ratingValue"&gt;4&lt;/span&gt; stars -
+  &lt;span itemprop="reviewCount"&gt;3077&lt;/span&gt; reviews
+&lt;/div&gt;
+&lt;div itemprop="offers" itemscope itemtype="http://schema.org/Offer"&gt;
+  Price: &lt;span itemprop="price" content="6.99"&gt;$6.99&lt;/span&gt;
+  &lt;meta itemprop="priceCurrency" content="USD" /&gt;
+  &lt;link itemprop="availability" href="http://schema.org/InStock"&gt;In Stock
+&lt;/div&gt;
+Product details
+&lt;span itemprop="numberOfPages"&gt;224&lt;/span&gt; pages
+Publisher: &lt;span itemprop="publisher"&gt;Little, Brown, and Company&lt;/span&gt; -
+ &lt;meta itemprop="datePublished" content="1991-05-01"&gt;May 1, 1991
+Language: &lt;span itemprop="inLanguage"&gt;English&lt;/span&gt;
+ISBN-10: &lt;span itemprop="isbn"&gt;0316769487&lt;/span&gt;
+Reviews:
+&lt;div itemprop="review" itemscope itemtype="http://schema.org/Review"&gt;
+  &lt;span itemprop="reviewRating"&gt;5&lt;/span&gt; stars -
+  &lt;b&gt;"&lt;span itemprop="name"&gt;A masterpiece of literature&lt;/span&gt;" &lt;/b&gt;
+  by &lt;span itemprop="author"&gt;John Doe&lt;/span&gt;,
+  Written on &lt;meta itemprop="datePublished" content="2006-05-04"&gt;May 4, 2006
+  &lt;span itemprop="reviewBody"&gt;I really enjoyed this book. It captures the essential
+  challenge people face as they try make sense of their lives and grow to adulthood.&lt;/span&gt;
+&lt;/div&gt;
+&lt;div itemprop="review" itemscope itemtype="http://schema.org/Review"&gt;
+  &lt;span itemprop="reviewRating"&gt;4&lt;/span&gt; stars -
+  &lt;b&gt;"&lt;span itemprop="name"&gt;A good read.&lt;/span&gt;" &lt;/b&gt;
+  by &lt;span itemprop="author"&gt;Bob Smith&lt;/span&gt;,
+  Written on &lt;meta itemprop="datePublished" content="2006-06-15"&gt;June 15, 2006
+  &lt;span itemprop="reviewBody"&gt;Catcher in the Rye is a fun book. It's a good book to read.&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+...
+&lt;/body&gt;
+</pre>
+</div><div class="tab-pane" id="rdfa_2"><pre class="prettyprint lang-html linenums rdfa ">&lt;body vocab="http://schema.org/" typeof="WebPage"&gt;
+...
+&lt;div property="breadcrumb"&gt;
+  &lt;a href="category/books.html"&gt;Books&lt;/a&gt; &gt;
+  &lt;a href="category/books-literature.html"&gt;Literature & Fiction&lt;/a&gt; &gt;
+  &lt;a href="category/books-classics"&gt;Classics&lt;/a&gt;
+&lt;/div&gt;
+&lt;div  typeof="Book"&gt;
+&lt;img property="image" src="catcher-in-the-rye-book-cover.jpg"
+    alt="cover art: red horse, city in background"/&gt;
+&lt;span property="name"&gt;The Catcher in the Rye&lt;/span&gt; -
+ &lt;link property="bookFormat" href="http://schema.org/Paperback"&gt;Mass Market Paperback
+by &lt;a property="author" href="/author/jd_salinger.html"&gt;J.D. Salinger&lt;/a&gt;
+&lt;div property="aggregateRating"  typeof="AggregateRating"&gt;
+  &lt;span property="ratingValue"&gt;4&lt;/span&gt; stars -
+  &lt;span property="reviewCount"&gt;3077&lt;/span&gt; reviews
+&lt;/div&gt;
+&lt;div property="offers"  typeof="Offer"&gt;
+  Price: &lt;span property="price" content="6.99"&gt;$6.99&lt;/span&gt;
+  &lt;meta property="priceCurrency" content="USD" /&gt;
+  &lt;link property="availability" href="http://schema.org/InStock"&gt;In Stock
+&lt;/div&gt;
+Product details
+&lt;span property="numberOfPages"&gt;224&lt;/span&gt; pages
+Publisher: &lt;span property="publisher"&gt;Little, Brown, and Company&lt;/span&gt; -
+ &lt;meta property="datePublished" content="1991-05-01"&gt;May 1, 1991
+Language: &lt;span property="inLanguage"&gt;English&lt;/span&gt;
+ISBN-10: &lt;span property="isbn"&gt;0316769487&lt;/span&gt;
+Reviews:
+&lt;div property="review"  typeof="Review"&gt;
+  &lt;span property="reviewRating"&gt;5&lt;/span&gt; stars -
+  &lt;b&gt;"&lt;span property="name"&gt;A masterpiece of literature&lt;/span&gt;" &lt;/b&gt;
+  by &lt;span property="author"&gt;John Doe&lt;/span&gt;,
+  Written on &lt;meta property="datePublished" content="2006-05-04"&gt;May 4, 2006
+  &lt;span property="reviewBody"&gt;I really enjoyed this book. It captures the essential
+  challenge people face as they try make sense of their lives and grow to adulthood.&lt;/span&gt;
+&lt;/div&gt;
+&lt;div property="review"  typeof="Review"&gt;
+  &lt;span property="reviewRating"&gt;4&lt;/span&gt; stars -
+  &lt;b&gt;"&lt;span property="name"&gt;A good read.&lt;/span&gt;" &lt;/b&gt;
+  by &lt;span property="author"&gt;Bob Smith&lt;/span&gt;,
+  Written on &lt;meta property="datePublished" content="2006-06-15"&gt;June 15, 2006
+  &lt;span property="reviewBody"&gt;Catcher in the Rye is a fun book. It's a good book to read.&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+...
+&lt;/body&gt;
+</pre>
+</div><div class="tab-pane" id="jsonld_2"><pre class="prettyprint lang-html linenums jsonld ">&lt;script type="application/ld+json"&gt;
+{
+  "@context": "http://schema.org",
+  "@type": "WebPage",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4",
+    "reviewCount": "3077"
+  },
+  "author": "/author/jd_salinger.html",
+  "bookFormat": "http://schema.org/Paperback",
+  "breadcrumb": "Books &gt; Literature & Fiction &gt; Classics",
+  "datePublished": "1991-05-01",
+  "image": "catcher-in-the-rye-book-cover.jpg",
+  "inLanguage": "English",
+  "isbn": "0316769487",
+  "name": "The Catcher in the Rye",
+  "numberOfPages": "224",
+  "offers": {
+    "@type": "Offer",
+    "availability": "http://schema.org/InStock",
+    "price": "6.99",
+    "priceCurrency": "USD"
+  },
+  "publisher": "Little, Brown, and Company",
+  "review": [
+    {
+      "@type": "Review",
+      "author": "John Doe",
+      "datePublished": "2006-05-04",
+      "name": "A masterpiece of literature",
+      "reviewBody": "I really enjoyed this book. It captures the essential challenge people face as they try make sense of their lives and grow to adulthood.",
+      "reviewRating": "5"
+    },
+    {
+      "@type": "Review",
+      "author": "Bob Smith",
+      "datePublished": "2006-06-15",
+      "name": "A good read.",
+      "reviewBody": "Catcher in the Rye is a fun book. It's a good book to read.",
+      "reviewRating": "4"
+    }
+  ]
+}
+&lt;/script&gt;
+</pre>
+</div></div>
+<ul class="nav nav-tabs"><li class="active"><a href="#original_html_3" data-toggle="tab">Without Markup</a></li><li><a href="#microdata_3" data-toggle="tab">Microdata</a></li><li><a href="#rdfa_3" data-toggle="tab">RDFa</a></li><li><a href="#jsonld_3" data-toggle="tab">JSON-LD</a></li></ul><div class="tab-content">
+<div class="tab-pane active" id="original_html_3"><pre class="prettyprint lang-html linenums original_html selected">&lt;div class="event-wrapper"&gt;
+  &lt;div class="event-date"&gt;Sat Sep 14&lt;/div&gt;
+  &lt;div class="event-title"&gt;Typhoon with Radiation City&lt;/div&gt;
+  &lt;div class="event-venue"&gt;
+    The Hi-Dive
+    &lt;div class="address"&gt;
+      7 S. Broadway&lt;br&gt;
+      Denver, CO 80209
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class="event-time"&gt;9:30 PM&lt;/div&gt;
+  &lt;div class="event-price"&gt;$13.00&lt;/div&gt;
+  &lt;a href="http://www.ticketfly.com/purchase/309433"&gt;Tickets&lt;/a&gt;
+&lt;/div&gt;
+</pre>
+</div><div class="tab-pane" id="microdata_3"><pre class="prettyprint lang-html linenums microdata ">&lt;div class="event-wrapper" itemscope itemtype="http://schema.org/Event"&gt;
+  &lt;div class="event-date" itemprop="startDate" content="2013-09-14T21:30"&gt;Sat Sep 14&lt;/div&gt;
+  &lt;div class="event-title" itemprop="name"&gt;Typhoon with Radiation City&lt;/div&gt;
+  &lt;div class="event-venue" itemprop="location" itemscope itemtype="http://schema.org/Place"&gt;
+    &lt;span itemprop="name"&gt;The Hi-Dive&lt;/span&gt;
+    &lt;div class="address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"&gt;
+      &lt;span itemprop="streetAddress"&gt;7 S. Broadway&lt;/span&gt;&lt;br&gt;
+      &lt;span itemprop="addressLocality"&gt;Denver&lt;/span&gt;,
+      &lt;span itemprop="addressRegion"&gt;CO&lt;/span&gt;
+      &lt;span itemprop="postalCode"&gt;80209&lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class="event-time"&gt;9:30 PM&lt;/div&gt;
+ &lt;span itemprop="offers" itemscope itemtype="http://schema.org/Offer"&gt;
+  &lt;div class="event-price" itemprop="price" content="13.00"&gt;$13.00&lt;/div&gt;
+  &lt;span itemprop="priceCurrency" content="USD" /&gt;
+  &lt;a itemprop="url" href="http://www.ticketfly.com/purchase/309433"&gt;Tickets&lt;/a&gt;
+ &lt;/span&gt;
+&lt;/div&gt;
+</pre>
+</div><div class="tab-pane" id="rdfa_3"><pre class="prettyprint lang-html linenums rdfa ">&lt;div vocab="http://schema.org/" class="event-wrapper"  typeof="Event"&gt;
+  &lt;div class="event-date" property="startDate" content="2013-09-14T21:30"&gt;Sat Sep 14&lt;/div&gt;
+  &lt;div class="event-title" property="name"&gt;Typhoon with Radiation City&lt;/div&gt;
+  &lt;div class="event-venue" property="location"  typeof="Place"&gt;
+    &lt;span property="name"&gt;The Hi-Dive&lt;/span&gt;
+    &lt;div class="address" property="address"  typeof="PostalAddress"&gt;
+      &lt;span property="streetAddress"&gt;7 S. Broadway&lt;/span&gt;&lt;br&gt;
+      &lt;span property="addressLocality"&gt;Denver&lt;/span&gt;,
+      &lt;span property="addressRegion"&gt;CO&lt;/span&gt;
+      &lt;span property="postalCode"&gt;80209&lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class="event-time"&gt;9:30 PM&lt;/div&gt;
+ &lt;span property="offers"  typeof="Offer"&gt;
+  &lt;div class="event-price" property="price" content="13.00"&gt;$13.00&lt;/div&gt;
+    &lt;span property="priceCurrency" content="USD" /&gt;
+    &lt;a property="url" href="http://www.ticketfly.com/purchase/309433"&gt;Tickets&lt;/a&gt;
+ &lt;/span&gt;
+&lt;/div&gt;
+</pre>
+</div><div class="tab-pane" id="jsonld_3"><pre class="prettyprint lang-html linenums jsonld ">&lt;script type="application/ld+json"&gt;
+{
+  "@context": "http://schema.org",
+  "@type": "Event",
+  "location": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Denver",
+      "addressRegion": "CO",
+      "postalCode": "80209",
+      "streetAddress": "7 S. Broadway"
+    },
+    "name": "The Hi-Dive"
+  },
+  "name": "Typhoon with Radiation City",
+  "offers": {
+    "@type": "Offer",
+    "price": "13.00",
+    "priceCurrency": "USD",
+    "url": "http://www.ticketfly.com/purchase/309433"
+  },
+  "startDate": "Sat Sep 14"
+}
+&lt;/script&gt;
+</pre>
+</div></div>
+<ul class="nav nav-tabs"><li class="active"><a href="#original_html_4" data-toggle="tab">Without Markup</a></li><li><a href="#microdata_4" data-toggle="tab">Microdata</a></li><li><a href="#rdfa_4" data-toggle="tab">RDFa</a></li><li><a href="#jsonld_4" data-toggle="tab">JSON-LD</a></li></ul><div class="tab-content">
+<div class="tab-pane active" id="original_html_4"><pre class="prettyprint lang-html linenums original_html selected">&lt;div class="event-wrapper"&gt;
+  &lt;div class="event-date"&gt;Sat Sep 14&lt;/div&gt;
+  &lt;div class="event-title"&gt;Typhoon with Radiation City&lt;/div&gt;
+  &lt;div class="event-title"&gt;CANCELLED - Typhoon with Radiation City&lt;/div&gt;
+  &lt;div class="event-venue"&gt;
+    The Hi-Dive
+    &lt;div class="address"&gt;
+      7 S. Broadway&lt;br&gt;
+      Denver, CO 80209
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class="event-time"&gt;9:30 PM&lt;/div&gt;
+  &lt;div class="event-price"&gt;$13.00&lt;/div&gt;
+  &lt;a href="http://www.ticketfly.com/purchase/309433"&gt;Tickets&lt;/a&gt;
+&lt;/div&gt;
+</pre>
+</div><div class="tab-pane" id="microdata_4"><pre class="prettyprint lang-html linenums microdata ">&lt;div class="event-wrapper" itemscope itemtype="http://schema.org/Event"&gt;
+  &lt;div class="event-date" itemprop="startDate" content="2013-09-14T21:30"&gt;Sat Sep 14&lt;/div&gt;
+  &lt;div class="event-title" itemprop="name"&gt;CANCELLED - Typhoon with Radiation City&lt;/div&gt;
+  &lt;meta itemprop="eventStatus" content="http://schema.org/EventCancelled"&gt;
+  &lt;div class="event-venue" itemprop="location" itemscope itemtype="http://schema.org/Place"&gt;
+    &lt;span itemprop="name"&gt;The Hi-Dive&lt;/span&gt;
+    &lt;div class="address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"&gt;
+      &lt;span itemprop="streetAddress"&gt;7 S. Broadway&lt;/span&gt;&lt;br&gt;
+      &lt;span itemprop="addressLocality"&gt;Denver&lt;/span&gt;,
+      &lt;span itemprop="addressRegion"&gt;CO&lt;/span&gt;
+      &lt;span itemprop="postalCode"&gt;80209&lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class="event-time"&gt;9:30 PM&lt;/div&gt;
+ &lt;span itemprop="offers" itemscope itemtype="http://schema.org/Offer"&gt;
+  &lt;div class="event-price" itemprop="price" content="13.00"&gt;$13.00&lt;/div&gt;
+  &lt;span itemprop="priceCurrency" content="USD" /&gt;
+  &lt;a itemprop="url" href="http://www.ticketfly.com/purchase/309433"&gt;Tickets&lt;/a&gt;
+ &lt;/span&gt;
+&lt;/div&gt;
+</pre>
+</div><div class="tab-pane" id="rdfa_4"><pre class="prettyprint lang-html linenums rdfa ">&lt;div vocab="http://schema.org/" class="event-wrapper"  typeof="Event"&gt;
+  &lt;div class="event-date" property="startDate" content="2013-09-14T21:30"&gt;Sat Sep 14&lt;/div&gt;
+  &lt;div class="event-title" property="name"&gt;CANCELLED - Typhoon with Radiation City&lt;/div&gt;
+  &lt;meta property="eventStatus" content="http://schema.org/EventCancelled"&gt;
+  &lt;div class="event-venue" property="location"  typeof="Place"&gt;
+    &lt;span property="name"&gt;The Hi-Dive&lt;/span&gt;
+    &lt;div class="address" property="address"  typeof="PostalAddress"&gt;
+      &lt;span property="streetAddress"&gt;7 S. Broadway&lt;/span&gt;&lt;br&gt;
+      &lt;span property="addressLocality"&gt;Denver&lt;/span&gt;,
+      &lt;span property="addressRegion"&gt;CO&lt;/span&gt;
+      &lt;span property="postalCode"&gt;80209&lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class="event-time"&gt;9:30 PM&lt;/div&gt;
+ &lt;span property="offers"  typeof="Offer"&gt;
+  &lt;div class="event-price" property="price"&gt;$13.00&lt;/div&gt;
+  &lt;a property="url" href="http://www.ticketfly.com/purchase/309433"&gt;Tickets&lt;/a&gt;
+ &lt;/span&gt;
+&lt;/div&gt;
+</pre>
+</div><div class="tab-pane" id="jsonld_4"><pre class="prettyprint lang-html linenums jsonld ">&lt;script type="application/ld+json"&gt;
+{
+  "@context": "http://schema.org",
+  "@type": "Event",
+  "eventStatus": "http://schema.org/EventCancelled",
+  "location": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Denver",
+      "addressRegion": "CO",
+      "postalCode": "80209",
+      "streetAddress": "7 S. Broadway"
+    },
+    "name": "The Hi-Dive"
+  },
+  "name": "CANCELLED - Typhoon with Radiation City",
+  "offers": {
+    "@type": "Offer",
+    "price": "13.00",
+    "priceCurrency": "USD",
+    "url": "http://www.ticketfly.com/purchase/309433"
+  },
+  "startDate": "Sat Sep 14"
+}
+&lt;/script&gt;
+</pre>
+</div></div>
+<ul class="nav nav-tabs"><li class="active"><a href="#original_html_5" data-toggle="tab">Without Markup</a></li><li><a href="#microdata_5" data-toggle="tab">Microdata</a></li><li><a href="#rdfa_5" data-toggle="tab">RDFa</a></li><li><a href="#jsonld_5" data-toggle="tab">JSON-LD</a></li></ul><div class="tab-content">
+<div class="tab-pane active" id="original_html_5"><pre class="prettyprint lang-html linenums original_html selected">&lt;div class="event-wrapper"&gt;
+  &lt;div class="event-date"&gt;Sat Oct 12&lt;/div&gt;
+  &lt;div&gt;&lt;span&gt;(previously scheduled for Sept 14th)&lt;/span&gt;&lt;/div&gt;
+  &lt;div class="event-title"&gt;Typhoon with Radiation City&lt;/div&gt;
+  &lt;div class="event-venue"&gt;
+    The Hi-Dive
+    &lt;div class="address"&gt;
+      7 S. Broadway&lt;br&gt;
+      Denver, CO 80209
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class="event-time"&gt;10:00 PM&lt;/div&gt;
+ &lt;span&gt;
+  &lt;div class="event-price"&gt;$13.00&lt;/div&gt;
+  &lt;a href="http://www.ticketfly.com/purchase/309433"&gt;Tickets&lt;/a&gt;
+ &lt;/span&gt;
+&lt;/div&gt;
+</pre>
+</div><div class="tab-pane" id="microdata_5"><pre class="prettyprint lang-html linenums microdata ">&lt;div class="event-wrapper"&gt;
+  &lt;div class="event-date" itemprop="startDate" content="2013-10-12T22:00"&gt;Sat Oct 12&lt;/div&gt;
+  &lt;div class="event-title" itemprop="name"&gt;Typhoon with Radiation City&lt;/div&gt;
+  &lt;meta itemprop="eventStatus" content="http://schema.org/EventRescheduled"&gt;
+  &lt;span itemprop="previousStartDate" content="2013-09-14T21:30"&gt;(previously scheduled for Sept 14th)&lt;/span&gt;
+  &lt;div class="event-venue" itemprop="location" itemscope itemtype="http://schema.org/Place"&gt;
+    &lt;span itemprop="name"&gt;The Hi-Dive&lt;/span&gt;
+    &lt;div class="address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"&gt;
+      &lt;span itemprop="streetAddress"&gt;7 S. Broadway&lt;/span&gt;&lt;br&gt;
+      &lt;span itemprop="addressLocality"&gt;Denver&lt;/span&gt;,
+      &lt;span itemprop="addressRegion"&gt;CO&lt;/span&gt;
+      &lt;span itemprop="postalCode"&gt;80209&lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class="event-time"&gt;10:00 PM&lt;/div&gt;
+  &lt;span itemprop="offers" itemscope itemtype="http://schema.org/Offer"&gt;
+   &lt;div class="event-price" itemprop="price" content="13.00"&gt;$13.00&lt;/div&gt;
+     &lt;span itemprop="priceCurrency" content="USD" /&gt;
+     &lt;a itemprop="url" href="http://www.ticketfly.com/purchase/309433"&gt;Tickets&lt;/a&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+</pre>
+</div><div class="tab-pane" id="rdfa_5"><pre class="prettyprint lang-html linenums rdfa ">&lt;div vocab="http://schema.org/" class="event-wrapper"&gt;
+  &lt;div class="event-date" property="startDate" content="2013-10-12T22:00"&gt;Sat Oct 12&lt;/div&gt;
+  &lt;div class="event-title" property="name"&gt;Typhoon with Radiation City&lt;/div&gt;
+  &lt;meta property="eventStatus" content="http://schema.org/EventRescheduled"&gt;
+  &lt;span property="previousStartDate" content="2013-09-14T21:30"&gt;(previously scheduled for Sept 14th)&lt;/span&gt;
+  &lt;div class="event-venue" property="location"  typeof="Place"&gt;
+    &lt;span property="name"&gt;The Hi-Dive&lt;/span&gt;
+    &lt;div class="address" property="address"  typeof="PostalAddress"&gt;
+      &lt;span property="streetAddress"&gt;7 S. Broadway&lt;/span&gt;&lt;br&gt;
+      &lt;span property="addressLocality"&gt;Denver&lt;/span&gt;,
+      &lt;span property="addressRegion"&gt;CO&lt;/span&gt;
+      &lt;span property="postalCode"&gt;80209&lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class="event-time"&gt;10:00 PM&lt;/div&gt;
+  &lt;span property="offers"  typeof="Offer"&gt;
+   &lt;div class="event-price" property="price" content="13.00"&gt;$13.00&lt;/div&gt;
+    &lt;span property="priceCurrency" content="USD" /&gt;
+    &lt;a property="url" href="http://www.ticketfly.com/purchase/309433"&gt;Tickets&lt;/a&gt;
+  &lt;/span&gt;
+&lt;/div&gt;
+</pre>
+</div><div class="tab-pane" id="jsonld_5"><pre class="prettyprint lang-html linenums jsonld ">&lt;script type="application/ld+json"&gt;
+{
+  "@context": "http://schema.org",
+  "@graph": [
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Denver",
+        "addressRegion": "CO",
+        "postalCode": "80209",
+        "streetAddress": "7 S. Broadway"
+      },
+      "name": "The Hi-Dive"
+    },
+    {
+      "@type": "Offer",
+      "price": "13.00",
+      "priceCurrency": "USD",
+      "url": "http://www.ticketfly.com/purchase/309433"
+    }
+  ]
+}
+&lt;/script&gt;
+</pre>
+</div></div>
+<ul class="nav nav-tabs"><li class="active"><a href="#original_html_6" data-toggle="tab">Without Markup</a></li><li><a href="#microdata_6" data-toggle="tab">Microdata</a></li><li><a href="#rdfa_6" data-toggle="tab">RDFa</a></li><li><a href="#jsonld_6" data-toggle="tab">JSON-LD</a></li></ul><div class="tab-content">
+<div class="tab-pane active" id="original_html_6"><pre class="prettyprint lang-html linenums original_html selected">&lt;div class="event-wrapper"&gt;
+  &lt;div class="event-date"&gt;Sat Sep 14&lt;/div&gt;
+  &lt;div class="event-title"&gt;SOLD OUT! Typhoon with Radiation City&lt;/div&gt;
+  &lt;div class="event-venue"&gt;
+    The Hi-Dive
+    &lt;div class="address"&gt;
+      7 S. Broadway&lt;br&gt;
+      Denver, CO 80209
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class="event-time"&gt;10:00 PM&lt;/div&gt;
+ &lt;span&gt;
+  &lt;div class="event-price"&gt;$13.00&lt;/div&gt;
+  &lt;a href="http://www.ticketfly.com/purchase/309433"&gt;Tickets&lt;/a&gt;
+ &lt;/span&gt;
+&lt;/div&gt;
+</pre>
+</div><div class="tab-pane" id="microdata_6"><pre class="prettyprint lang-html linenums microdata ">&lt;div class="event-wrapper" itemscope itemtype="http://schema.org/Event"&gt;
+  &lt;div class="event-date" itemprop="startDate" content="2013-09-14T21:30"&gt;Sat Sep 14&lt;/div&gt;
+  &lt;div class="event-title" itemprop="name"&gt;SOLD OUT! Typhoon with Radiation City&lt;/div&gt;
+  &lt;div class="event-venue" itemprop="location" itemscope itemtype="http://schema.org/Place"&gt;
+    &lt;span itemprop="name"&gt;The Hi-Dive&lt;/span&gt;
+    &lt;div class="address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"&gt;
+      &lt;span itemprop="streetAddress"&gt;7 S. Broadway&lt;/span&gt;&lt;br&gt;
+      &lt;span itemprop="addressLocality"&gt;Denver&lt;/span&gt;,
+      &lt;span itemprop="addressRegion"&gt;CO&lt;/span&gt;
+      &lt;span itemprop="postalCode"&gt;80209&lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class="event-time"&gt;9:30 PM&lt;/div&gt;
+ &lt;span itemprop="offers" itemscope itemtype="http://schema.org/Offer"&gt;
+  &lt;meta itemprop="availability" content="http://schema.org/SoldOut"&gt;
+  &lt;div class="event-price" itemprop="price" content="13.00"&gt;$13.00&lt;/div&gt;
+    &lt;span itemprop="priceCurrency" content="USD" /&gt;
+    &lt;a itemprop="url" href="http://www.ticketfly.com/purchase/309433"&gt;Tickets&lt;/a&gt;
+ &lt;/span&gt;
+&lt;/div&gt;
+</pre>
+</div><div class="tab-pane" id="rdfa_6"><pre class="prettyprint lang-html linenums rdfa ">&lt;div vocab="http://schema.org/" class="event-wrapper"  typeof="Event"&gt;
+  &lt;div class="event-date" property="startDate" content="2013-09-14T21:30"&gt;Sat Sep 14&lt;/div&gt;
+  &lt;div class="event-title" property="name"&gt;SOLD OUT! Typhoon with Radiation City&lt;/div&gt;
+  &lt;div class="event-venue" property="location"  typeof="Place"&gt;
+    &lt;span property="name"&gt;The Hi-Dive&lt;/span&gt;
+    &lt;div class="address" property="address"  typeof="PostalAddress"&gt;
+      &lt;span property="streetAddress"&gt;7 S. Broadway&lt;/span&gt;&lt;br&gt;
+      &lt;span property="addressLocality"&gt;Denver&lt;/span&gt;,
+      &lt;span property="addressRegion"&gt;CO&lt;/span&gt;
+      &lt;span property="postalCode"&gt;80209&lt;/span&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class="event-time"&gt;9:30 PM&lt;/div&gt;
+ &lt;span property="offers"  typeof="Offer"&gt;
+  &lt;meta property="availability" content="http://schema.org/SoldOut"&gt;
+  &lt;div class="event-price" property="price" content="13.00"&gt;$13.00&lt;/div&gt;
+  &lt;span property="priceCurrency" content="USD" /&gt;
+  &lt;a property="url" href="http://www.ticketfly.com/purchase/309433"&gt;Tickets&lt;/a&gt;
+ &lt;/span&gt;
+&lt;/div&gt;
+</pre>
+</div><div class="tab-pane" id="jsonld_6"><pre class="prettyprint lang-html linenums jsonld ">&lt;script type="application/ld+json"&gt;
+{
+  "@context": "http://schema.org",
+  "@type": "Event",
+  "location": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Denver",
+      "addressRegion": "CO",
+      "postalCode": "80209",
+      "streetAddress": "7 S. Broadway"
+    },
+    "name": "The Hi-Dive"
+  },
+  "name": "SOLD OUT! Typhoon with Radiation City",
+  "offers": {
+    "@type": "Offer",
+    "availability": "http://schema.org/SoldOut",
+    "price": "13.00",
+    "priceCurrency": "USD",
+    "url": "http://www.ticketfly.com/purchase/309433"
+  },
+  "startDate": "Sat Sep 14"
+}
+&lt;/script&gt;
+</pre>
+</div></div>
+<ul class="nav nav-tabs"><li class="active"><a href="#original_html_7" data-toggle="tab">Without Markup</a></li><li><a href="#microdata_7" data-toggle="tab">Microdata</a></li><li><a href="#rdfa_7" data-toggle="tab">RDFa</a></li><li><a href="#jsonld_7" data-toggle="tab">JSON-LD</a></li></ul><div class="tab-content">
+<div class="tab-pane active" id="original_html_7"><pre class="prettyprint lang-html linenums original_html selected">JSON-LD description of a scheduled Event with limited ticket availability and performer details indicated using sameAs.
+</pre>
+</div><div class="tab-pane" id="microdata_7"><pre class="prettyprint lang-html linenums microdata ">This example is JSON only.
+</pre>
+</div><div class="tab-pane" id="rdfa_7"><pre class="prettyprint lang-html linenums rdfa ">This example is JSON only.
+</pre>
+</div><div class="tab-pane" id="jsonld_7"><pre class="prettyprint lang-html linenums jsonld ">&lt;script type="application/ld+json"&gt;
+{
+  "@context" : "http://schema.org",
+  "@type" : "Event",
+  "name" : "Typhoon with Radiation City",
+  "startDate" : "2013-09-14T21:30",
+  "location" : {
+    "@type" : "Place",
+    "sameAs" : "http://www.hi-dive.com",
+    "name" : "The Hi-Dive",
+    "address" : {
+      "@type" : "PostalAddress",
+      "streetAddress" : "7 S. Broadway",
+      "addressLocality" : "Denver",
+      "addressRegion" : "CO",
+      "postalCode" : "80209" }
+  },
+  "performer" : [
+    { "@type" : "MusicGroup",
+      "name" : "Typhoon",
+      "sameAs" : "http://en.wikipedia.org/wiki/Typhoon_(American_band)" },
+    { "@type" : "MusicGroup",
+      "name" : "RadiationCity",
+      "sameAs" : "http://en.wikipedia.org/wiki/Radiation_City" }],
+  "offers" : {
+    "@type" : "Offer",
+    "availability" : "http://schema.org/LimitedAvailability",
+    "price" : "$13.00",
+    "url" : "http://www.ticketfly.com/purchase/309433" },
+  "typicalAgeRange" : "18+"
+}
+&lt;/script&gt;
+</pre>
+</div></div>
+<ul class="nav nav-tabs"><li class="active"><a href="#original_html_8" data-toggle="tab">Without Markup</a></li><li><a href="#microdata_8" data-toggle="tab">Microdata</a></li><li><a href="#rdfa_8" data-toggle="tab">RDFa</a></li><li><a href="#jsonld_8" data-toggle="tab">JSON-LD</a></li></ul><div class="tab-content">
+<div class="tab-pane active" id="original_html_8"><pre class="prettyprint lang-html linenums original_html selected">An example snippet of JSON-LD describing two B.B. King concerts.
+</pre>
+</div><div class="tab-pane" id="microdata_8"><pre class="prettyprint lang-html linenums microdata ">This example is JSON-only.
+</pre>
+</div><div class="tab-pane" id="rdfa_8"><pre class="prettyprint lang-html linenums rdfa ">This example is JSON-only.
+</pre>
+</div><div class="tab-pane" id="jsonld_8"><pre class="prettyprint lang-html linenums jsonld ">&lt;script type="application/ld+json"&gt;
+[{
+  "@context" : "http://schema.org",
+  "@type" : "MusicEvent",
+  "name" : "B.B. King",
+  "startDate" : "2014-04-12T19:30",
+  "location" : {
+     "@type" : "Place",
+     "name" : "Lupo's Heartbreak Hotel",
+     "address" : "79 Washington St., Providence, RI"
+  },
+  "offers" : {
+     "@type" : "Offer",
+     "url" : "https://www.etix.com/ticket/1771656"
+  }
+},
+{
+  "@context" : "http://schema.org",
+  "@type" : "MusicEvent",
+  "name" : "B.B. King",
+  "startDate" : "2014-04-13T20:00",
+  "location" : {
+     "@type" : "Place",
+     "name" : "Lynn Auditorium",
+     "address" : "Lynn, MA, 01901"
+  },
+  "offers" : {
+     "@type" : "Offer",
+     "url" : "http://frontgatetickets.com/venue.php?id=11766"
+  }
+}]
+&lt;/script&gt;
+</pre>
+</div></div>
+<ul class="nav nav-tabs"><li class="active"><a href="#original_html_9" data-toggle="tab">Without Markup</a></li><li><a href="#microdata_9" data-toggle="tab">Microdata</a></li><li><a href="#rdfa_9" data-toggle="tab">RDFa</a></li><li><a href="#jsonld_9" data-toggle="tab">JSON-LD</a></li></ul><div class="tab-content">
+<div class="tab-pane active" id="original_html_9"><pre class="prettyprint lang-html linenums original_html selected">An example of a more fully specified MusicEvent, including a tour image,
+full venue address, multiple performers, and multiple ticket classes.
+</pre>
+</div><div class="tab-pane" id="microdata_9"><pre class="prettyprint lang-html linenums microdata ">This example is JSON-only.
+</pre>
+</div><div class="tab-pane" id="rdfa_9"><pre class="prettyprint lang-html linenums rdfa ">This example is JSON-only.
+</pre>
+</div><div class="tab-pane" id="jsonld_9"><pre class="prettyprint lang-html linenums jsonld ">&lt;script type="application/ld+json"&gt;
+[{
+    "@context" : "http://schema.org",
+    "@type" : "MusicEvent",
+    "name" : "B.B. King with Jonathon \"Boogie\" Long",
+    "image" : "http://www.bbking.com/gallery/b-b-king-live.jpg",
+    "url" : "http://www.bbking.com/events/apr12-providence.html",
+    "startDate" : "2014-04-12T19:30",
+    "doorTime" : "18:30",
+    "endDate" : "2014-04-12T22:00",
+    "location" : {
+        "@type" : "Place",
+        "name" : "Lupo's Heartbreak Hotel",
+        "sameAs" : "http://lupos.com/",
+        "address" : {
+            "@type" : "PostalAddress",
+            "streetAddress" : "79 Washington St.",
+            "addressLocality" : "Providence",
+            "addressRegion" : "RI",
+            "postalCode" : "02903",
+            "addressCountry" : "US"
+        }
+    },
+    "offers" : [ {
+        "@type" : "Offer",
+        "name" : "General Admission",
+        "price" : "$63.25",
+        "availability" : "SoldOut",
+        "url" : "http://www.ticketmaster.com/event/17004C29"
+    },{
+        "@type" : "Offer",
+        "name" : "VIP Experience",
+        "url" : "http://www.example.com/Abcde12345",
+        "price" : "$299.00",
+        "validFrom" : "2014-02-05T10:00",
+        "validThrough" : "2014-03-19T23:59"
+    } ],
+    "performer" : [ {
+        "@type" : "MusicGroup",
+        "name" : "B.B. King",
+        "sameAs" : "http://en.wikipedia.org/wiki/B.B._King"
+    },{
+        "@type" : "MusicGroup",
+        "name" : "Jonathon \"Boogie\" Long",
+        "sameAs" : "http://jonathonboogielong.com/"
+    } ],
+    "eventStatus" : "EventRescheduled",
+    "previousStartDate" : "2013-09-30T19:30",
+    "typicalAgeRange" : "18+"
+}]
+&lt;/script&gt;
+</pre>
+</div></div>
+<ul class="nav nav-tabs"><li class="active"><a href="#original_html_10" data-toggle="tab">Without Markup</a></li><li><a href="#microdata_10" data-toggle="tab">Microdata</a></li><li><a href="#rdfa_10" data-toggle="tab">RDFa</a></li><li><a href="#jsonld_10" data-toggle="tab">JSON-LD</a></li></ul><div class="tab-content">
+<div class="tab-pane active" id="original_html_10"><pre class="prettyprint lang-html linenums original_html selected">&lt;div&gt;
+  &lt;link  href="http://multivarki.ru?filters%5Bprice%5D%5BLTE%5D=39600" /&gt;
+  &lt;span&gt;315&lt;/span&gt;
+  &lt;div&gt;
+    &lt;img src="http://img01.multivarki.ru.ru/c9/f1/a5fe6642-18d0-47ad-b038-6fca20f1c923.jpeg" /&gt;
+    &lt;a alt="Photo of product" href="http://multivarki.ru/brand_502/"&gt;
+      &lt;span&gt;BRAND 502&lt;/span&gt;
+    &lt;/a&gt;
+    &lt;div&gt;
+      &lt;span&gt;4399 р.&lt;/span&gt;
+    &lt;/div&gt;...
+    &lt;div&gt;
+    ...
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+</div><div class="tab-pane" id="microdata_10"><pre class="prettyprint lang-html linenums microdata ">&lt;div  itemtype="http://schema.org/ItemList"&gt;
+  &lt;link itemprop="url" href="http://multivarki.ru?filters%5Bprice%5D%5BLTE%5D=39600" /&gt;
+  &lt;span itemprop="numberOfItems"&gt;315&lt;/span&gt;
+  &lt;div itemprop="itemListElement" itemscope="" itemtype="http://schema.org/Product"&gt;
+    &lt;img alt="Photo of product" itemprop="image"
+     src="http://img01.multivarki.ru.ru/c9/f1/a5fe6642-18d0-47ad-b038-6fca20f1c923.jpeg" /&gt;
+    &lt;a itemprop="url" href="http://multivarki.ru/brand_502/"&gt;
+      &lt;span itemprop="name"&gt;BRAND 502&lt;/span&gt;
+    &lt;/a&gt;
+    &lt;div itemprop="offers" itemscope itemtype="http://schema.org/Offer"&gt;
+      &lt;span itemprop="price"&gt;4399 р.&lt;/span&gt;
+    &lt;/div&gt;...
+    &lt;div itemprop="itemListElement"  itemtype="http://schema.org/Product"&gt;
+    ...
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+</div><div class="tab-pane" id="rdfa_10"><pre class="prettyprint lang-html linenums rdfa ">&lt;div vocab="http://schema.org/" typeof="ItemList"&gt;
+  &lt;link property="url" href="http://multivarki.ru?filters%5Bprice%5D%5BLTE%5D=39600" /&gt;
+  &lt;span property="numberOfItems"&gt;315&lt;/span&gt;
+  &lt;div property="itemListElement" typeof="Product"&gt;
+    &lt;img property="image" alt="Photo of product"
+     src="http://img01.multivarki.ru.ru/c9/f1/a5fe6642-18d0-47ad-b038-6fca20f1c923.jpeg" /&gt;
+    &lt;a property="url" href="http://multivarki.ru/brand_502/"&gt;
+      &lt;span property="name"&gt;BRAND 502&lt;/span&gt;
+    &lt;/a&gt;
+    &lt;div property="offers" typeof="http://schema.org/Offer"&gt;
+      &lt;span property="price"&gt;4399 р.&lt;/span&gt;
+    &lt;/div&gt;...
+    &lt;div property="itemListElement"  typeof="Product"&gt;
+    ...
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+</div><div class="tab-pane" id="jsonld_10"><pre class="prettyprint lang-html linenums jsonld ">&lt;script type="application/ld+json"&gt;
+{
+  "@context": "http://schema.org",
+  "@type": "ItemList",
+  "url": "http://multivarki.ru?filters%5Bprice%5D%5BLTE%5D=39600",
+  "numberOfItems": "315",
+  "itemListElement": [{
+      "@type": "Product",
+      "image": "http://img01.multivarki.ru.ru/c9/f1/a5fe6642-18d0-47ad-b038-6fca20f1c923.jpeg",
+      "url": "http://multivarki.ru/brand_502/",
+      "name": "Brand 502"
+    },{
+      "@type": "Product",
+      "name": "..."
+    }
+  ],
+    "offers": {
+      "@type": "Offer",
+      "price": "4399 p."
+    }
+}
+&lt;/script&gt;
+</pre>
+</div></div>
+<p class="version">BiblioGraph.net Version 1.1<br/>
+Schema.org Version 1.93<br/>
+Code Version 1.1</p>
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','../www.google-analytics.com/analytics.js','ga');
+          ga('create', 'UA-52860601-1', 'auto');ga('send', 'pageview');</script></div>
+<div id="footer"><a href="docs/terms.html" class="noborder pull-right">BiblioGraph.net Terms and Conditions</a></div>
+<script src="assets/bootstrap3/js/bootstrap.min.js"></script>
+</div>
+</body>
+
+<!-- Mirrored from bibliograph.net/Offer by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 21 May 2019 10:23:40 GMT -->
+</html>

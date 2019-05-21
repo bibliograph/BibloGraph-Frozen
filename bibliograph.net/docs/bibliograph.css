@@ -1,0 +1,107 @@
+/* -- logo -- */
+.logo_dark {
+	color: #005A31;
+}
+.logo_light {
+	color: #88AD0B;
+}
+
+a:link {
+	border-bottom: 1px dotted #428bca;
+}
+a:hover {
+	text-decoration: none;
+	border-bottom: 1px solid #428bca;
+}
+
+a.noborder:link {
+	border-bottom: 0px;
+}
+a.noborder:hover {
+	text-decoration: underline;
+	border-bottom: 0px;
+}
+
+p {
+margin: 1em 0 0 0;
+}
+
+table {
+	margin-top: 1em;
+	border: 1px solid #DDD;
+	width: 100%;
+}
+
+th {
+	border-bottom: 0px !important;
+}
+
+/* -- hierarchy -- */
+table.h, .h tr, .h td
+{
+border: none;
+margin: 0;
+padding: 0;
+border-collapse: collapse
+}
+.h .space
+{
+width: 20px
+}
+.h .bar
+{
+background-color: #000;
+width: 1px
+}
+.h .tc
+{
+text-indent: -21px;
+padding-left: 21px
+}
+
+.prefix-bgn, .prefix-bibliograph {
+	color: #88AD0B;
+}
+.prefix-schema {
+	color: #333;
+}
+
+.definition-table {
+	font-size: 10pt;
+	border: 0px;
+	margin: 0px
+	padding: 0px;
+}
+.type-table {
+	border: 0px;
+}
+.th_spacer {
+	width: 3em;
+	border-right: 1px solid black;
+}
+.th_value {
+	padding: .15em 0 .15em 1em;
+	font-size: 10pt;
+}
+
+.version
+{
+color: #999;
+clear: both;
+padding-top: 1em;
+font-size: 75%;
+}
+
+code
+{
+font-family: Courier, monospace;
+background: none;
+font-size: 100%;
+}
+
+.breadcrums {
+	line-height: 1.4;
+}
+
+
+

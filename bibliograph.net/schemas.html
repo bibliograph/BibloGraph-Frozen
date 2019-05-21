@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<!-- Mirrored from bibliograph.net/schemas by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 21 May 2019 10:18:24 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    
+    <title>Schemas - BiblioGraph.net</title>
+    <meta name="description" content="BiblioGraph.net is a set of extensible schemas, with a bibliographic focus, that build on the capabilities of Schema.org 
+    that enable webmasters to embed structured data on their web pages for use by search engines and other applications." />
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" type="text/css" href="assets/bootstrap3/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="docs/bibliograph.css" />
+    <link rel="stylesheet" type="text/css" href="docs/prettify.css" />
+    <script type="text/javascript" src="docs/prettify.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+
+<script type="text/javascript">
+      $(document).ready(function(){
+        prettyPrint();
+        setTimeout(function(){
+
+  $(".atn:contains(itemscope), .atn:contains(itemtype), .atn:contains(itemprop), .atn:contains(itemid), .atn:contains(time), .atn:contains(datetime), .atn:contains(datetime), .tag:contains(time) ").addClass('new');
+  $('.new + .pun + .atv').addClass('curl');
+
+        }, 500);
+        setTimeout(function(){
+
+  $(".atn:contains(property), .atn:contains(typeof) ").addClass('new');
+  $('.new + .pun + .atv').addClass('curl');
+
+        }, 500);
+        setTimeout(function() {
+          $('.ds-selector-tabs .selectors a').click(function() {
+            var $this = $(this);
+            var $p = $this.parents('.ds-selector-tabs');
+            $('.selected', $p).removeClass('selected');
+            $this.addClass('selected');
+            $('pre.' + $this.data('selects'), $p).addClass('selected');
+          });
+        }, 0);
+      });
+</script>
+
+<style>
+
+  .pln    { color: #444;    } /* plain text                 */
+  .tag    { color: #515484; } /* div, span, a, etc          */
+  .atn,
+  .atv    { color: #314B17; } /* href, datetime             */
+  .new    { color: #660003; } /* itemscope, itemtype, etc,. */
+  .curl   { color: #080;    } /* new url                    */
+
+  table.definition-table {
+    border-spacing: 3px;
+    border-collapse: separate;
+  }
+
+</style>
+
+</head>
+<body>
+    <div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <h1><a href="index.html" class="noborder"><span class="logo_dark">Biblio</span><span class="logo_light">Graph</span><span class="logo_dark">.net</span></a></h1>
+        </div>
+		
+        <div class="col-md-6">
+            <div class="pull-right">
+                 <div id="cse-search-form" style="width: 400px;"></div>
+            </div>
+        </div>
+
+		<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+		<script type="text/javascript">
+		  google.load('search', '1', {language : 'en', style : google.loader.themes.MINIMALIST});
+		  google.setOnLoadCallback(function() {
+		    var customSearchControl = new google.search.CustomSearchControl('014918374978744102058:-yfdgutyfb8');
+		    customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+		    var options = new google.search.DrawOptions();
+		    options.enableSearchboxOnly("docs/search_results.html", null, false, '#');
+		    customSearchControl.draw('cse-search-form', options);
+		    // over-ride gsc css with bootstrap css
+		    $( "#gsc-i-id1" ).addClass( "form-control" );
+		    $( "input[type='button']" ).removeClass( "gsc-search-button" ).addClass( "btn btn-success" );
+		  }, true);
+		</script>
+    </div>
+
+    <ul class="nav nav-tabs">
+        <li><a href="index.html" >Home</a></li>
+        <li class="active"><a href="schemas.html" >Schemas</a></li>
+        <li><a href="docs/bgn_releases.html" >Releases</a></li>
+        <li><a href="docs/feedback.html" >Feedback</a></li>
+    </ul>
+
+
+  <div id="mainContent" vocab="" typeof="" resource="" >
+  
+
+<h2>Schema Structure</h2>
+
+<p>The schema described on this site have been assembled as an extension to the core types and properties defined by <a href="http://schema.org/">Schema.org</a>. The Editor of BiblioGraph.net will track changes to the published terms from Schema.org and update this site to reflect them.</p>
+
+<p>When appropriate terms were not available in Schema.org, proposals from the <a href="http://www.w3.org/community/schemabibex/">Schema Bib Extend W3C Community Group</a> were initially looked to for suitable options. Terms are added to the BiblioGraph.net namespace, with acknowledgement where appropriate of examples from other vocabularies such as Dublin Core, Bibo, etc., that provided inspiration. A goal is to keep the number of namespaces in BiblioGraph.net described data to a minimum with a preference for only two - schema: &amp; bgn:</p>
+<p>
+The terms on this site are defined in rdfa source files, which are directly accessible:
+<ul>
+	<li>Core Schema.org vocabulary: <a href="docs/schema_org_rdfa.html">/docs/schema_org_rdfa.html</a></li>
+	<li>BiblioGraph.net terms: <a href="docs/bibliograph_net_rdfa.html">/bibliograph_net_rdfa.html</a></li>
+</ul>
+</p>
+<h2>Browse the Schemas</h2><ul class="list-group"><li class="list-group-item"><a href="Thing.html">Starting at the top, one page per type</a></li><li class="list-group-item"><a href="types.html">Full list of types</a></li></ul><h2>BiblioGraph.net types:</h2><ul class="list-group"><li class="list-group-item"><a href="Agent.html" class="prefix-bgn">Agent</a></li><li class="list-group-item"><a href="Atlas.html" class="prefix-bgn">Atlas</a></li><li class="list-group-item"><a href="BlurayDisc.html" class="prefix-bgn">BlurayDisc</a></li><li class="list-group-item"><a href="Chapter.html" class="prefix-bgn">Chapter</a></li><li class="list-group-item"><a href="CompactCassette.html" class="prefix-bgn">CompactCassette</a></li><li class="list-group-item"><a href="CD.html" class="prefix-bgn">CD</a></li><li class="list-group-item"><a href="ComputerFile.html" class="prefix-bgn">ComputerFile</a></li><li class="list-group-item"><a href="DVD.html" class="prefix-bgn">DVD</a></li><li class="list-group-item"><a href="Globe.html" class="prefix-bgn">Globe</a></li><li class="list-group-item"><a href="Image.html" class="prefix-bgn">Image</a></li><li class="list-group-item"><a href="Kit.html" class="prefix-bgn">Kit</a></li><li class="list-group-item"><a href="LPRecord.html" class="prefix-bgn">LPRecord</a></li><li class="list-group-item"><a href="Meeting.html" class="prefix-bgn">Meeting</a></li><li class="list-group-item"><a href="Microform.html" class="prefix-bgn">Microform</a></li><li class="list-group-item"><a href="Newspaper.html" class="prefix-bgn">Newspaper</a></li><li class="list-group-item"><a href="MusicScore.html" class="prefix-bgn">MusicScore</a></li><li class="list-group-item"><a href="PublicationSeries.html" class="prefix-bgn">PublicationSeries</a></li><li class="list-group-item"><a href="SoundRecording.html" class="prefix-bgn">SoundRecording</a></li><li class="list-group-item"><a href="Thesis.html" class="prefix-bgn">Thesis</a></li><li class="list-group-item"><a href="Toy.html" class="prefix-bgn">Toy</a></li><li class="list-group-item"><a href="VHS.html" class="prefix-bgn">VHS</a></li></ul><br/><hr width='80%'/><p class="version">BiblioGraph.net Version 1.1<br/>
+Schema.org Version 1.93<br/>
+Code Version 1.1</p>
+</div>
+<div id="footer"><a href="docs/terms.html" class="noborder pull-right">BiblioGraph.net Terms and Conditions</a></div>
+<script src="assets/bootstrap3/js/bootstrap.min.js"></script>
+</div>
+</body>
+
+<!-- Mirrored from bibliograph.net/schemas by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 21 May 2019 10:18:37 GMT -->
+</html>
