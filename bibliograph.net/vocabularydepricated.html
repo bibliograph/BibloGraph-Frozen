@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	
+	
+<!-- Mirrored from bibliograph.net/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 21 May 2019 10:18:10 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+		
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>Depricated - BiblioGraph.net</title>
+		<meta name="description" content="" />
+		<link rel="icon" href="assets/img/favicon.ico" type="image/x-icon"/>
+		<link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon"/>
+		<link rel="stylesheet" type="text/css" href="assets/bootstrap3/css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="docs/bibliograph.css" />
+		<link rel="stylesheet" type="text/css" href="docs/prettify.css" />
+		<script type="text/javascript" src="docs/prettify.js"></script>
+		<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+
+	</head>
+
+	<body>
+
+<!-- Deprecation Banner Start -->
+<!--    <style>
+        .Dbanner{
+          width: 300px;
+          background: #e43;
+          z-index:99;
+          color: white;
+          position: absolute;
+          text-align: center;
+          line-height: 25px;
+          letter-spacing: 1px;
+          top: 60px;
+          right: -60px;
+          left: auto;
+          transform: rotate(45deg);
+          -webkit-transform: rotate(45deg);
+          
+        }
+        .Dbanner a{ color: darkblue;}
+    </style>
+        
+    
+-->
+<!-- Deprecation Banner End -->
+
+
+	
+		<div class="container">
+
+			<div class="row">
+				<div class="col-md-6">
+					<h1><a href="index.html" class="noborder"><span class="logo_dark">Biblio</span><span class="logo_light">Graph</span><span class="logo_dark">.net</span></a></h1>
+				</div>
+				<div class="col-md-6">
+					<div class="pull-right">
+						<div id="cse-search-form" style="width: 400px;"></div>
+					</div>
+				</div>
+				<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+				<script type="text/javascript">
+				  google.load('search', '1', {language : 'en', style : google.loader.themes.ESPRESSO});
+				  google.setOnLoadCallback(function() {
+				    var customSearchControl = new google.search.CustomSearchControl('014918374978744102058:-yfdgutyfb8');
+				    customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+				    var options = new google.search.DrawOptions();
+				    options.enableSearchboxOnly("docs/search_results.html", null, false, '#');
+				    customSearchControl.draw('cse-search-form', options);
+				    // over-ride gsc css with bootstrap css
+				    $( "#gsc-i-id1" ).addClass( "form-control" );
+				    $( "input[type='button']" ).removeClass( "gsc-search-button" ).addClass( "btn btn-success" );
+				  }, true);
+				</script>
+			</div>
+
+			<ul class="nav nav-tabs">
+				<li class="active"><a href="index.html">Home</a></li>
+				<li><a href="schemas.html" >Schemas</a></li>
+				<li><a href="docs/bgn_releases.html" >Releases</a></li>
+				<li><a href="docs/feedback.html" >Feedback</a></li>
+			</ul>
+
+			<div id="mainContent">
+
+				<h1 style="color: red;">BiblioGraph.net Vocabulary - Deprecated</h1>
+
+				<p>
+					BiblioGraph.net (BGN) is an extension to <a href="http://schema.org">Schema.org</a> that was developed for 
+                    richer descriptions of bibliographic resources. This "external" extension was effectively replaced in May 2015 
+                    by the "hosted" extension <a href="http://bib.schema.org">bib.schema.org</a>, although the efforts haven't been 
+                    fully reconciled.
+				</p>
+
+				<p>
+					As the coverage of Schema.org has evolved over time, and other Linked Data vocabularies for bibliographic data have 
+                    emerged and become established, the need for Bibliograph.net has reduced.
+				</p>
+
+				<p>
+					In recognition of this, the vocabulary has been deprecated, as of May 2019.  The BiblioGraph.net site has been moved
+                    to an open GitHub repository <a href="https://github.com/bibliograph/BibloGraph-Frozen">BibloGraph-Frozen</a> to preserve its 
+                    state and to host this web site for reference purposes only.  The <a href="docs/terms.html" >BiblioGraph.net Terms and
+                    Conditions</a> remain in place.
+				</p>
+                <p>
+                    Also for reference purposes, where relevant the terms defined in BiblioGraph.net vocabulary have been mapped to their 
+                    equivalents within <a href="http://wikidata.org">Wikidata.org</a>. Coverage can be found using Wikidata and declared 'equivalent class' 
+                    (<a href="https://www.wikidata.org/wiki/Property:P1709">P1709</a>), and 'equivalent property' 
+                    (<a href="https://www.wikidata.org/wiki/Property:P1628">P1628</a>) claims. Wikidata classes and properties are not 
+                    designed to be used outside of Wikidata itself, but they can be used as a hub for finding equivalencies in other namespaces. 
+                    To the extent that search engines consume Wikidata in addition to crawling Schema.org markup on the web, some of the potential 
+                    of search engine optimization can still be realized.
+                </p>
+                <br/>
+                <pre class="prettyprint lang-html original_html">
+                    PREFIX bgn: &lt;http://bibliograph.net/&gt;
+                    SELECT ?item ?bgn ?propLabel
+                    WHERE {
+                      VALUES ?p {
+                        wdt:P1709
+                        wdt:P1628
+                      }
+                      ?prop wikibase:directClaim ?p .
+                      ?item ?p ?bgn .
+                      FILTER(STRSTARTS(STR(?bgn), STR(bgn:)))
+                      BIND(STRAFTER(STR(?bgn), STR(bgn:)) AS ?term)
+                      SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+                    }
+                    ORDER BY ?propLabel ?term
+                </pre>
+                <p>
+                    <a href="https://query.wikidata.org/#PREFIX%20bgn%3A%20%3Chttp%3A%2F%2Fbibliograph.net%2F%3E%0ASELECT%20%3Fitem%20%3Fbgn%20%3FpropLabel%0AWHERE%20%7B%0A%20%20VALUES%20%3Fp%20%7B%0A%20%20%20%20wdt%3AP1709%0A%20%20%20%20wdt%3AP1628%0A%20%20%7D%0A%20%20%3Fprop%20wikibase%3AdirectClaim%20%3Fp%20.%0A%20%20%3Fitem%20%3Fp%20%3Fbgn%20.%0A%20%20FILTER%28STRSTARTS%28STR%28%3Fbgn%29%2C%20STR%28bgn%3A%29%29%29%0A%20%20BIND%28STRAFTER%28STR%28%3Fbgn%29%2C%20STR%28bgn%3A%29%29%20AS%20%3Fterm%29%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22.%20%7D%0A%7D%0AORDER%20BY%20%3FpropLabel%20%3Fterm">Click here to launch the Wikidata query</a>
+                </p>
+                <p>
+                    <strong>BiblioGraph.net - May 2019</strong>
+                </p>
+
+			</div>
+
+			<div id="footer"><a href="docs/terms.html" class="noborder pull-right">BiblioGraph.net Terms and Conditions</a></div>
+		<script src="assets/bootstrap3/js/bootstrap.min.js"></script>
+		</div>
+		<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		          })(window,document,'script','../www.google-analytics.com/analytics.js','ga');
+		          ga('create', 'UA-52860601-1', 'auto');ga('send', 'pageview');</script>
+	</body>
+
+<!-- Mirrored from bibliograph.net/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 21 May 2019 10:18:15 GMT -->
+</html>
